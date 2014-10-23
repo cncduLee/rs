@@ -34,18 +34,10 @@ public interface ArticleDao extends ArticleDaoCustom, CrudRepository<Article, Lo
     public int updateHitsAddOne(Long id);
 }
 
-/**
- * DAO自定义接口
- * @author ThinkGem
- */
 interface ArticleDaoCustom extends BaseDao<Article> {
 
 }
 
-/**
- * DAO自定义接口实现
- * @author ThinkGem
- */
 @Component
 class ArticleDaoImpl extends BaseDaoImpl<Article> implements ArticleDaoCustom {
 

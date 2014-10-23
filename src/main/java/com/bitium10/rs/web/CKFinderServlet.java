@@ -1,6 +1,5 @@
 package com.bitium10.rs.web;
 
-import com.bitium10.rs.common.utils.FileUtils;
 import com.ckfinder.connector.ConnectorServlet;
 
 import javax.servlet.ServletException;
@@ -43,7 +42,7 @@ public class CKFinderServlet extends ConnectorServlet {
                                     final HttpServletResponse response, final boolean post) throws ServletException {
         String command = request.getParameter("command");
         String type = request.getParameter("type");
-        // 初始化时，如果startupPath文件夹不存在，则自动创建startupPath文件夹
+//        // 初始化时，如果startupPath文件夹不存在，则自动创建startupPath文件夹
 //        if ("Init".equals(command)){
 //            User user = UserUtils.getUser();
 //            if (user!=null){
