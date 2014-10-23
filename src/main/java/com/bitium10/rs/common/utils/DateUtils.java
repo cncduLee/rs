@@ -1,0 +1,124 @@
+package com.bitium10.rs.common.utils;
+
+import org.apache.commons.lang.time.DateFormatUtils;
+
+import java.text.ParseException;
+import java.util.Date;
+
+/**
+ * <b>项目名</b>： rs <br>
+ * <b>包名称</b>： com.bitium10.rs.common.utils <br>
+ * <b>类名称</b>： DateUtils <br>
+ * <b>类描述</b>： <br>
+ * <b>创建人</b>： <a href="mailto:wylipengming@chinabank.com.cn">李朋明</a> <br>
+ * <b>修改人</b>： <br>
+ * <b>创建时间</b>：2014/10/23 9:51
+ * <b>修改时间</b>： <br>
+ * <b>修改备注</b>： <br>
+ *
+ * @version 1.0.0 <br>
+ */
+public class DateUtils extends org.apache.commons.lang.time.DateUtils {
+    private static String[] parsePatterns = { "yyyy-MM-dd", "yyyy-MM-dd HH:mm:ss", "yyyy/MM/dd", "yyyy/MM/dd HH:mm:ss" };
+
+    /**
+     * 得到当前日期字符串 格式（yyyy-MM-dd）
+     */
+    public static String getDate() {
+        return getDate("yyyy-MM-dd");
+    }
+
+    /**
+     * 得到当前日期字符串 格式（yyyy-MM-dd） pattern可以为："yyyy-MM-dd" "HH:mm:ss" "E"
+     */
+    public static String getDate(String pattern) {
+        return DateFormatUtils.format(new Date(), pattern);
+    }
+
+    /**
+     * 得到日期字符串 默认格式（yyyy-MM-dd） pattern可以为："yyyy-MM-dd" "HH:mm:ss" "E"
+     */
+    public static String formatDate(Date date, Object... pattern) {
+        String formatDate = null;
+        if (pattern != null && pattern.length > 0) {
+            formatDate = DateFormatUtils.format(date, pattern[0].toString());
+        } else {
+            formatDate = DateFormatUtils.format(date, "yyyy-MM-dd");
+        }
+        return formatDate;
+    }
+
+    /**
+     * 得到当前时间字符串 格式（HH:mm:ss）
+     */
+    public static String getTime() {
+        return formatDate(new Date(), "HH:mm:ss");
+    }
+
+    /**
+     * 得到当前日期和时间字符串 格式（yyyy-MM-dd HH:mm:ss）
+     */
+    public static String getDateTime() {
+        return formatDate(new Date(), "yyyy-MM-dd HH:mm:ss");
+    }
+
+    /**
+     * 得到当前年份字符串 格式（yyyy）
+     */
+    public static String getYear() {
+        return formatDate(new Date(), "yyyy");
+    }
+
+    /**
+     * 得到当前月份字符串 格式（MM）
+     */
+    public static String getMonth() {
+        return formatDate(new Date(), "MM");
+    }
+
+    /**
+     * 得到当天字符串 格式（dd）
+     */
+    public static String getDay() {
+        return formatDate(new Date(), "dd");
+    }
+
+    /**
+     * 得到当前星期字符串 格式（E）星期几
+     */
+    public static String getWeek() {
+        return formatDate(new Date(), "E");
+    }
+
+    /**
+     * 日期型字符串转化为日期 格式（"yyyy-MM-dd","yyyy/MM/dd"）
+     */
+    public static Date parseDate(String str) {
+        try {
+            return parseDate(str, parsePatterns);
+        } catch (ParseException e) {
+            return null;
+        }
+    }
+
+    /**
+     * 获取过去的天数
+     * @param date
+     * @return
+     */
+    public static long pastDays(Date date) {
+        long t = new Date().getTime()-date.getTime();
+        return t/(24*60*60*1000);
+    }
+
+    /**
+     * @param args
+     * @throws ParseException
+     */
+    public static void main(String[] args) throws ParseException {
+		System.out.println(formatDate(parseDate("2011/1/1")));
+		System.out.println(getDate("yyyy年MM月dd日 E"));
+		long time = new Date().getTime()-parseDate("2012-11-19").getTime();
+		System.out.println(time/(24*60*60*1000));
+    }
+}
