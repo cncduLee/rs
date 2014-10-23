@@ -7,8 +7,8 @@
 *.jar
 *.war
 *.ear
-*.target/*
-*/*.target/*
+target/*
+*/target/*
 *.iml
 */*.iml
 .idea/*
