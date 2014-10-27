@@ -1,4 +1,4 @@
-package com.bitium10.rs.service;
+package com.bitium10.rs.service.cms;
 
 import com.bitium10.rs.common.persistence.Page;
 import com.bitium10.rs.common.utils.StringUtils;
@@ -16,6 +16,7 @@ import org.hibernate.criterion.Restrictions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
@@ -34,6 +35,7 @@ import java.util.List;
  *
  * @version 1.0.0 <br>
  */
+@Service("articleService")
 public class ArticleService {
     private static Logger logger = LoggerFactory.getLogger(ArticleService.class);
 
