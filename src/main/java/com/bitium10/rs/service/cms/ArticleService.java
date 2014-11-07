@@ -6,6 +6,7 @@ import com.bitium10.rs.dao.ArticleDao;
 import com.bitium10.rs.dao.CategoryDao;
 import com.bitium10.rs.domain.cms.Article;
 import com.bitium10.rs.domain.cms.Category;
+import com.bitium10.rs.domain.cms.Site;
 import com.google.common.collect.Lists;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.apache.lucene.index.Term;
@@ -61,11 +62,7 @@ public class ArticleService {
                         Restrictions.like("category.parentIds", "%," + category.getId() + ",%")));
                 dc.add(Restrictions.eq("category.site.id", category.getSite().getId()));
                 article.setCategory(category);
-            } else {
-                //dc.add(Restrictions.eq("category.site.id", Site.getCurrentSiteId()));
             }
-        } else {
-            //dc.add(Restrictions.eq("category.site.id", Site.getCurrentSiteId()));
         }
         if (StringUtils.isNotEmpty(article.getTitle())) {
             dc.add(Restrictions.like("title", "%" + article.getTitle() + "%"));

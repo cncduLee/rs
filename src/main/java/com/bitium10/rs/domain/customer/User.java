@@ -44,7 +44,7 @@ public class User extends BaseEntity {
     private String phone;	// 电话
     private String mobile;	// 手机
     private String remarks;	// 备注
-    private String userType;// 备注
+    private String userType;// 用户类型
     private Date createDate;// 创建日期
     private String delFlag;	// 删除标记（0：正常；1：删除）
     private String loginIp;	// 最后登陆IP

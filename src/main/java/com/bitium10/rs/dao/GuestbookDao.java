@@ -8,7 +8,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 
 
-public interface GuestbookDao extends GuestbookDaoCustom, CrudRepository<GuestbookDaoCustom, Long> {
+public interface GuestbookDao extends GuestbookDaoCustom, CrudRepository<Guestbook, Long> {
 
 	@Modifying
 	@Query("update Guestbook set status=?2 where id = ?1")
