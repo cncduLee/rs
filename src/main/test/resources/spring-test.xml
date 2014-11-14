@@ -51,9 +51,6 @@
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
 
-    <!--&lt;!&ndash; 使用annotation定义事务 &ndash;&gt;-->
-    <!--<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>-->
-
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="insert*" propagation="REQUIRED" isolation="READ_COMMITTED"/>
@@ -67,7 +64,7 @@
     </tx:advice>
 
     <aop:config>
-        <aop:pointcut id="daoPointcut" expression="execution(* com.bitium10.rs.dao..*.*(..))"/>
+        <aop:pointcut id="daoPointcut" expression="execution(* com.bitium10.rs.service..*.*(..))"/>
         <aop:pointcut id="servicePointcut" expression="execution(* com.bitium10.rs.service..*.*(..))"/>
         <aop:advisor pointcut-ref="daoPointcut" advice-ref="txAdvice"/>
         <aop:advisor pointcut-ref="servicePointcut" advice-ref="txAdvice"/>
