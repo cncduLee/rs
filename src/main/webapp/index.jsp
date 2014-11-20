@@ -1,5 +1,3 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-</body>
-</html>
+<%  response.setContentType("text/html;charset=UTF-8");
+    response.setCharacterEncoding("UTF-8");
+    request.getRequestDispatcher("/index.htm").forward(request,response);%>

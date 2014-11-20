@@ -75,7 +75,7 @@
 
     <!-- 自定义Ehchche -->
     <bean id="customEhcacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
-        <property name="configLocation" value="classpath*:META-INF/cache/ehcache-custom.xml" />
+        <property name="configLocation" value="classpath:META-INF/cache/ehcache-custom.xml" />
     </bean>
 
     <!-- 数据源配置, 使用BoneCP数据库连接池 -->

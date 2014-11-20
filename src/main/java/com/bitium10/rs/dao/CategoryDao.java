@@ -22,20 +22,20 @@ public interface CategoryDao extends CategoryDaoCustom, CrudRepository<Category,
 	
 	public List<Category> findByParentIdsLike(String parentIds);
 
-	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' order by site.id, sort")
-	public List<Category> findAllList();
-
-	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and (module='' or module=?1) order by site.id, sort")
-	public List<Category> findByModule(String module);
-
-	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and parent.id=?1 and site.id=?2 order by site.id, sort")
-	public List<Category> findByParentId(Long parentId, Long siteId);
-	
-	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and parent.id=:parentId order by site.id, sort")
-	public Page<Category> findByParentId(@Param("parentId") Long parentId, Pageable pageable);
-	
-	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and parent.id=?1 and inMenu=?2 order by site.id, sort")
-	public List<Category> findByParentId(Long parentId, String isMenu);
+//	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' order by site.id, sort")
+//	public List<Category> findAllList();
+//
+//	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and (module='' or module=?1) order by site.id, sort")
+//	public List<Category> findByModule(String module);
+//
+//	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and parent.id=?1 and site.id=?2 order by site.id, sort")
+//	public List<Category> findByParentId(Long parentId, Long siteId);
+//
+//	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and parent.id=:parentId order by site.id, sort")
+//	public Page<Category> findByParentId(@Param("parentId") Long parentId, Pageable pageable);
+//
+//	@Query("from Category where delFlag='" + Category.DEL_FLAG_NORMAL + "' and parent.id=?1 and inMenu=?2 order by site.id, sort")
+//	public List<Category> findByParentId(Long parentId, String isMenu);
 }
 
 interface CategoryDaoCustom extends BaseDao<Category> {
