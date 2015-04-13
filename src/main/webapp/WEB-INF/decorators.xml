@@ -4,8 +4,12 @@
 	<excludes>
 		<pattern>/static/*</pattern>
 	</excludes>
-	
-	<decorator name="default" page="layouts/default.jsp">
+
+    <decorator name="noTail" page="layouts/noTail.jsp">
+        <pattern>/about.*</pattern>
+    </decorator>
+
+	<decorator name="default" page="layouts/template.jsp">
 		<pattern>/*</pattern>
 	</decorator>
 

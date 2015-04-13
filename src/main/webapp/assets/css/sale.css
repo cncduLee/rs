@@ -1,0 +1,73 @@
+.tourism-box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 154px;
+    margin: 5px 0;
+    padding: 6px;
+    width: 728px;
+    background-color: white
+}
+
+.tourism-box img {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+    height: 150px;
+    width: 270px
+}
+
+.tourism-name {
+    font-size: 16px
+}
+
+.tourism-right-box {
+    width: 436px;
+    height: 36px
+}
+
+.tourism-item {
+    line-height: 24px
+}
+
+.tourism-tag {
+    float: left;
+    margin-top: 5px;
+    width: 310px
+}
+
+.tourism-tag div {
+    background-color: #97bf3f;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    height: 12px;
+    line-height: 13px;
+    padding: 4px;
+    text-align: center
+}
+
+.buy-tourism-box {
+    float: right;
+    line-height: 27px;
+    margin-top: -51px
+}
+
+.check-tourism-details {
+    background-color: #f60;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    width: 120px
+}
+
+.buy-tourism-box a:hover {
+    color: white !important
+}
+
+.buy-tourism-box a:focus {
+    color: white !important
+}

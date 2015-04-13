@@ -1,0 +1,7617 @@
+@charset "UTF-8";
+.ordinary_marker_start {
+    background-position: 0 0
+}
+
+.ordinary_marker_channel {
+    background-position: -25px 0
+}
+
+.ordinary_marker_destination {
+    background-position: -50px 0
+}
+
+.schedule-update-place-civilize {
+    background-position: -150px 0
+}
+
+.schedule-update-place-nature {
+    background-position: -200px 0
+}
+
+.schedule-update-place-hotel {
+    background-position: -225px -47px
+}
+
+.schedule-update-place-entertain {
+    background-position: -175px 0
+}
+
+.schedule-update-place-custome {
+    background-position: -25px 0
+}
+
+.schedule-update-place-aspect {
+    background-position: -225px -94px
+}
+
+.schedule-update-place-food {
+    background-position: -161px -47px
+}
+
+.schedule-update-hotel-more {
+    background-position: -199px -47px
+}
+
+.place_search_result_civilization {
+    background-position: -75px 0
+}
+
+.place_search_result_natural {
+    background-position: -100px 0
+}
+
+.place_search_result_hotel {
+    background-position: -225px -47px
+}
+
+.place_search_result_entertainment {
+    background-position: -125px 0
+}
+
+.delicacy-search-marker {
+    background-position: -134px -47px
+}
+
+.place_search_result_aspect {
+    background-position: -199px -94px
+}
+
+.home_place_marker {
+    background-image: url("/Images/asset-sprites/markerPng.png");
+    position: absolute;
+    width: 24px;
+    height: 42px;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer
+}
+
+.ordinary_marker_class {
+    position: absolute;
+    width: 24px;
+    height: 42px;
+    background-image: url("/Images/asset-sprites/markerPng.png");
+    cursor: pointer
+}
+
+.place_marker_inner_html {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    color: white
+}
+
+.markerOverlayContainer {
+    display: none
+}
+
+.place_overlay_container {
+    width: 216px;
+    height: 86px;
+    position: absolute;
+    z-index: 1;
+    top: -87px;
+    left: -123px;
+    cursor: default;
+    color: white
+}
+
+.marker-overlay-direction {
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    height: 0;
+    left: 10px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+    border-top: 10px solid #333
+}
+
+.search_place_overlay_image {
+    width: 120px;
+    height: 70px;
+    display: block;
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+
+.search_place_overlay_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 0 0 4px
+}
+
+.search_hotel_overlay_image {
+    width: 76px;
+    height: 70px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.search_place_overlay_right {
+    width: 80px;
+    height: 70px;
+    float: right;
+    position: relative;
+    text-align: left;
+    line-height: 1.4
+}
+
+.search_hotel_overlay_right {
+    width: 121px;
+    height: 70px;
+    float: right;
+    position: relative
+}
+
+.search_place_overlay_place_name {
+    color: #FFF;
+    display: block;
+    height: auto;
+    line-height: 16px;
+    overflow: hidden;
+    padding-left: 5px;
+    text-align: left;
+    width: auto
+}
+
+a.search_place_overlay_place_name:hover {
+    color: #00a1cb
+}
+
+a.search_place_overlay_place_name:focus {
+    color: #fff
+}
+
+.search_place_overlay_place_favorite {
+    background-position: -304px -14px;
+    bottom: 18px;
+    cursor: pointer;
+    height: 34px;
+    position: absolute;
+    right: 43px;
+    width: 34px;
+    z-index: 2
+}
+
+.custome-place-favorite {
+    right: 15px;
+    bottom: 38px;
+    background-position: -304px -14px;
+    cursor: pointer;
+    height: 34px;
+    position: absolute;
+    width: 34px;
+    z-index: 2
+}
+
+.search_place_overlay_place_favorite:hover, .custome-place-favorite:hover {
+    background-position: -429px -20px
+}
+
+.hotel-link-goto-ctrip .search_place_overlay_place_favorite {
+    left: 21px
+}
+
+.addtoschedule-outer .search_place_overlay_place_favorite {
+    left: 0;
+    top: 0
+}
+
+.place_search_result_item .search_place_overlay_place_favorite {
+    left: 43px
+}
+
+.search_place_overlay_nail {
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 2;
+    background-position: -339px -1px;
+    bottom: 2px;
+    right: 0
+}
+
+.search_hotel_overlay_nail {
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 2;
+    background-position: -339px -1px;
+    bottom: 2px;
+    right: 0
+}
+
+.search_hotel_overlay_price {
+    width: 71px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    background-position: -339px -1px;
+    bottom: 2px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left
+}
+
+.search_place_overlay_nail_flag {
+    display: none
+}
+
+.place_overlay_inner {
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 #333;
+    cursor: default;
+    height: 70px;
+    margin: 8px 0 0 8px;
+    width: 200px;
+    overflow: hidden
+}
+
+.place_overlay_inner .inntwo-text-ordinary {
+    bottom: 6px;
+    float: left;
+    height: 22px;
+    position: absolute;
+    left: 132px;
+    width: auto;
+    z-index: 2;
+    display: none
+}
+
+.hotel-link-goto-ctrip {
+    display: block;
+    width: 76px;
+    height: 70px;
+    position: absolute;
+    border-radius: 4px 0 0 4px;
+    overflow: hidden
+}
+
+.hotel-link-goto-ctrip img {
+    width: 100%;
+    height: 100%
+}
+
+.placeoverlay_privein_and_city {
+    width: 80%;
+    height: 15px;
+    margin: 5px 0 26px 5px;
+    text-align: left
+}
+
+.placeoverlay_near_hotel_word {
+    width: auto;
+    float: left;
+    height: 100%;
+    margin: 0 12px;
+    color: white
+}
+
+.placeoverlay_near_hotel_container {
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #7db500;
+    border-radius: 3px
+}
+
+.placeoverlay_near_place_container {
+    width: auto;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #f60;
+    border-radius: 3px
+}
+
+.nearby-overlay-command {
+    width: auto;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 3px
+}
+
+.addtoschedule-outer {
+    bottom: 10px;
+    height: 34px;
+    position: relative;
+    right: -166px;
+    width: 34px
+}
+
+.placeoverlay_near_place_ico {
+    width: 15px;
+    height: 16px;
+    background-position: -104px -360px;
+    float: left
+}
+
+#mapContainer {
+    width: 100%
+}
+
+.custom-place-container {
+    width: 450px;
+    height: 293px;
+    background-color: white
+}
+
+.inntwo-map-right-menu-title {
+    background-color: #0081C2;
+    height: auto;
+    line-height: 18px;
+    overflow: hidden
+}
+
+.inntwo-map-right-menu-ico {
+    width: 12px;
+    height: 16px;
+    background-position: -176px -104px;
+    float: left
+}
+
+#inntwoMapRightMenuTitle {
+    color: #FFF;
+    display: block;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 80px
+}
+
+.inntwo-map-right-menu-item {
+    width: auto;
+    text-align: left;
+    height: 18px;
+    padding: 5px 0 0 5px
+}
+
+div.BMap_cmDivider {
+    display: none
+}
+
+.BMap_contextMenu {
+    width: auto;
+    min-height: 55px;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 10000000;
+    border: 1px solid #ADBFE4 !important;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 #666
+}
+
+.BMap_contextMenu div {
+    margin: 0 !important
+}
+
+.BMap_contextMenu div:hover {
+    background-color: #0081c2;
+    color: #fff !important
+}
+
+.customize-placeMarker-closeBtn {
+    background-position: -178px -89px;
+    display: none;
+    height: 13px;
+    position: absolute;
+    right: -8px;
+    top: -7px;
+    width: 13px;
+    z-index: 1
+}
+
+.route-start-sign {
+    background-position: 0 -77px;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 18px;
+    z-index: 2
+}
+
+.route-end-sign {
+    background-position: -21px -77px;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    width: 18px;
+    z-index: 2
+}
+
+.schedule-start-signmarker {
+    background-position: -40px -77px;
+    bottom: 0;
+    height: 29px;
+    position: absolute;
+    right: 0;
+    width: 25px;
+    z-index: 1
+}
+
+.schedule-end-signmarker {
+    background-position: -65px -77px;
+    bottom: 0;
+    height: 29px;
+    position: absolute;
+    right: 0;
+    width: 25px
+}
+
+.add-schedule-map-place {
+    width: 70px;
+    height: 25px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    text-align: center;
+    border-radius: 4px
+}
+
+.accident-event-marker {
+    width: 24px;
+    height: 40px;
+    background-position: -25px -109px;
+    position: absolute;
+    cursor: pointer
+}
+
+.condition-event-marker {
+    width: 24px;
+    height: 40px;
+    background-position: -54px -109px;
+    position: absolute;
+    cursor: pointer
+}
+
+.construction-event-marker {
+    width: 24px;
+    height: 40px;
+    background-position: -82px -109px;
+    position: absolute;
+    cursor: pointer
+}
+
+.accident-event-marker .place_marker_inner_html, .condition-event-marker .place_marker_inner_html, .construction-event-marker .place_marker_inner_html {
+    color: #f63
+}
+
+.accident-event-marker .markerOverlayContainer, .condition-event-marker .markerOverlayContainer, .construction-event-marker .markerOverlayContainer {
+    display: block
+}
+
+.accident-event-marker .marker-number-span, .condition-event-marker .marker-number-span, .construction-event-marker .marker-number-span {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    text-align: left
+}
+
+#soGouMapContainer {
+    width: 1000px;
+    height: 550px
+}
+
+#sogouMap {
+    width: 700px
+}
+
+#tollWrapper {
+    width: 300px
+}
+
+.inntwo_pager_container {
+    display: inline-block;
+    list-style: none;
+    text-align: center
+}
+
+.inntwo_pager_container span {
+    display: inline;
+    text-align: center;
+    float: left
+}
+
+.inntwo-pager-container-div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 8px
+}
+
+.hotel_details_tab_remark_datapager_cell {
+    width: 20px;
+    height: 20px;
+    border: #DC3069 1px solid;
+    line-height: 20px;
+    text-align: center;
+    color: #DC3069;
+    cursor: pointer
+}
+
+.current_page_number {
+    color: white;
+    background-color: #DC3069
+}
+
+.hotel_details_tab_remark_datapager_cell a {
+    width: 100%;
+    height: 100%;
+    color: #DC3069;
+    display: block
+}
+
+.hotel_details_tab_remark_datapager_interval {
+    width: 4px;
+    height: 5px;
+    overflow: hidden
+}
+
+.hotel_details_tab_remark_datapager_interval_lastpager {
+    width: 10px;
+    height: 5px;
+    margin-left: 3px;
+    margin-right: 3px
+}
+
+.hotel_details_tab_remark_datapager_interval_lastpager span {
+    color: #DC3069
+}
+
+.hotel_details_tab_remark_datapager_previous, .hotel_details_tab_remark_datapager_next {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #DC3069;
+    color: #DC3069;
+    cursor: pointer
+}
+
+.hotel_details_tab_remark_datapager_previous a, .hotel_details_tab_remark_datapager_next a {
+    font-size: 18px;
+    font-family: 黑 体
+}
+
+.hotel_details_tab_remark_datapager_previous a {
+    width: 20px;
+    height: 20px;
+    color: #DC3069;
+    display: block;
+    font-size: 16px
+}
+
+.icheckbox_flat-green, .iradio_flat-green {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url("/Content/themes/base/flat/greenR.png") no-repeat;
+    border: 0;
+    cursor: pointer
+}
+
+.icheckbox_flat-green {
+    background-position: 0 -2px
+}
+
+.icheckbox_flat-green.checked {
+    background-position: -18px -2px
+}
+
+.icheckbox_flat-green.disabled {
+    background-position: -1px -2px;
+    cursor: default
+}
+
+.icheckbox_flat-green.checked.disabled {
+    background-position: -66px 0
+}
+
+.iradio_flat-green {
+    background-position: -88px 0
+}
+
+.iradio_flat-green.checked {
+    background-position: -110px 0
+}
+
+.iradio_flat-green.disabled {
+    background-position: -132px 0;
+    cursor: default
+}
+
+.iradio_flat-green.checked.disabled {
+    background-position: -154px 0
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_flat-green, .iradio_flat-green {
+        background-image: url("/Content/themes/base/flat/green@2x.png");
+        -webkit-background-size: 176px 22px;
+        background-size: 176px 22px
+    }
+}
+
+.create_trip_city_details_popup {
+    width: 520px;
+    height: auto;
+    margin: 20px auto 0 auto
+}
+
+.create_trip_city_details_container {
+    width: 520px;
+    height: auto;
+    position: relative;
+    margin: 0 auto
+}
+
+.create_trip_city_details_topcontainer {
+    width: 100%;
+    height: 40px;
+    overflow: hidden
+}
+
+.create_trip_city_details_topleft {
+    width: 40px;
+    height: 40px;
+    background-image: url("/img/asset2/createRouteCityDetailsTopLeftborder.png")
+}
+
+.create_trip_city_details_top {
+    width: 440px;
+    height: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-image: url("/img/asset2/createRouteCityDetailsTopborder.png")
+}
+
+.create_trip_city_details_topright {
+    width: 40px;
+    height: 40px;
+    background-image: url("/img/asset2/createRouteCityDetailsTopRightborder.png")
+}
+
+.create_trip_city_details_midle {
+    width: 100%;
+    height: 300px;
+    overflow: hidden
+}
+
+.create_trip_city_details_midelleft {
+    width: 10px;
+    height: 100%;
+    background-image: url("/img/asset2/createRouteCityDetailsLeftborder.png")
+}
+
+.create_trip_city_details_midelright {
+    width: 10px;
+    height: 100%;
+    background-image: url("/img/asset2/createRouteCityDetailsRightborder.png")
+}
+
+.create_trip_city_details_bottomcontainer {
+    width: 100%;
+    height: 40px
+}
+
+.create_trip_city_details_leftbottom {
+    width: 40px;
+    height: 40px;
+    background-image: url("/img/asset2/createRouteCityDetailsBottomLeftborder.png")
+}
+
+.create_trip_city_details_bottom {
+    width: 440px;
+    height: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+    background-image: url("/img/asset2/createRouteCityDetailsBottomborder.png")
+}
+
+.create_trip_city_details_rightbottom {
+    width: 40px;
+    height: 40px;
+    background-image: url("/img/asset2/createRouteCityDetailsBottomRightborder.png")
+}
+
+.create_trip_city_details_content {
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background-color: #f5f5f5
+}
+
+.create_trip_city_details_content_bottom {
+    width: 100%;
+    height: 15px;
+    background-image: url("/img/asset2/createRouteCityDetailsContentBottom.jpg")
+}
+
+.createRouteCityDetailsContentImageContainer {
+    width: 100%;
+    height: auto;
+    position: relative
+}
+
+.createRouteCityDetailsContentImage {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+.create_route_city_details_contentimgfloat {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    z-index: 2;
+    background-image: url("/img/asset2/createRouteCityDetailsContentImgFloat.png");
+    font-size: 18px;
+    font-weight: bold;
+    color: #BAD532;
+    text-align: right
+}
+
+.create_route_city_details_contentimgfloat div {
+    width: auto;
+    height: 100%;
+    float: right;
+    margin-right: 16px
+}
+
+.create_trip_city_details_content_comment {
+    width: 480px;
+    height: auto;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+    min-height: 340px
+}
+
+.create_trip_city_details_addto_schedule {
+    margin: 20px 0 0 16px
+}
+
+.attraction-info {
+    margin: 20px 0 0 16px
+}
+
+.attraction-info:focus {
+    color: #f5f5f5 !important
+}
+
+.attraction-info:hover {
+    color: #f5f5f5 !important
+}
+
+.trip_schedule_editor_save_outer {
+    display: none
+}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden
+}
+
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer
+}
+
+.fileupload-buttonbar .btn, .fileupload-buttonbar .toggle {
+    margin-bottom: 5px
+}
+
+.progress-animated .bar {
+    background: url("/Content/img/progressbar.gif") !important;
+    filter: none
+}
+
+.fileupload-loading {
+    float: right;
+    width: 32px;
+    height: 32px;
+    background: url("/Content/img/loading.gif") center no-repeat;
+    background-size: contain;
+    display: none
+}
+
+.fileupload-processing .fileupload-loading {
+    display: block
+}
+
+.files audio, .files video {
+    max-width: 300px
+}
+
+@media (max-width: 767px) {
+    .fileupload-buttonbar .toggle, .files .toggle, .files .btn span {
+        display: none
+    }
+
+    .files .name {
+        width: 80px;
+        word-wrap: break-word
+    }
+
+    .files audio, .files video {
+        max-width: 80px
+    }
+}
+
+#customizeDes {
+    margin-left: -450px;
+    width: 900px
+}
+
+#customizeDesBody {
+    width: 870px
+}
+
+#customizeDesBody #abstractInfo {
+    width: 435px
+}
+
+#customizeDesBody #abstractInfo .dest-row {
+    margin-bottom: 6px;
+    width: 100%;
+    height: 40px
+}
+
+#customizeDesBody .dest-row .dest-row-title {
+    margin-right: 5px;
+    min-width: 70px;
+    width: 70px;
+    line-height: 40px
+}
+
+#customizeDesBody .dest-row .dest-row-title i {
+    color: red
+}
+
+#customizeDesBody #abstractInfo .dest-row .dest-row-content {
+    width: 360px;
+    line-height: 30px
+}
+
+#customizeDesBody #abstractInfo .dest-row .dest-row-content select {
+    width: 150px
+}
+
+#customizeDesBody #abstractInfo .dest-row .dest-row-content .dest-input-big {
+    width: 300px;
+    height: 30px
+}
+
+#customizeDesBody #abstractInfo .dest-row .dest-row-content input[type=text]:focus {
+    border: 1px #7DB500 solid
+}
+
+#customizeDesBody #abstractInfo .dest-row .dest-row-content .dest-input-mini {
+    width: 70px;
+    height: 25px
+}
+
+.discribe-input-message {
+    color: #DC3069;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 75px;
+    margin-top: -10px;
+    width: 740px
+}
+
+.dest-input-innertitle {
+    margin-right: 2px
+}
+
+#destinationEditor {
+    border: 1px solid #CCC;
+    border-radius: 5px 5px 5px 5px;
+    height: 300px;
+    max-height: 420px;
+    overflow: auto;
+    width: 730px;
+    padding: 5px
+}
+
+#customizeDesBody #map_canvas {
+    width: 380px;
+    height: 310px;
+    border: #ddd 1px solid;
+    border-radius: 6px;
+    overflow: hidden
+}
+
+#customizeDesBody #introduceInfo {
+    width: 96%;
+    margin-top: 330px
+}
+
+#customizeDesBody #introduceInfo .dest-row {
+    margin-bottom: 15px;
+    min-height: 200px;
+    height: auto;
+    overflow: hidden;
+    clear: both
+}
+
+#customizeDesBody #introduceInfo .dest-row .dest-row-content {
+    width: 740px;
+    height: auto
+}
+
+#customizeDesBody #introduceInfo .dest-row .dest-row-content textarea:focus {
+    border: 1px #7DB500 solid
+}
+
+#customizeDesBody #introduceInfo .dest-row .dest-row-content textarea {
+    margin-top: 5px;
+    width: 740px;
+    height: 200px
+}
+
+#customizeDesBody #introduceInfo .dest-row .dest-row-content .miniTestArea {
+    height: 100px
+}
+
+.recomm-place-out {
+    width: 160px;
+    height: 120px;
+    float: left;
+    position: relative;
+    margin: 14px 0 14px 20px
+}
+
+.recommendPicture-closeBtn {
+    position: absolute;
+    z-index: 3;
+    display: none;
+    background-position: -38px -33px;
+    right: -5px;
+    top: -5px;
+    width: 13px;
+    height: 13px
+}
+
+.recomm-place-plus {
+    background-color: #eee
+}
+
+.recomm-place-out img {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.dest-row-place {
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+.recomm-placePlus-inner {
+    width: 75px;
+    height: 75px;
+    background-position: -207px -89px;
+    margin: 12px auto 0 auto
+}
+
+.recomm-place-uploadButton {
+    cursor: pointer;
+    font-size: 14px;
+    height: 22px;
+    margin: 10px auto 0 auto;
+    width: 60px;
+    color: #777
+}
+
+#commendInntwoForm {
+    display: none
+}
+
+.searchCoordinate-alarmMsg {
+    font-size: 14px;
+    color: #dc3069;
+    line-height: 25px;
+    padding-left: 5px
+}
+
+.editor-recommend-row {
+    border-top: 1px solid #CCC !important;
+    height: 22px;
+    overflow: hidden;
+    padding-top: 10px
+}
+
+.editor-recommendTitle {
+    width: 40% !important
+}
+
+.recommend-picture-cover {
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/asset2/translucent.png");
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+
+.recommend-picture-cover img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 200px auto 0 auto
+}
+
+.editor-recommendBtn {
+    float: right !important;
+    width: 20px !important
+}
+
+.editor-recommendBtn a {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    cursor: pointer
+}
+
+.editor-recommendBtn a img {
+    position: absolute;
+    top: 0;
+    left: -51px
+}
+
+.create-recommend-btn {
+    padding: 0 !important
+}
+
+.recommend-list-loading {
+    left: 50px;
+    position: absolute;
+    top: -30px;
+    z-index: 1
+}
+
+.recommend-submit-btn {
+    position: relative
+}
+
+.width130 {
+    width: 130px
+}
+
+.picture-max-upload-msg {
+    width: 300px;
+    height: 20px;
+    color: #F18D05;
+    font-size: 14px;
+    clear: both;
+    margin-left: 20px
+}
+
+.inntwo-home-font-choise-menu {
+    height: 290px;
+    overflow-y: scroll
+}
+
+.inntwo-home-font-choise-menu li a {
+    cursor: pointer
+}
+
+.alterable-tabs-row {
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    width: auto;
+    min-width: 244px
+}
+
+.alterable-tabs-titles {
+    width: auto;
+    height: auto
+}
+
+.alterable-tabs-title {
+    float: left;
+    margin-right: 2px;
+    padding: 2px 18px;
+    border: 0
+}
+
+.alterable-tabs-direction {
+    width: 12px;
+    height: 19px;
+    margin-top: 1px;
+    position: relative
+}
+
+.alterable-tabs-direction div {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.alterable-tabs-direction-left {
+    margin-right: 13px
+}
+
+.alterable-tabs-direction-right {
+    margin-left: 11px
+}
+
+.alterable-tabs-left {
+    background-position: -158px -17px
+}
+
+.alterable-tab-left {
+    background-position: -158px -37px
+}
+
+.alterable-tabs-right {
+    background-position: -171px -37px
+}
+
+.alterable-tab-right {
+    background-position: -171px -17px
+}
+
+.alterable-tabs-plus {
+    background-position: -435px 0;
+    height: 18px;
+    width: 18px;
+    margin: 1px 0 0 3px
+}
+
+.alterable-tab-delete {
+    background-position: -454px 0;
+    height: 18px;
+    margin-left: 3px;
+    width: 18px
+}
+
+body {
+    overflow: hidden
+}
+
+.create-itinerary-top {
+    width: 100%;
+    height: 50px;
+    position: relative
+}
+
+.create-itinerary-logo {
+    width: 119px;
+    height: 40px;
+    margin: 5px 0 0 8px;
+    background-position: 0 0;
+    display: block
+}
+
+.top_right_container {
+    height: 42px;
+    padding-left: 0;
+    padding: 8px 0 0 20px;
+    right: 0;
+    -moz-min-width: 100px;
+    -ms-min-width: 100px;
+    -o-min-width: 100px;
+    -webkit-min-width: 100px;
+    min-width: 100px;
+    width: auto;
+    margin: 0 20px 0 0;
+    z-index: 3
+}
+
+#userInfoDropdownList {
+    margin-top: -10px
+}
+
+#createItineraryButton {
+    left: -234px;
+    position: absolute;
+    top: 15px;
+    width: 100px
+}
+
+#useDocuments {
+    left: 555px;
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    font-weight: 100
+}
+
+#useDocuments:focus {
+    color: #00a1cb
+}
+
+#userNotIco, #statusUserIcoImg {
+    top: 10px;
+    left: -15px
+}
+
+.create-itinerary-topbutton:hover {
+    color: #00a1cb
+}
+
+.create_route_reginlogin {
+    top: 7px;
+    -moz-min-width: 100px;
+    -ms-min-width: 100px;
+    -o-min-width: 100px;
+    -webkit-min-width: 100px;
+    min-width: 100px;
+    height: auto
+}
+
+#relevanceItinerary {
+    padding: 0 10px;
+    height: 24px;
+    line-height: 1.5;
+    display: none
+}
+
+#relevanceItinerary:focus {
+    text-decoration: none;
+    color: #fff
+}
+
+.register-link {
+    margin-left: 0
+}
+
+.footer_in_map {
+    background-color: #333;
+    border-top: 3px solid #8C8C8C;
+    bottom: 0;
+    display: none;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 2
+}
+
+.deep-gray-foot {
+    border-top: 3px solid #8C8C8C
+}
+
+.gray-backgroundColor-foot {
+    display: none
+}
+
+.child_item_is_close, .add-placeto-schedule {
+    display: none
+}
+
+.ui-selectmenu-status {
+    border-left: 1px solid #666;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 80px
+}
+
+.hotel_more_grade {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.hotel_more_select_date_start {
+    border: 1px solid #666;
+    height: 20px;
+    width: 79px
+}
+
+.hotel_more_select_date_str {
+    background: 0;
+    border: 0;
+    color: #fff;
+    display: block;
+    height: 20px;
+    width: 79px
+}
+
+.hotel_search_pager_interval {
+    height: auto;
+    margin: 0 auto;
+    -moz-min-width: 206px;
+    -ms-min-width: 206px;
+    -o-min-width: 206px;
+    -webkit-min-width: 206px;
+    min-width: 206px;
+    overflow: hidden;
+    width: auto
+}
+
+.pager_container_td {
+    width: 100%
+}
+
+.td_center_hide_word {
+    color: #444
+}
+
+#createItineraryNearby {
+    border: 0;
+    margin: 5px 0 0 0
+}
+
+#createItineraryNearby .inntwo-text-default:focus, #createItineraryNearby .inntwo-text-default:hover {
+    color: #333
+}
+
+#createItineraryNearby .inntwo-text-ordinary:focus, #createItineraryNearby .inntwo-text-ordinary:hover {
+    color: #fff
+}
+
+#createItineraryNearby .inntwo-text-normal {
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    line-height: 1.5;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    margin-left: 10px
+}
+
+.hotel_more_select_title {
+    height: 22px;
+    line-height: 20px;
+    margin-left: 14px;
+    position: relative;
+    width: 35px
+}
+
+#destinationInfo {
+    display: block
+}
+
+.place_more_place_title {
+    height: 22px;
+    line-height: 22px;
+    margin-left: 14px;
+    position: relative;
+    width: 35px
+}
+
+.hotel_more_start_grade {
+    cursor: pointer;
+    height: 20px;
+    text-align: center;
+    width: 80px
+}
+
+.hotel_more_star_grade_direct {
+    background-position: -19px -270px;
+    border-left: 1px solid #666;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    z-index: -1
+}
+
+.hotel_more_select_control {
+    color: #333;
+    height: 20px;
+    width: 79px
+}
+
+#HotelMoreStarGrade-button, #HotelMorePrice-button, #HotelMoreBrand-button {
+    color: #333;
+    margin: -3px 0 0;
+    padding: 0;
+    width: 104px
+}
+
+#HotelMoreStarGrade-menu, #HotelMorePrice-menu, #HotelMoreBrand-menu {
+    background-color: #444;
+    border: 1px solid #DC3069;
+    width: 77px
+}
+
+.ui-selectmenu-menu-dropdown li a:link {
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    width: 69px
+}
+
+.ui-selectmenu-menu-dropdown li a:hover {
+    color: #DC3069;
+    width: 69px
+}
+
+.ui-selectmenu-menu-dropdown a {
+    margin: 0;
+    padding: 0
+}
+
+#nearAttractionPager {
+    margin-top: 5px
+}
+
+#nearAttractionPager ul li a {
+    cursor: pointer
+}
+
+#HotelMoreSelectCityInput {
+    border: 0;
+    color: #333;
+    cursor: default
+}
+
+#nearbySearchDestination {
+    padding-left: 10px;
+    height: 20px;
+    width: 95%
+}
+
+#PlaceMoreSelectCityInput {
+    overflow: hidden;
+    width: 114px
+}
+
+.hotel_more_select_require {
+    color: #DC3068;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    z-index: 3
+}
+
+.hotel_search_result_item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 64px;
+    margin: 10px 0 0 10px;
+    width: 240px
+}
+
+.place_search_result_item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    height: 64px;
+    margin-bottom: 10px;
+    width: 240px;
+    position: relative
+}
+
+#HotelSearchList, #PlaceSearchList {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+#nearbyContents {
+    margin-top: 5px
+}
+
+.hotel_price_search_result {
+    bottom: 0;
+    font-size: 12px;
+    height: 17px;
+    position: absolute;
+    right: 5px;
+    width: auto;
+    z-index: 1
+}
+
+.hotel_search_result_booking {
+    bottom: 0;
+    color: #DC3069;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 17px;
+    position: absolute;
+    right: 0;
+    width: auto;
+    z-index: 1
+}
+
+.hotel_more_select_row {
+    min-height: 22px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px
+}
+
+#delicacyCategoryRow {
+    margin-top: 5px
+}
+
+.hotel_more_select_row_last {
+    display: none;
+    height: 28px
+}
+
+.hotel_name_search_title {
+    color: #333;
+    line-height: 33px;
+    margin-left: 14px;
+    width: 55px
+}
+
+#HotelNameInput {
+    border: #ccc 1px solid;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    color: #333;
+    display: block;
+    height: 20px;
+    position: relative;
+    width: 179px
+}
+
+.hotel_search_submit_warning {
+    color: #DC3069;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    width: 100%
+}
+
+.place_search_submit_warning {
+    color: #DC3069;
+    display: none;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    width: 100%
+}
+
+#HotelSubmitBotton {
+    border: 0;
+    clear: both;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px
+}
+
+.more-hotel-more-query {
+    color: #00a1cb;
+    cursor: pointer;
+    float: right;
+    height: auto;
+    width: 82px
+}
+
+#PlaceMoreSearchSubmit, #hideMoreHotelMoreQuery {
+    display: none
+}
+
+.none_pic_hotel_font {
+    background-color: #E0E0E0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 64px;
+    text-align: center
+}
+
+.hotel_search_result_itemimg {
+    -ms-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    cursor: default;
+    height: 64px;
+    width: 70px;
+    position: relative
+}
+
+.hotel_search_result_itemimg img {
+    width: 100%;
+    height: 100%
+}
+
+.hotel_search_result_itemimg .search_place_overlay_place_favorite {
+    left: 18px
+}
+
+.create-itinerary-hotel-ico {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+
+.place_search_result_itemimg {
+    -ms-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    height: 64px;
+    width: 120px
+}
+
+.hotel_search_result_hotel_msg {
+    color: #333;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    position: relative;
+    width: 160px
+}
+
+.place_search_result_hotel_msg {
+    height: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    position: relative;
+    width: 110px
+}
+
+.hotel_search_hotel_name {
+    color: #333;
+    font-size: 14px;
+    line-height: 15px
+}
+
+.hotel_search_hotel_name a {
+    color: #333
+}
+
+.hotel_search_hotel_name a:hover {
+    color: #00a1cb
+}
+
+.hotel_search_hotel_name a:focus {
+    color: #333
+}
+
+.hotel_search_hotel_address {
+    display: none;
+    height: 18px;
+    overflow: hidden;
+    padding-left: 4px;
+    width: 196px
+}
+
+.hotel_search_result_marker {
+    background-position: -60px -47px;
+    bottom: 2px;
+    height: 25px;
+    left: 10px;
+    position: absolute;
+    width: 19px;
+    z-index: 1;
+    cursor: pointer
+}
+
+.place_search_result_marker {
+    background-position: 0 0;
+    bottom: 2px;
+    display: none;
+    height: 25px;
+    left: 10px;
+    position: absolute;
+    width: 19px;
+    z-index: 1
+}
+
+.places_result_price {
+    bottom: 0;
+    height: 20px;
+    right: 4px;
+    position: absolute;
+    width: auto
+}
+
+.place-result-itemcomment {
+    position: absolute;
+    bottom: 2px;
+    left: 30px
+}
+
+.hotel_search_result_number {
+    color: #A299B7;
+    height: auto;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2
+}
+
+.place_search_result_number {
+    color: #fff;
+    height: auto;
+    text-align: center;
+    width: 100%
+}
+
+.delicacy_search_result_number {
+    color: #fff;
+    height: auto;
+    text-align: center;
+    width: 100%
+}
+
+.hotel_search_result_panel {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.place_search_result_panel {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.hotel_search_result_panel_inner {
+    height: auto;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%
+}
+
+.place_search_result_panel_inner {
+    height: auto;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    width: 260px
+}
+
+.morhotel-inicial-hide {
+    display: none
+}
+
+.create_trip_schedule_place_sort_word {
+    float: left;
+    height: 100%;
+    margin-left: 24px;
+    width: 68px
+}
+
+.trip-place-category-ico {
+    display: none;
+    float: left;
+    height: 13px;
+    margin-top: 6px;
+    width: 13px
+}
+
+.kilometer_marker {
+    background-position: -57px -48px;
+    height: 12px;
+    left: 14px;
+    position: absolute;
+    top: -4px;
+    width: 12px;
+    z-index: 3
+}
+
+.drag-bar-colorconvert-bar {
+    background-color: #00A1CB;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 171px;
+    z-index: 2
+}
+
+.appear-nearby-button {
+    -ms-border-radius: 4px 0 0 4px;
+    border-radius: 6px 0 0 6px;
+    cursor: pointer;
+    font-size: 14px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 30%;
+    width: 25px;
+    z-index: 1;
+    padding: 0;
+    -webkit-box-shadow: 0 0 5px 0 #333;
+    -ms-box-shadow: 0 0 5px 0 #333;
+    box-shadow: 0 0 5px 0 #333;
+    display: none;
+    overflow: hidden
+}
+
+.appear-nearby-button > a {
+    border-radius: 0;
+    height: 42px;
+    line-height: 20px;
+    padding: 0 6px
+}
+
+#appearAroundButton {
+    border-bottom: 1px solid #008aac
+}
+
+#appearSidesofroadButton {
+    border-top: 1px solid #00c4f4
+}
+
+#appearSidesofroadButton:hover, #appearAroundButton:hover, #appearSidesofroadButton:focus, #appearAroundButton:focus {
+    color: #fff
+}
+
+.createitinerary-hidden-nearby {
+    -ms-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    -webkit-box-shadow: -2px 0 5px 0 #333;
+    -ms-box-shadow: -2px 0 5px 0 #333;
+    box-shadow: -2px 0 5px 0 #333;
+    height: 55px;
+    left: -23px;
+    padding: 0;
+    position: absolute;
+    top: 30%;
+    width: 23px;
+    z-index: 0;
+    cursor: pointer
+}
+
+.create_route_selected_radius {
+    background-color: #444;
+    color: white;
+    font-family: Arial;
+    height: 3px;
+    margin: 1px auto;
+    position: relative;
+    text-align: center;
+    width: 93%
+}
+
+.create_route_selected_radius_inner {
+    height: 3px;
+    left: 0;
+    padding-top: 2px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.kilometer_container {
+    color: #444;
+    height: 15px;
+    width: 100%
+}
+
+.Kilometer_scale {
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: 100;
+    height: 15px;
+    width: 58px
+}
+
+.Kilometer_scale_hundred {
+    text-align: right;
+    width: 40px
+}
+
+#create_routemidle_banner {
+    background-color: #F5F5F5;
+    height: auto;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+    width: 274px;
+    z-index: 1
+}
+
+.create_route_searchdiv {
+    color: #fff;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    width: 360px;
+    margin: 8px 0 0 60px
+}
+
+#previewItineraryList {
+    bottom: 5px;
+    height: 27px;
+    position: absolute;
+    right: 25px;
+    width: 25px;
+    z-index: 1;
+    display: none
+}
+
+.route-trip-export-button {
+    background-position: -339px 0;
+    cursor: pointer;
+    height: 27px;
+    width: 25px
+}
+
+.cret_rout_form_div {
+    background-color: #F5F5F5;
+    overflow: hidden;
+    width: 274px
+}
+
+#container_mid {
+    overflow: hidden;
+    height: 100%
+}
+
+.map-model-search-query {
+    width: 450px;
+    height: 34px;
+    position: relative
+}
+
+.BMap_mask {
+    -webkit-box-shadow: 2px 2px 6px 0 #999 inset;
+    -ms-box-shadow: 2px 2px 6px 0 #999 inset;
+    box-shadow: 2px 2px 6px 0 #999 inset
+}
+
+.destination_search_container {
+    display: none
+}
+
+.main_destination_search_container {
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    height: 34px;
+    width: 450px;
+    display: none
+}
+
+.destination_search_suggestion {
+    width: 372px;
+    min-height: 270px;
+    height: auto
+}
+
+.destination-suggestion-tag {
+    width: 32px;
+    height: 20px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #f60
+}
+
+.destination-suggestion-title {
+    width: 325px
+}
+
+#destinationSearchSuggestion .row {
+    margin-left: 0
+}
+
+#destinationSearchSuggestion {
+    top: 34px;
+    left: 0;
+    border: 1px solid #7db500
+}
+
+#destinationSearchSuggestion > div > div {
+    padding: 5px 0 5px 5px
+}
+
+#destinationSearchSuggestion > div > div:hover {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+#suggestionLoadingWrapper > img {
+    display: block;
+    margin: 40px auto 0
+}
+
+.search-model-switch-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-width: 0 0 1px 1px;
+    height: 40px;
+    width: 100%;
+    clear: both
+}
+
+.route-way-item {
+    cursor: pointer;
+    height: 25px;
+    line-height: 2;
+    margin-left: -15px;
+    text-align: center
+}
+
+#routeScheduleContainer:focus {
+    text-decoration: none
+}
+
+.search-model-switch-button {
+    background-color: #ccc;
+    -ms-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0 0 10px;
+    text-align: center;
+    width: 90px
+}
+
+.search-map-switch-button {
+    float: left
+}
+
+.search-picture-model-button {
+    display: none;
+    float: left
+}
+
+.search-picture-switch-button {
+    background-color: #ccc;
+    color: #333;
+    display: none
+}
+
+.ceate_route_right_container {
+    height: 500px;
+    margin-left: 274px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -moz-min-width: 730px;
+    -ms-min-width: 730px;
+    -o-min-width: 730px;
+    -webkit-min-width: 730px;
+    min-width: 730px;
+    display: none
+}
+
+.create-itinerary-search-outer {
+    position: absolute;
+    z-index: 1;
+    margin-top: 70px
+}
+
+.create-itinerary-search-center {
+    background-color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0 0 9px 3px #aaa;
+    display: inline-block;
+    width: auto;
+    position: relative
+}
+
+.create-itinerary-search-tabs {
+    width: auto;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 34px
+}
+
+.create-itinerary-search-tabs div {
+    width: 50px;
+    height: 22px;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    line-height: 1.8;
+    cursor: pointer;
+    margin-left: 5px;
+    box-shadow: 0 6px 6px 0 #888
+}
+
+.destination_search_button {
+    background-color: #7DB500;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-weight: bold;
+    height: 34px;
+    text-align: center;
+    width: 76px;
+    float: right
+}
+
+#destinationSearchButton {
+    font-size: 14px;
+    line-height: 2.4
+}
+
+#DestinationSearchInput {
+    color: #ccc;
+    background-color: #fff;
+    padding-left: 3px;
+    width: 370px;
+    border: 0;
+    height: 34px;
+    font-size: 14px
+}
+
+#DestinationSearchInput:focus {
+    color: #333
+}
+
+.driver-search-query-container {
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 100%
+}
+
+.route-schedule-container {
+    height: auto;
+    left: 115px;
+    position: absolute;
+    top: 36px;
+    width: 70px
+}
+
+.route-schedule-container .dropdown-menu {
+    min-width: 90px
+}
+
+#routeScheduleSelected {
+    color: #333
+}
+
+.create_route_item_channel {
+    border-color: #CCC;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    height: 34px;
+    padding-left: 4px;
+    width: 119px;
+    position: relative
+}
+
+.create-itinerary-channal-counter {
+    height: 20px;
+    left: -2px;
+    position: absolute;
+    top: 8px;
+    width: 10px;
+    color: #999
+}
+
+.create_rout_channel_pole {
+    font-weight: bold
+}
+
+.create_rout_channel_container {
+    font-weight: 100
+}
+
+#searchTripperResultContainer input[type="text"] {
+    color: #989898;
+    display: block;
+    height: 34px;
+    width: 165px;
+    border: 0;
+    padding-left: 5px;
+    font-size: 14px
+}
+
+#createRouteItemChannel input[type="text"] {
+    width: 95px
+}
+
+#ScheduleDetailsOuter {
+    display: block;
+    font-size: 16px;
+    height: 30px;
+    margin: 0 auto;
+    padding-left: 5px;
+    color: #ccc;
+    width: 350px
+}
+
+#ScheduleDetailsOuter:focus {
+    border-color: #7db500
+}
+
+.create_rout_item_input_add_ico {
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+    position: relative
+}
+
+.create_rout_item_input_add_ico div {
+    width: 10px;
+    height: 11px;
+    background-position: -147px -28px;
+    margin: 9px 0 0 10px
+}
+
+.create-itinerary-channal-number {
+    color: #FFF;
+    display: none;
+    height: 14px;
+    position: absolute;
+    right: -1px;
+    top: -12px;
+    width: 10px
+}
+
+.create_rout_item_input_delete_ico {
+    background-position: -35px -21px;
+    height: 9px;
+    margin: 13px 0 0 5px;
+    width: 9px
+}
+
+.rout_tripper_start_palce_autocomplete {
+    background-color: #F5F5F5;
+    height: auto;
+    position: absolute;
+    width: 167px;
+    z-index: 3
+}
+
+#nearHotelsPager {
+    margin-top: 5px
+}
+
+.create-itinerary-marker-channal-number {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    background-color: #00a1cb;
+    text-align: center
+}
+
+.rout_tripper_end_palce_autocomplete {
+    background-color: #F5F5F5;
+    height: auto;
+    position: absolute;
+    width: 167px;
+    z-index: 3
+}
+
+.cret_rout_submit_btn {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    width: 70px
+}
+
+#RouteTripperSearchRouteBtn {
+    height: 34px;
+    padding: 0 3px;
+    line-height: 2.4;
+    border-radius: 0 4px 4px 0;
+    width: 76px
+}
+
+#RouteTripperSearchRouteBtn:hover {
+    color: white
+}
+
+.create_route_plan_selected_item {
+    color: #2D2D2D;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    margin: 10px 0 0 20px;
+    overflow: hidden;
+    width: 270px
+}
+
+.create_route_plan_selected_item span {
+    height: 10px;
+    width: 20px
+}
+
+.create_route_plan_selected_item input[type="radio"] {
+    margin-top: 0
+}
+
+.create_route_modify {
+    color: #929292;
+    font-size: 12px
+}
+
+.drag-bar-container {
+    float: left;
+    height: auto;
+    margin: 10px 0 0 13px;
+    width: 274px
+}
+
+.search-radius-container {
+    border-radius: 4px;
+    clear: both;
+    display: block;
+    height: 38px;
+    position: absolute;
+    top: -45px;
+    width: 120px;
+    border: 1px solid #ccc
+}
+
+.search-radius-container div {
+    width: 100%;
+    height: 19px;
+    text-align: center
+}
+
+#searchRadiusNumberContainer {
+    position: relative
+}
+
+#searchRadiusNumberContainer input {
+    background: 0;
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    width: 30px
+}
+
+#subtractSearchRadius {
+    font-size: 30px;
+    left: 10px;
+    padding-bottom: 10px;
+    top: -4px
+}
+
+#plusSearchRadius {
+    right: 10px;
+    font-size: 23px;
+    top: -5px
+}
+
+.drag-bar-container-explanation {
+    color: #333;
+    float: left;
+    height: auto;
+    margin: 5px 0 0 5px;
+    width: auto
+}
+
+.create_route_search_city_item_container {
+    color: #343434;
+    height: 27px;
+    line-height: 27px;
+    margin-left: -15px;
+    width: 100%
+}
+
+.driver-result-item-container {
+    height: auto;
+    width: 100%
+}
+
+.driver-result-item {
+    font-weight: 100;
+    height: auto;
+    line-height: 18px;
+    margin-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    width: 240px
+}
+
+.driver-result-item div {
+    font-size: 50px;
+    height: 100%;
+    left: -3px;
+    position: absolute;
+    top: -16px;
+    width: 15px
+}
+
+.create_route_item_channel_outer {
+    border-bottom: 1px solid #CCC;
+    border-radius: 4px;
+    float: left;
+    height: auto;
+    left: 160px;
+    overflow: hidden;
+    position: absolute;
+    top: 34px;
+    width: auto;
+    z-index: 1
+}
+
+.create_route_goal_container {
+    height: auto;
+    width: 100%
+}
+
+.create_trip_schedule_place_sort_inner {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 0 0 4px 4px
+}
+
+.create_trip_schedule_place_sort_custom {
+    background-color: #333;
+    color: #DC3068;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    width: 120px
+}
+
+.second_category {
+    width: auto
+}
+
+.second_category:hover {
+    color: #00a1cb
+}
+
+.create_trip_schedule_place_sort_second {
+    background-color: #f5f5f5;
+    display: none;
+    overflow: hidden;
+    width: 120px
+}
+
+.inntwo_inner_container {
+    height: auto;
+    overflow: hidden;
+    width: 100%
+}
+
+.create_trip_schedule_place_sort_second_item {
+    cursor: pointer;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+
+#hotel_more_item {
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+
+.create_trip_schedule_place_sort_switch {
+    background-position: -29px -47px;
+    height: 6px;
+    position: absolute;
+    right: 11px;
+    top: 12px;
+    width: 11px;
+    z-index: 101
+}
+
+.firstday_trippoint_container {
+    color: #C2C2C5;
+    font-weight: 100;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+
+.firstday_trippoint_container * {
+    text-align: left
+}
+
+.trip_schedule_editor_save_now_botton {
+    margin: 50px 0 0 4px
+}
+
+.trip_schedule_place_remarker_editor_btn {
+    background-position: -15px -1px;
+    height: 15px;
+    margin-top: 50px;
+    width: 15px
+}
+
+.trip_schedule_sightspot_edit_btn {
+    background-position: -15px -1px;
+    height: 15px;
+    width: 15px
+}
+
+.trip_schedule_sightspots_container {
+    height: auto;
+    width: 100%
+}
+
+.trip_schedule_sightspots_container .ui-state-highlight {
+    border: 1px dashed #CBC2CD;
+    height: 114px;
+    line-height: 74px;
+    margin-top: 5px;
+    width: 240px
+}
+
+.trip_schedule_sight_spot_container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 72px;
+    position: relative;
+    width: 242px
+}
+
+.trip_schedule_remark_input {
+    margin-bottom: 10px;
+    position: relative
+}
+
+.trip_schedule_place_item {
+    background-color: #fff;
+    border: #ccc 1px solid;
+    border-radius: 4px;
+    height: 72px;
+    width: 242px
+}
+
+.trip-schedule-items-distance-duration {
+    height: 40px;
+    width: 242px
+}
+
+.trip-schedule-items-space {
+    height: 40px;
+    width: 242px
+}
+
+.trip-schedule-items-distance-duration-ico {
+    background-position: -473px 0;
+    float: left;
+    height: 40px;
+    width: 26px;
+    position: relative
+}
+
+.distance-duration-trafficddl {
+    background-position: -326px 0;
+    height: 7px;
+    position: absolute;
+    right: -12px;
+    top: 18px;
+    width: 11px
+}
+
+.create-itinerary-plan-container {
+    border: 1px solid #CCC;
+    display: none;
+    height: 35px;
+    left: -12px;
+    position: absolute;
+    top: 35px;
+    width: 272px;
+    z-index: 1;
+    border-radius: 4px 4px 0 0
+}
+
+.trip-schedule-items-place-result {
+    color: #333;
+    float: left;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+    margin-left: 15px;
+    position: relative
+}
+
+.trip-schedule-distance-duration, .trip-schedule-places-line {
+    display: none
+}
+
+.trip_schedule_start_ico {
+    background-color: #ccc;
+    background-position: -268px -230px;
+    cursor: default;
+    float: left;
+    height: 100%;
+    width: 80px
+}
+
+.trip_schedule_end_ico {
+    background-color: #ccc;
+    background-position: -349px -230px;
+    cursor: default;
+    float: left;
+    height: 100%;
+    width: 80px
+}
+
+.trip_schedule_start_content_operator {
+    float: left;
+    height: 100%;
+    padding-left: 8px;
+    position: relative;
+    width: 150px
+}
+
+.schedule-item-linkprev {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    height: 21px;
+    padding-left: 4px;
+    width: 63px;
+    cursor: pointer
+}
+
+.trip-schedule-item-outer {
+    cursor: move;
+    height: auto;
+    width: 244px;
+    z-index: 2
+}
+
+.trip_schedule_sight_spot_item {
+    display: block
+}
+
+.trip_schedule_start_content_title {
+    color: #333;
+    font-weight: bold;
+    height: 100%;
+    overflow-y: hidden;
+    width: 100%
+}
+
+.trip_schedule_start_editor_btn {
+    bottom: 2px;
+    color: #00A0CB;
+    cursor: pointer;
+    height: auto;
+    position: absolute;
+    width: 30px;
+    z-index: 2
+}
+
+.trip_schedule_start_mouse_right_button {
+    bottom: 2px;
+    color: #aaa;
+    left: 35px;
+    position: absolute;
+    z-index: 2
+}
+
+.trip_schedule_destination_editor_btn {
+    bottom: 2px;
+    color: #00A0CB;
+    cursor: pointer;
+    height: auto;
+    position: absolute;
+    width: 30px;
+    z-index: 1
+}
+
+.trip_schedule_destination_commend_btn {
+    cursor: pointer
+}
+
+.trip_schedule_sight_spot_remark {
+    height: 59px;
+    line-height: 15px;
+    overflow: hidden;
+    padding: 6px 0 0 3px;
+    width: 220px
+}
+
+.schedule_remark_view {
+    height: 100%;
+    width: 228px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 4px
+}
+
+.trip_schedule_sight_spot_drag_sight {
+    background-color: #fff;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    color: #333;
+    height: 50px;
+    padding-top: 27px;
+    text-align: center;
+    width: 242px;
+    margin-top: 10px
+}
+
+.trip_schedule_place_button {
+    color: #00A1CB;
+    cursor: pointer;
+    font-weight: bold
+}
+
+#trip_schedule_now_day_comment_con {
+    display: none
+}
+
+.trip_schedule_sight_spot_save {
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    height: 36px !important;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.trip_schedule_sight_spot_remarkone {
+    background-color: #FFF;
+    display: none;
+    margin-bottom: 12px
+}
+
+.trip_schedule_editor_save_container {
+    background-color: white;
+    height: 70px;
+    width: 22px
+}
+
+.trip_shchedule_sight_spot_controller_bottom {
+    clear: both;
+    height: 22px;
+    margin: 37px 3px 0 -5px;
+    margin-right: 3px;
+    width: 15px
+}
+
+.schedule-item-duration-suggestion {
+    bottom: 4px;
+    height: 15px;
+    right: 18px;
+    position: absolute;
+    width: auto
+}
+
+.schedule-item-delicacy-comments {
+    bottom: 4px;
+    height: 15px;
+    right: 18px;
+    position: absolute;
+    width: auto
+}
+
+.shce-place-item-remove {
+    background-position: 0 -22px;
+    bottom: 3px;
+    height: 15px;
+    position: absolute;
+    right: 3px;
+    width: 14px;
+    z-index: 2
+}
+
+.shce-place-item-remove .dropdown-menu {
+    min-width: 90px;
+    color: #333
+}
+
+.shce-place-item-remove a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    text-decoration: none !important
+}
+
+.setschedule-number-ddl-title {
+    font-weight: bold
+}
+
+.trip_schedule_editor_ico {
+    clear: none;
+    float: left;
+    margin: 50px 0 0 6px
+}
+
+.trip_schedule_editor_save_botton {
+    background-position: -33px -1px;
+    height: 14px;
+    width: 14px
+}
+
+.trip_schedule_public_editor {
+    background-color: #FFF;
+    border: 0;
+    color: #CCC;
+    overflow: hidden
+}
+
+.trip_schedule_sight_spot_editor {
+    border: 1px solid #cdcdcd;
+    color: #000;
+    height: 56px;
+    margin: 6px 0 6px 3px;
+    width: 215px
+}
+
+.trip_schedule_sight_spot_editor:focus {
+    border: 1px solid #CDCDCD
+}
+
+.trip_schedule_sight_spot_editor_remark {
+    color: #000;
+    display: none;
+    height: 70px;
+    width: 242px
+}
+
+#tripScheduleStartRemark {
+    color: #000;
+    display: none;
+    height: 70px;
+    width: 242px
+}
+
+#TripScheduleEditorSaveBotton {
+    display: none;
+    margin: 3px 0 0 3px
+}
+
+.trip_schedule_nowday_submitbtn {
+    cursor: pointer;
+    height: 100%;
+    width: auto
+}
+
+.trip_schedule_now_day_comment_area {
+    background-color: #fff;
+    border: 0;
+    border-top: #C8DD5A 1px solid;
+    color: #A2A2A2;
+    display: none;
+    font-size: 12px;
+    height: 54px;
+    width: 260px
+}
+
+.firstday_title_left {
+    color: #333;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: auto;
+    width: auto
+}
+
+.firstday_title_leftcontianer {
+    height: auto;
+    overflow: hidden;
+    width: auto
+}
+
+.trip_schedule_date_input_outter {
+    height: 18px;
+    padding-left: 5px;
+    position: relative;
+    width: 82px;
+    text-align: left;
+    margin-left: 40px
+}
+
+.trip_schedule_date_ignore_time {
+    background-position: -49px -28px;
+    cursor: pointer;
+    height: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    width: 12px;
+    display: none
+}
+
+#tripScheduleDateDiv {
+    color: #333;
+    cursor: pointer
+}
+
+.trip_schedule_date {
+    border: 0;
+    display: block;
+    height: 18px;
+    overflow: hidden;
+    width: 75px
+}
+
+#TripScheduleDate_focus {
+    border: 0;
+    cursor: pointer;
+    width: 1px;
+    color: #fff !important
+}
+
+.trip_schedule_editor_now_remark {
+    background-position: -366px 0;
+    height: 18px;
+    width: 18px
+}
+
+.trip_schedule_calender_ico {
+    background-position: -416px 0;
+    height: 18px;
+    margin-left: 3px;
+    width: 18px
+}
+
+.trip_schedule_sight_spot_img {
+    height: 72px;
+    width: 120px;
+    background-image: url("/img/asset2/customPlaceImg.jpg")
+}
+
+.trip_schedule_sight_spot_img img {
+    border-radius: 4px 0 0 4px;
+    height: 100%;
+    width: 100%
+}
+
+.trip_shchedule_sight_spot_name {
+    color: #333;
+    font-size: 14px;
+    height: auto;
+    max-height: 40px;
+    overflow: hidden;
+    padding-left: 3px;
+    text-align: left;
+    width: 95px;
+    cursor: pointer
+}
+
+.trip_shchedule_sight_spot_name a {
+    color: #333
+}
+
+.trip_shchedule_sight_spot_controller {
+    color: #fff;
+    height: 70px;
+    width: 24px
+}
+
+.trip_shchedule_sight_spot_close {
+    background-position: 0 0;
+    height: 10px;
+    margin: 3px 0 0 8px;
+    width: 12px
+}
+
+.trip_schedule_date_require_span {
+    color: #f00;
+    height: 100%;
+    padding-right: 1px;
+    width: 3px
+}
+
+.trip_schedule_date_focus {
+    border: 0;
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    width: 1px
+}
+
+#SaveItineraryButton {
+    display: none;
+    height: 36px;
+    left: -135px;
+    margin: 0 auto;
+    position: absolute;
+    top: 8px;
+    width: auto;
+    z-index: 1
+}
+
+#SaveItineraryButton .cret_rout_submit_btn {
+    font-weight: 400
+}
+
+.driver-result-distance-duration {
+    color: #333;
+    height: 20px;
+    width: auto;
+    line-height: 14px;
+    display: inline-block;
+    text-align: left
+}
+
+.custom-scroll-bar-container {
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 17px;
+    z-index: 1;
+    display: none
+}
+
+#morePlacesScrollBarContainer {
+    background-color: #f5f5f5;
+    height: 100%
+}
+
+#moreHotelScrollBarContainer {
+    height: 100%
+}
+
+.custom-scroll-bar {
+    background-color: #ccc;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 100%;
+    position: absolute;
+    right: 2px;
+    width: 6px;
+    z-index: 2
+}
+
+.schedule-custom-scroll-bar {
+    background-color: #ccc;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    position: absolute;
+    right: 4px;
+    width: 6px;
+    z-index: 2
+}
+
+#moreHotelCustomScrollBar {
+    background-color: #ccc;
+    right: 6px
+}
+
+#moreplaceCustomScrollBarMorePlace {
+    background-color: #ccc;
+    height: 100%;
+    right: 6px
+}
+
+.trip_schedule_container_item {
+    height: auto;
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+
+.trip_schedule_scroll_container {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 13px;
+    width: 261px
+}
+
+.trip_schedule_date_seconderow {
+    height: 22px;
+    width: auto
+}
+
+#TripScheduleNameContainer {
+    background-position: -210px -181px;
+    cursor: default;
+    height: 242px;
+    padding: 7px;
+    position: relative;
+    width: 324px
+}
+
+#TripScheduleNameContainerClose {
+    background-position: -121px -16px;
+    height: 12px;
+    position: absolute;
+    right: 11px;
+    top: 13px;
+    width: 15px;
+    z-index: 4
+}
+
+.trip_schedule_name_title {
+    height: 24px;
+    margin: 13px auto 0 auto;
+    width: 124px
+}
+
+#TripScheduleNameWarning {
+    background-position: 0 -44px;
+    cursor: default;
+    height: 24px;
+    width: 24px
+}
+
+.name_trip_schedule {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    margin: 7px 0 0 3px;
+    width: 85px
+}
+
+.name_trip_schedule_interval {
+    color: white;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 108px;
+    text-align: left;
+    width: auto
+}
+
+.trip_name_rows {
+    clear: both;
+    height: 23px;
+    width: 100%
+}
+
+.trip_name_rows_remarke {
+    height: 76px;
+    margin-top: 13px;
+    width: 100%
+}
+
+.trip_name_rows_title_cell {
+    color: #fff;
+    font-size: 14px;
+    height: 23px;
+    line-height: 23px;
+    margin-left: 10px;
+    position: relative;
+    width: 60px
+}
+
+.trip_name_rows_remark_text_save {
+    background-color: #DC3069;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin: 24px 0 0 70px;
+    text-align: center;
+    width: 172px
+}
+
+#TripNameHiddenContainer {
+    display: none
+}
+
+.trip_name_rows_title_input {
+    background: 0;
+    border: #666 1px solid;
+    color: white;
+    display: block;
+    height: 21px;
+    width: 221px
+}
+
+#tripNameRowsTitleInput {
+    background-color: #333;
+    border-radius: 4px;
+    color: #fff
+}
+
+.trip_name_rows_title_cell_star {
+    color: #DC3068;
+    display: block;
+    font-size: 14px;
+    height: 23px;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    width: 7px;
+    z-index: 1
+}
+
+.create_trip_schedule_place_sort_container {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: none;
+    height: auto;
+    left: 280px;
+    position: absolute;
+    top: 150px;
+    width: 120px;
+    z-index: 2
+}
+
+.create_trip_schedule_place_sort_first {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 1px;
+    text-align: center;
+    width: 120px
+}
+
+.create_trip_schedule_place_sort_first:hover {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+.create_trip_schedule_place_sort_first span {
+    display: none
+}
+
+.create_trip_schedule_place_sort_lvcheng {
+    background-color: #00a1cb;
+    color: #f5f5f5;
+    cursor: move;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    position: relative;
+    text-align: center;
+    width: 120px;
+    border-radius: 4px 4px 0 0
+}
+
+.selected_second_level_selected {
+    background-position: -48px 0;
+    display: none;
+    height: 9px;
+    left: 7px;
+    position: absolute;
+    top: 5px;
+    width: 8px;
+    z-index: 100
+}
+
+.category_place_count {
+    color: #00a1cb;
+    display: none;
+    position: absolute;
+    right: 2px;
+    top: 2px
+}
+
+.openChildContainer, .second_category_id, .place_category_selected, .category_remark {
+    display: none
+}
+
+.categoryId {
+    width: auto
+}
+
+.sight_spot_operate_close {
+    background-position: -436px 0;
+    height: 17px;
+    width: 16px
+}
+
+.sight_spot_operate_favorite {
+    background-position: 0 -54px;
+    cursor: pointer;
+    height: 16px;
+    margin-top: 38px;
+    width: 16px
+}
+
+.nearby-result-container {
+    height: 100%;
+    width: 270px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    box-shadow: -2px 0 6px 0 #999;
+    display: none
+}
+
+.save-success-choose-btn {
+    color: #BEFF84;
+    cursor: pointer
+}
+
+.save-success-choose-btn:hover, .save-success-choose-btn:focus {
+    color: #BEFF84 !important
+}
+
+.tangram-suggestion-main {
+    z-index: 20000
+}
+
+.marker-number-span {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%
+}
+
+.create_trip_city_details_popup {
+    margin-top: 3px
+}
+
+.center-custome-area {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 345px
+}
+
+.center-custome-area-row {
+    font-size: 14px;
+    min-height: 30px;
+    height: auto;
+    margin-top: 10px;
+    width: 100%
+}
+
+.custom-place-input {
+    width: 300px;
+    height: 26px !important
+}
+
+.custom-place-input:focus {
+    border-color: #7db500 !important
+}
+
+.center-custome-area-title {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding-right: 5px;
+    min-width: 36px
+}
+
+#centerCustomeAreaName {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    float: left;
+    height: 26px;
+    width: 300px
+}
+
+#centerCustomeDuration, #placeFeeInput {
+    width: 60px;
+    height: 26px
+}
+
+#centerCustomeAreaName:focus, #centerCustomeAreaContent:focus, #centerCustomeDuration:focus, #placeFeeInput:focus {
+    border-color: #7db500
+}
+
+.custom-place-items {
+    width: 180px;
+    height: 33px
+}
+
+#centerCustomeAreaContent {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: block;
+    float: left;
+    height: 70px;
+    width: 300px
+}
+
+.center-custome-area-panel {
+    float: left;
+    height: 20px;
+    position: relative;
+    width: 345px
+}
+
+.center-custome-area-panel span {
+    bottom: -3px;
+    position: absolute;
+    z-index: 1
+}
+
+.span-selected-destination {
+    left: 135px
+}
+
+input[name=selectedStar] {
+    left: 0;
+    position: absolute;
+    top: 2px;
+    z-index: 1
+}
+
+input[name=selectedDestination] {
+    left: 138px;
+    position: absolute;
+    top: 2px;
+    z-index: 1
+}
+
+.span-selected-star {
+    left: 18px;
+    margin-left: 0
+}
+
+#centerCustomeAreaSaveBtn {
+    background-color: #7db500;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin: 15px 0 20px 255px;
+    text-align: center;
+    width: 90px
+}
+
+#customAlarmMessage, #customAddressAlarmMessage {
+    font-size: 14px;
+    padding-left: 40px
+}
+
+.dropdown-menu li {
+    padding-left: 5px;
+    text-align: left
+}
+
+.dropdown-menu li:hover {
+    background-color: #00A1CB;
+    color: #fff
+}
+
+#nearHotelsPager ul li a {
+    cursor: pointer
+}
+
+.trip-pictureword-upload-editor-container {
+    background-color: white;
+    border-left: 1px solid #CCC;
+    display: none;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+.trip-pictureword-upload-operator-space {
+    height: 24px;
+    width: 100%
+}
+
+.trip-pictureword-upload-operator {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 530px
+}
+
+.trip-pictureword-upload-operator input[type=button] {
+    display: block;
+    float: left;
+    line-height: 26px;
+    margin-left: 9px;
+    width: auto
+}
+
+#tripPictureAddUploadControlSub, .trip-pictureword-upload-item-creat-datetime {
+    display: none
+}
+
+#tripPictureAddUploadControl {
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 70px
+}
+
+.trip-pictureword-upload-space {
+    float: left;
+    height: 30px;
+    line-height: 35px;
+    margin: 0 0 0 10px;
+    overflow: hidden;
+    text-align: center;
+    width: auto
+}
+
+.trip-pictureword-upload-images {
+    border-top: 1px solid #ccc;
+    height: 353px;
+    margin: 0 auto;
+    position: relative;
+    width: 93%
+}
+
+.trip-pictureword-upload-images-contain {
+    height: auto;
+    max-height: 398px;
+    overflow-y: auto;
+    width: 100%
+}
+
+.trip-pictureword-upload-scroll {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%
+}
+
+.trip-picture-empty {
+    height: 182px;
+    margin: 30px auto 0 auto;
+    position: relative;
+    width: 518px
+}
+
+#placePictureSlide {
+    height: 550px;
+    margin-left: -450px;
+    width: 900px
+}
+
+#placePictureSlide .modal-header {
+    border-bottom: 1px solid #ccc
+}
+
+#placePictureSlide .modal-body {
+    max-height: 100000px
+}
+
+.schedule-place-slide {
+    border-right: 1px solid #ccc;
+    float: left;
+    height: 538px;
+    width: 239px
+}
+
+.other-fee-title-row {
+    border-bottom: none !important
+}
+
+.fee-add-other-content {
+    margin-left: 8%
+}
+
+.place-photos-slide {
+    height: auto;
+    margin: 0 auto;
+    width: 852px
+}
+
+.schedule-place-content {
+    height: 538px;
+    width: 630px
+}
+
+.trip-picture-empty p {
+    font-size: 18px;
+    line-height: 25px
+}
+
+.camera-picture-star {
+    background-position: -339px -29px;
+    cursor: default;
+    height: 13px;
+    left: 115px;
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    z-index: 2
+}
+
+.camera-picture-star1 {
+    left: 80px;
+    top: 10px
+}
+
+.camera-picture-star2 {
+    left: 86px;
+    top: 25px
+}
+
+.camera-picture-back {
+    background-position: 0 -89px;
+    cursor: default;
+    height: 79px;
+    width: 77px
+}
+
+.trip-pictureword-upload-bar-container {
+    background-color: #FFF;
+    height: 398px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 20px;
+    z-index: 2
+}
+
+.trip-pictureword-upload-images .trip-pictureword-upload-bar-container {
+    top: 0
+}
+
+.trip-pictureword-upload-custom-bar {
+    background-color: #CCC;
+    cursor: pointer;
+    display: none;
+    height: 90px;
+    position: absolute;
+    width: 6px;
+    z-index: 2
+}
+
+#travelItemsEditor {
+    height: 450px;
+    margin-left: -350px;
+    width: 700px
+}
+
+.textEditor {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    height: 350px;
+    margin: 0 auto;
+    max-height: 350px;
+    overflow-y: scroll;
+    width: 650px
+}
+
+#textEditorBar {
+    margin-left: 24px
+}
+
+.textSaveBtn {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 3px 23px 0 0
+}
+
+#textSaveBtn:hover, #textSaveBtn:focus {
+    color: #fff
+}
+
+.trip-picture-remark-input {
+    color: #999;
+    height: 157px;
+    margin: -2px 0 0;
+    overflow: hidden;
+    text-align: left;
+    width: 253px
+}
+
+.scheduleRemark-closeButton {
+    background-position: 0 0;
+    display: none;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 12px;
+    z-index: 3
+}
+
+.trip-picture-word-upload-item .trip-picture-remark-input {
+    display: none;
+    height: 128px;
+    margin: 0;
+    width: 100%
+}
+
+.trip-pictureword-upload-item {
+    background-color: #f5f5f5;
+    cursor: move;
+    float: left;
+    height: auto;
+    margin: 27px 0 0 21px;
+    position: relative;
+    text-align: center;
+    transition: none;
+    width: 250px
+}
+
+#tripImageUpload {
+    height: 500px;
+    margin-left: -425px;
+    width: 850px
+}
+
+.trip-pictureword-upload-close-btn {
+    background-position: -38px -33px;
+    display: none;
+    height: 13px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 13px;
+    z-index: 3
+}
+
+.trip-pictureword-image-outer {
+    height: 130px;
+    overflow: hidden;
+    width: 100%
+}
+
+.trip-pictureword-upload-item-image {
+    height: 100%;
+    width: 100%
+}
+
+.picture-word-in-placename-select {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 14px 0 8px 0;
+    width: 150px
+}
+
+.single-upload-button {
+    display: none
+}
+
+.trip-picture-word-upload-item .trip_schedule_editor_now_remark {
+    float: right;
+    margin: 14px 0 8px 0
+}
+
+.trip-picture-word-upload-item .trip-picture-remark-input-scroll-container, .trip-picture-word-upload-item .trip-picture-remark-input-scroll-container {
+    display: none
+}
+
+.trip-picture-remark-input-scroll-container {
+    background-color: #F5F5F5;
+    height: 149px;
+    position: absolute;
+    right: 3px;
+    top: 19px;
+    width: 17px;
+    z-index: 1
+}
+
+.trip-picture-remark-input-scroll-bar {
+    background-color: #BBB;
+    cursor: pointer;
+    display: none;
+    height: 22px;
+    left: 5px;
+    width: 6px
+}
+
+.trip-schedule-picture-word-model {
+    background-color: #FFF;
+    border-left: 1px solid #CCC;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%
+}
+
+.trip-schedule-picture-word-bottom-space {
+    height: 100px;
+    width: 100%
+}
+
+.trip-schedule-cover-box {
+    border: 1px solid #DDD;
+    border-radius: 4px 4px 4px 4px;
+    height: 355px;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-bottom: 4px;
+    width: 80%
+}
+
+.trip-schedule-cover-box-space {
+    height: 40px;
+    width: 100%
+}
+
+.trip-schedule-cover-image-out {
+    border-radius: 4px 4px 4px 4px;
+    height: auto;
+    margin: 4px auto 0;
+    overflow: hidden;
+    position: relative;
+    width: 98.5%
+}
+
+.trip-schedule-cover-title-container {
+    background-image: url("/img/asset2/translucent.png");
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+
+.trip-schedule-change-cover {
+    bottom: 2px;
+    color: #FFF;
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    right: 2px;
+    width: 70px;
+    z-index: 2
+}
+
+#uploadItineraryCoverPictureForm {
+    display: none
+}
+
+.trip-schedule-change-cover-ico {
+    height: 13px;
+    width: 13px
+}
+
+.trip-schedule-change-cover-ico img {
+    height: 100%;
+    width: 100%
+}
+
+.trip-schedule-cover-image {
+    height: 350px;
+    width: 100%
+}
+
+.trip-schedule-cover-ico-out {
+    background-position: -72px -245px;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    height: 45px;
+    margin: 6px 0 0 11px;
+    overflow: hidden;
+    width: 45px
+}
+
+.trip-schedule-cover-title-out {
+    color: #fff;
+    float: left;
+    height: auto;
+    margin-left: 12px;
+    overflow: hidden;
+    width: 90%
+}
+
+.trip-schedule-cover-title-div {
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 100%
+}
+
+.trip-schedule-cover-creater {
+    clear: both;
+    height: auto;
+    line-height: 20px;
+    width: 100%
+}
+
+.trip-schedule-cover-interval {
+    height: 10px;
+    margin: 30px auto;
+    width: 90%
+}
+
+.trip-schedule-items-container {
+    font-size: 14px;
+    height: auto;
+    margin: 0 auto 10px auto;
+    width: 640px
+}
+
+.trip-schedule-picture-word-model-scroll {
+    display: none;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 3
+}
+
+.trip-schedule-picture-scroll-bar {
+    background-color: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 10px;
+    width: 6px
+}
+
+.trip-schedule-items-inner {
+    height: auto;
+    margin: 7px auto;
+    overflow-y: visible;
+    width: 97.5%
+}
+
+.trip-schedule-items-image {
+    border-radius: 4px;
+    display: block;
+    height: auto;
+    width: 100%
+}
+
+.trip-schedule-items-image-remark {
+    height: auto;
+    position: relative;
+    width: 100%
+}
+
+.trip-schedule-items-address {
+    border-radius: 0 0 4px 4px;
+    color: #fff;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    padding-left: 4px;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    width: 90%;
+    z-index: 2
+}
+
+#bdshare {
+    z-index: 1 !important
+}
+
+.ui-state-travel-highlight {
+    float: left;
+    height: 180px;
+    margin: 27px 0 0 21px;
+    width: 258px
+}
+
+#wowslider-container1 .ws_images a {
+    display: none !important
+}
+
+.schedule-creator-ico {
+    height: 100%;
+    width: 100%
+}
+
+#coverloadingImg {
+    height: 13px;
+    width: 13px
+}
+
+.customePlace-editorBtn {
+    bottom: 1px;
+    color: #00a1cb;
+    cursor: pointer;
+    height: 18px;
+    left: 122px;
+    position: absolute;
+    width: 30px
+}
+
+.place-selected-schedule-flag {
+    background-position: -82px -89px;
+    bottom: -10px;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    width: 12px;
+    z-index: 1
+}
+
+.driving-route-runing {
+    background-image: url("/Images/asset1/runing.gif");
+    height: 49px;
+    width: 42px
+}
+
+#driveRouteDistanceDuration {
+    color: #333;
+    left: 190px;
+    line-height: 28px;
+    position: absolute;
+    text-align: left;
+    top: 33px;
+    width: 200px
+}
+
+.accordion-toggle:focus {
+    outline: 0;
+    text-decoration: none
+}
+
+#SchedulePriceMessageContent {
+    background-color: #FFF;
+    border-left: 1px solid #CCC;
+    display: none;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+#refreshItineraryButton {
+    cursor: pointer;
+    height: 19px;
+    margin-top: 37px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 19px
+}
+
+#soGouMapContainer {
+    display: none;
+    height: 550px;
+    width: 1000px
+}
+
+#schedulePriceDetails {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%
+}
+
+#schedulePriceTitle {
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    width: 99.3%
+}
+
+#schedulePriceIco {
+    background-position: -122px -128px;
+    height: 48px;
+    margin-top: 10px;
+    width: 73px
+}
+
+#schedulePriceCalculate {
+    height: auto;
+    left: 50px;
+    line-height: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 1
+}
+
+#amountPrice {
+    line-height: 28px;
+    margin: 31px 7px 0 10px
+}
+
+#schedulePriceTable {
+    height: auto;
+    overflow: hidden;
+    width: 99.3%;
+    position: relative
+}
+
+.schedule-price-row {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%
+}
+
+.schedule-price-cell-total {
+    height: auto;
+    width: 15%
+}
+
+.accordion-inner {
+    height: auto;
+    overflow: hidden;
+    width: auto;
+    padding: 0
+}
+
+.fee-place-title-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px dashed #d8d4c8
+}
+
+.fee-place-other-row {
+    border-bottom: 0
+}
+
+.fee-remark-textarea {
+    width: 400px;
+    height: 118px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.fee-remark-textarea:focus {
+    border-color: #7db500
+}
+
+.fee-cell {
+    height: 32px;
+    padding-top: 8px;
+    text-align: center
+}
+
+.fee-remark-cell-outer {
+    height: 120px;
+    margin-bottom: 12px
+}
+
+.accordion-group {
+    margin-bottom: 5px;
+    border: 1px solid #D8D4CB
+}
+
+.fee-place-title-cell {
+    padding-left: .6%;
+    width: 8%;
+    font-weight: bold
+}
+
+#feeItineraryAccordionOuter {
+    height: auto !important
+}
+
+.fee-place-title-cell span {
+    display: inline-block;
+    height: auto;
+    margin-top: 5px;
+    text-align: left;
+    width: 58px
+}
+
+.fee-place-name-cell {
+    width: 91%;
+    min-height: 39px;
+    border-left: 1px dashed #d8d4c8
+}
+
+.fee-place-name-cell .fee-hotel-row:first-child {
+    border-top: 0 none
+}
+
+.fee-hotel-name-cell {
+    width: 20%
+}
+
+.fee-hotel-calculate-cell {
+    width: 13%;
+    text-align: center
+}
+
+.fee-hotel-unitprice-cell {
+    width: 20%;
+    text-align: center
+}
+
+.fee-hotel-amontprice-cell {
+    width: 20%
+}
+
+.fee-hotel-amontprice-cell div {
+    width: 100%;
+    height: 22px
+}
+
+.fee-hotel-amontprice-cell .fee-hotel-unitprice-inline {
+    width: 60px !important
+}
+
+.fee-hotel-remark-cell {
+    width: 18%
+}
+
+.schedule-price-cell-schedule-ico {
+    background-position: -464px -41px;
+    color: #fff;
+    height: 23px;
+    line-height: 21px;
+    margin: 25px 0 25px 5px;
+    text-align: center;
+    width: 23px;
+    cursor: default
+}
+
+.fee-hotel-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top: 1px dashed #CCC;
+    padding-top: 5px;
+    position: relative
+}
+
+.fee-other-remove {
+    background-position: -38px -33px;
+    height: 13px;
+    left: 3.3%;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    z-index: 1
+}
+
+.fee-hotel-row .fee-hotel-name-cell {
+    width: 50%
+}
+
+.fee-hotel-name-inner-cell {
+    width: auto;
+    height: 100%;
+    margin-left: 8%;
+    position: relative
+}
+
+.per-capita-outer {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    position: relative
+}
+
+.per-capita-input {
+    width: 40px;
+    height: 18px !important;
+    text-align: center;
+    margin-right: 10px
+}
+
+.per-capita-input:focus {
+    border-color: #7db500 !important
+}
+
+.other-fee-title-input {
+    width: 50%;
+    margin-left: 8% !important;
+    height: 25px !important;
+    text-align: left
+}
+
+.fee-hotel-row .fee-hotel-calculate-cell {
+    width: 18%
+}
+
+.fee-hotel-row .fee-hotel-unitprice-cell {
+    width: 20%;
+    position: relative
+}
+
+.fee-hotel-unitprice-inline {
+    width: 86px;
+    height: auto;
+    display: inline-block;
+    text-align: left
+}
+
+.fee-car-unitprice-cell {
+    width: 40px;
+    text-align: center;
+    height: 18px !important
+}
+
+.fee-car-unitprice-cell:focus {
+    border-color: #7db500 !important
+}
+
+.fee-hotel-row .fee-hotel-amontprice-cell {
+    width: 12%
+}
+
+.fee-roll-block {
+    height: 32px;
+    line-height: 2;
+    width: 100px
+}
+
+.fee-distance-kilometer {
+    position: absolute;
+    right: 0;
+    top: 4px
+}
+
+.schedule-price-schedule-item {
+    height: auto;
+    margin: 8px 0 8px 30px;
+    overflow: hidden;
+    width: auto
+}
+
+.fee-itinerary-accordion-outer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 12px
+}
+
+.schedule-price-schedule-item p {
+    text-align: left
+}
+
+.other-fee-container .fee-hotel-row {
+    border-bottom: 1px dashed #CCC;
+    border-top: 0
+}
+
+.schedule-price-cell-calculator {
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0;
+    position: absolute;
+    right: -45px;
+    top: 3px;
+    width: 70px;
+    z-index: 1
+}
+
+.schedule-toll-calculating {
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    width: 20px;
+    z-index: 1
+}
+
+.schedule-price-chinese-nuit {
+    height: 20px;
+    width: auto
+}
+
+.fee-calculater-outer {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    position: relative
+}
+
+.fee-roll-cell-uniter {
+    width: 90px;
+    height: auto;
+    margin-top: 0;
+    display: inline-block;
+    text-align: left
+}
+
+.fee-traffic-unite {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: -3px;
+    line-height: 1
+}
+
+.fee-calculater-minus {
+    width: 20px;
+    height: 20px;
+    line-height: .4;
+    cursor: pointer
+}
+
+.fee-calculater-plus {
+    width: 20px;
+    height: 20px;
+    line-height: .7;
+    cursor: pointer
+}
+
+.fee-calculater-input {
+    width: 32px;
+    height: 15px !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    text-align: center
+}
+
+.fee-calculater-input:focus {
+    border-color: #7db500 !important
+}
+
+.schedule-price-row input:focus {
+    border-color: #7db500
+}
+
+.schedule-number-unitgasolene {
+    width: auto;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 140px
+}
+
+.schedule-number-cell {
+    margin-left: 5px;
+    float: left
+}
+
+.schedule-number-cell > input {
+    width: 50px;
+    height: 22px;
+    text-align: center
+}
+
+.schedule-number-cell > input:focus {
+    border-color: #7db500
+}
+
+.schedule-price-panel {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 18px;
+    width: 48px;
+    display: block;
+    margin-top: 26px !important
+}
+
+.accordion-toggle.inntwo-text-normal {
+    background-color: #F1F0EB
+}
+
+.schedule-price-cell-total-inner {
+    margin-top: 26px
+}
+
+#schedulePriceTableTitle {
+    margin: 5px 0;
+    height: 30px;
+    padding: 4px 0 0
+}
+
+.schedule-price-titles {
+    background-color: #D8D4C8;
+    height: 30px;
+    overflow: hidden;
+    padding: 0 15px;
+    width: auto;
+    line-height: 1.8;
+    border-radius: 3px;
+    font-weight: bold
+}
+
+.schedule-price-titles .fee-place-name-cell {
+    height: 30px;
+    line-height: 1.5
+}
+
+#feeTitleItem {
+    padding-left: 0
+}
+
+#feeTitleItem span {
+    margin-top: 4px
+}
+
+#schedulePriceCellContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0
+}
+
+#schedulePriceSaveWarningRow {
+    width: 114px;
+    height: 13px;
+    background-position: -365px -68px;
+    margin-top: 4px;
+    cursor: default;
+    display: none
+}
+
+#schedulePriceCellContainerScroll {
+    background-color: #FFF;
+    height: 405px;
+    position: absolute;
+    right: -3px;
+    top: 44px;
+    width: 20px;
+    z-index: 1
+}
+
+#schedulePriceCellContainerScrollBar {
+    background-color: #CCC;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 8px
+}
+
+#itineraryIsEmptyWarning {
+    width: 100px;
+    height: 35px;
+    margin: 80px auto 0 auto;
+    color: #aaa
+}
+
+.searchLoading {
+    width: 100%;
+    height: 100%
+}
+
+#priceResult {
+    background-color: #FFF;
+    width: 400px;
+    height: 500px;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    z-index: 2
+}
+
+.orign-place-expense-edit, .destination-place-expense-edit, .place-expense-edit {
+    width: 48px;
+    height: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc
+}
+
+.cet-itin-planico-container {
+    width: 268px;
+    height: 24px;
+    margin: 5px 0 0 2px;
+    position: relative
+}
+
+.cet-itin-planico {
+    width: 50px;
+    height: 24px;
+    margin-left: 3px;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+.cet-itin-driverico {
+    width: 16px;
+    height: 14px;
+    background-position: -249px 0;
+    margin: 5px 0 0 18px
+}
+
+.cet-itin-ptrafficico {
+    width: 16px;
+    height: 16px;
+    background-position: -269px 0;
+    margin: 4px 0 0 18px
+}
+
+.cet-itin-trainico {
+    width: 24px;
+    height: 14px;
+    background-position: -289px 0;
+    margin: 5px 0 0 16px
+}
+
+.cet-itin-planeico {
+    width: 15px;
+    height: 14px;
+    background-position: -249px -20px;
+    margin: 5px 0 0 18px
+}
+
+.cet-itin-walkico {
+    width: 19px;
+    height: 20px;
+    background-position: -248px -37px;
+    margin: 2px 0 0 18px
+}
+
+.create-itinerary-wayico {
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+    top: 13px;
+    left: 5px
+}
+
+.BMap_scaleCtrl {
+    left: 150px !important
+}
+
+.BMap_stdMpCtrl {
+    right: 22px !important
+}
+
+.create-itinernary-place-recommend {
+    min-width: 530px;
+    min-height: 220px;
+    border-radius: 3px;
+    text-align: center
+}
+
+.create-itinernary-place-recommend-title {
+    border-radius: 4px 4px 0 0;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.create-itinernary-place-recommend-word {
+    height: 30px;
+    line-height: 1.7;
+    width: auto;
+    padding-top: 5px
+}
+
+.create-itinerary-recommend-row {
+    width: 530px;
+    display: inline-block;
+    min-height: 22px
+}
+
+.create-itinerary-place-recommend-close {
+    background-position: -35px -21px;
+    height: 9px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 9px
+}
+
+.create-itinerary-place-recommend-content {
+    width: 530px;
+    height: auto;
+    border-radius: 0 0 4px 4px;
+    display: inline-block
+}
+
+.create-itinerary-place-recommend-tabs {
+    width: auto;
+    height: 24px;
+    line-height: 1.2;
+    border-radius: 3px;
+    margin: 12px 12px 0 0
+}
+
+.create-itinerary-place-recommend-tabs:hover {
+    background-color: #8ECC00
+}
+
+.float-tabs-s {
+    display: inline-block;
+    height: 100%;
+    line-height: 2;
+    width: auto;
+    padding: 0 8px
+}
+
+.create-itinernary-place-recommend-loacation {
+    width: 20px;
+    height: 36px;
+    background-position: 0 -98px;
+    position: relative !important;
+    margin: 5px 0 0 5px
+}
+
+.create-itinerary-recommend-cityinput {
+    width: 160px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.create-itinerary-plusbtn {
+    width: 10px;
+    height: 11px;
+    background-position: -147px -28px;
+    margin: 7px 7px 0 -4px
+}
+
+.create-itinerary-recommend-warning {
+    width: 530px;
+    display: inline-block;
+    height: 15px;
+    margin-top: 10px
+}
+
+.creat-itinerary-recommend-back {
+    width: 340px;
+    height: 15px;
+    background-position: 0 -70px;
+    cursor: default
+}
+
+.create-itinerary-recommend-input-outer {
+    width: 530px;
+    height: 30px;
+    display: inline-block;
+    height: auto;
+    overflow: hidden
+}
+
+.create-itinerary-recommend-input {
+    width: 435px;
+    height: 28px !important;
+    border: 1px solid #f90 !important;
+    border-radius: 3px
+}
+
+#createItineraryRecommendInput {
+    color: #999
+}
+
+.create-itinerary-recommend-btn {
+    width: 88px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #f60;
+    border: none !important;
+    color: #fff
+}
+
+.next-not-alert {
+    width: 20px;
+    height: 20px
+}
+
+.next-not-popup {
+    width: 75px;
+    height: 20px;
+    margin-top: 4px;
+    text-align: left
+}
+
+.dropdown-toggle:focus {
+    outline: 0
+}
+
+#createItineraryRecommendCityinput {
+    width: 160px;
+    height: 22px
+}
+
+#createItineraryRecommendCityinput:focus {
+    border-color: #7db500
+}
+
+#createItineraryRecommendWarning {
+    display: none
+}
+
+#customePlaceCategory {
+    height: 30px;
+    width: 120px
+}
+
+#customePlaceCategory select {
+    height: 28px;
+    margin-top: 0;
+    padding-left: 5px;
+    width: 100px
+}
+
+#customePlaceCategory select:focus {
+    outline: 1px solid #7db500
+}
+
+.traffic-details-menu {
+    right: -22px;
+    top: 0
+}
+
+#scheduleRemarkEditorWrapper {
+    height: auto;
+    margin-left: -300px;
+    min-height: 583px;
+    width: 600px
+}
+
+#scheduleRemarkEditorBar {
+    margin-left: 24px
+}
+
+.modal-backdrop {
+    z-index: 90
+}
+
+.modal {
+    z-index: 91
+}
+
+#scheduleDescription {
+    width: 447px;
+    height: 150px
+}
+
+#remarkSaveBtn {
+    bottom: 5px;
+    right: 29px
+}
+
+#remarkCancelBtn {
+    bottom: 5px;
+    right: 116px
+}
+
+#itineraryGenerateModal {
+    background: rgba(0, 0, 0, 0.55);
+    display: none;
+    height: 100%;
+    left: 0;
+    min-height: 523px;
+    min-width: 1000px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 5
+}
+
+.hot-places-back {
+    height: 90%;
+    position: relative;
+    width: 100%
+}
+
+.hot-places-bg-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    -ms-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0
+}
+
+.hot-places-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative
+}
+
+.hot-places-content .row {
+    text-align: center
+}
+
+.hot-places-content .row div {
+    text-align: left
+}
+
+.hot-places-search-title-row {
+    height: 12%;
+    min-height: 50px
+}
+
+.hot-places-search-title {
+    display: inline-block;
+    height: 35px;
+    line-height: 1;
+    margin: 1.5% 0;
+    width: auto
+}
+
+#hotPlacesSearchOuter {
+    position: relative;
+    position: absolute;
+    left: 7.5%;
+    top: 12px
+}
+
+.hot-places-search-outer {
+    width: 50%;
+    display: inline-block;
+    height: 40px;
+    -ms-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    overflow: hidden
+}
+
+.hot-places-search-outer input {
+    font-size: 25px !important
+}
+
+#hotPlacesSearchOuter input {
+    border: solid #fff;
+    color: #fff;
+    border-width: 1px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    background: 0;
+    width: 80px;
+    height: 25px;
+    padding-left: 3px
+}
+
+#hotPlacesSearchOuter input:focus {
+    border-color: #fff
+}
+
+.hot-places-search-orign-row {
+    height: 10%;
+    min-height: 42px
+}
+
+.hot-places-search-orign {
+    width: 54px;
+    height: 28px;
+    line-height: 1.4;
+    margin-right: 5px
+}
+
+#homePlacesSearchInput {
+    border: solid #fff;
+    color: #fff;
+    border-width: 1px 0 1px 1px;
+    -ms-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    background: 0;
+    width: 80%;
+    height: 37px;
+    padding-left: 5px
+}
+
+#hotPlaceBoxset {
+    display: inline-block;
+    height: 79%;
+    text-align: left;
+    width: 85%;
+    margin-top: 5%;
+    position: relative
+}
+
+.hot-places-category-row {
+    height: 75.1%
+}
+
+.hot-places-category {
+    width: 85%;
+    height: 95%;
+    display: inline-block;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    padding: 12px 0 0 24px;
+    margin-left: 27px
+}
+
+.hot-places-categories-outer {
+    width: 100%;
+    height: 25px
+}
+
+.hot-places-categories {
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 3px solid #f5f5f5
+}
+
+.hot-places-categories:hover {
+    border-bottom: 3px solid #00a1cb
+}
+
+#homePlacesCategoriesOuter {
+    border-bottom: 0;
+    margin-bottom: 5px
+}
+
+#homePlacesCategoriesOuter a {
+    border: 0;
+    background: 0;
+    color: #333;
+    cursor: pointer
+}
+
+#homePlacesCategoriesOuter a:focus {
+    outline: 0;
+    text-decoration: none
+}
+
+#homePlacesCategoriesOuter .active {
+    border-bottom: 3px solid #00a1cb
+}
+
+#homePlacesSearchButton {
+    background-color: #F63;
+    border: 0 none;
+    -ms-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    height: 80px;
+    margin-top: -26px;
+    overflow: hidden;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 0;
+    width: 10%
+}
+
+.tab-content {
+    overflow: visible;
+    height: 87%
+}
+
+.hot-places-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: visible
+}
+
+.hot-place-box-colse {
+    background-position: -72px -37px;
+    height: 23px;
+    position: absolute;
+    right: -10px;
+    top: -8px;
+    width: 23px;
+    z-index: 1
+}
+
+.hot-places-container {
+    width: 22.73%;
+    height: 45%;
+    margin: 0 2.26% 1.5% 0;
+    position: relative
+}
+
+.home-place-img-animate {
+    width: 230px;
+    height: 140px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0
+}
+
+.hot-places-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.hot-places-favorite {
+    background-position: -304px -14px;
+    height: 34px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 34px;
+    z-index: 2
+}
+
+.hot-places-favorite:hover {
+    background-position: -429px -20px
+}
+
+.hot-places-address {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.5)
+}
+
+.home-place-marker {
+    width: 12px;
+    height: 16px;
+    background-position: -176px -104px;
+    margin: 5px 0 0 5px
+}
+
+.home-place-address {
+    height: 16px;
+    margin: 4px 0 0 5px;
+    width: 40%;
+    overflow: hidden
+}
+
+.hot-places-selected-container {
+    width: 100%;
+    height: 77px;
+    text-align: center;
+    -ms-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px
+}
+
+.home-place-selected-wrapper {
+    height: 64px;
+    margin-top: 8px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    width: 89%
+}
+
+.hot-places-not-once-again {
+    bottom: 10px;
+    height: 20px;
+    width: 63px;
+    position: relative;
+    padding-top: 44px;
+    margin-left: 5px
+}
+
+.hot-places-not-once-again div {
+    left: 15px;
+    position: absolute;
+    bottom: -5px;
+    cursor: pointer
+}
+
+.hot-places-box {
+    width: 34px;
+    height: 64px;
+    background-position: -285px -89px;
+    cursor: default;
+    margin-right: 13px
+}
+
+.hot-places-box-ico {
+    cursor: default;
+    height: 34px;
+    width: 34px;
+    background-position: -304px -14px;
+    margin: 16px 4px
+}
+
+.home-place-selected-remark {
+    width: auto;
+    height: auto;
+    overflow: hidden
+}
+
+.home-palce-selected-container {
+    width: auto;
+    height: auto;
+    display: none
+}
+
+.hot-places-selected-wrapper {
+    height: 60px;
+    line-height: 4;
+    margin-right: 9px;
+    text-align: center;
+    width: 104px;
+    position: relative
+}
+
+.hot-place-box-center {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1
+}
+
+.hot-places-selected-wrapper img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.hot-places-box-name {
+    width: auto;
+    height: 20px;
+    display: inline-block
+}
+
+.hot-places-selected-close {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-position: -38px -33px;
+    z-index: 1
+}
+
+.hot-places-word {
+    width: auto;
+    height: 20px;
+    margin-top: 16px;
+    line-height: 32px
+}
+
+#generationItinerary {
+    height: 44px;
+    padding: 0 15px;
+    margin-top: 10px
+}
+
+.itinerary-planning-container {
+    display: none
+}
+
+.itinerary-planning-wrapper {
+    height: auto;
+    overflow: hidden;
+    margin: 14% auto 0 auto;
+    text-align: center;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 0 12px 2px #333;
+    position: relative;
+    padding: 4px
+}
+
+#interruptOperation {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    color: #00a1cb
+}
+
+.itinerary-planning-wrapper img {
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px
+}
+
+.itinerary-planning-status {
+    width: auto;
+    margin-top: 5px;
+    display: inline-block
+}
+
+#itineraryPlanningContainer {
+    display: none
+}
+
+.createitinerary-addplace-animate {
+    position: absolute;
+    z-index: 20
+}
+
+.planing-schedule-button {
+    position: absolute;
+    right: 0
+}
+
+.planing-schedule-message {
+    width: auto;
+    margin: 0 auto;
+    display: inline-block
+}
+
+#scheduleRemarkEditorWrapper {
+    height: 500px;
+    margin: 20px auto 10px auto;
+    width: 600px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px
+}
+
+#scheduleRemarkEditorWrapper h4 {
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    margin: 0;
+    padding: 8px 0 8px 8px
+}
+
+#itineraryRemarkTb {
+    width: 540px;
+    height: auto;
+    margin: 0 auto
+}
+
+#itineraryRemarkTb td {
+    padding-top: 10px
+}
+
+#itineraryRemarkTb tr td:nth-child(2n-1) {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px
+}
+
+#itineraryRemarkTb tr td textarea {
+    width: 445px;
+    height: 65px
+}
+
+.schedule-remark-wrapper {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    overflow-y: auto
+}
+
+.attraction-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    display: none
+}
+
+.attracction-background-container {
+    width: 800px;
+    height: auto;
+    background-color: #fff;
+    margin: 20px auto 50px auto;
+    -ms-border-radius: 4px;
+    border-radius: 4px
+}
+
+.attraction-detailcontainer-header {
+    height: auto;
+    width: 100%;
+    border-bottom: 2px solid #d8d4c8;
+    position: relative
+}
+
+.attraction-name-details {
+    width: 100%;
+    height: 45px
+}
+
+.attraction-name-text {
+    margin: 15px 5px 0 15px;
+    width: auto
+}
+
+.attraction-name-leavel {
+    width: auto;
+    height: 20px;
+    float: left;
+    margin-top: 18px
+}
+
+.attraction-price {
+    width: auto;
+    height: 34px;
+    float: right;
+    font-size: 14px;
+    margin-right: 40px;
+    margin-top: 10px
+}
+
+.attraction-price-x {
+    padding: 3px;
+    width: auto
+}
+
+.attraction-details {
+    min-height: 85px;
+    width: 100%
+}
+
+.attraction-details ul {
+    list-style: none;
+    margin-left: 15px
+}
+
+.attraction-close {
+    background-position: 0 -11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 6px;
+    top: 6px
+}
+
+.attraction-tags-title {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    top: 40px;
+    right: 10px
+}
+
+.attraction-banner-container {
+    height: 360px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.attraction-banner-img-left {
+    width: 560px;
+    height: 336px;
+    margin: 15px 0 0 16px;
+    float: left
+}
+
+.attraction-banner-img-left img {
+    width: 100%;
+    height: 100%
+}
+
+.attraction-banner-img-right {
+    width: 215px;
+    height: 345px;
+    float: right;
+    margin-top: 12px;
+    position: relative
+}
+
+.attraction-banner-img-inner {
+    position: absolute
+}
+
+.attraction-banner-img {
+    border: 4px solid #fff;
+    background-color: #FFF;
+    height: auto;
+    margin: 0;
+    width: 200px
+}
+
+.attraction-banner-img img {
+    cursor: pointer;
+    height: 102px;
+    margin: 2px;
+    width: 196px
+}
+
+#nav {
+    width: 767px;
+    height: 30px;
+    border-bottom: 2px solid #00a1cb;
+    margin-left: 15px;
+    z-index: 2
+}
+
+#nav a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    background-color: #d8d4c8;
+    -ms-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 3px
+}
+
+#nav a:hover {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+#nav a:focus {
+    color: #fff
+}
+
+.attraction-title-details {
+    clear: both;
+    width: 800px;
+    height: 1px
+}
+
+.tongcheng-logo {
+    background-image: url("/Images/asset-sprites/logos.png");
+    background-position: -3px -3px;
+    height: 22px;
+    width: 80px;
+    margin: auto
+}
+
+.booking-table tr td {
+    border-bottom: 2px solid #d8d4c8;
+    height: 60px
+}
+
+.margin-left15 > tr > td > a {
+    height: 36px
+}
+
+.booking-table {
+    width: 768px
+}
+
+.attraction-price-title {
+    width: 769px;
+    height: 28px;
+    background-color: #f1f0e8;
+    margin: 5px 0 0 15px;
+    position: relative;
+    padding-top: 3px
+}
+
+.attraction-txw-logo {
+    width: 74px;
+    height: 19px;
+    background-image: url("/Images/asset-sprites/logos.png");
+    background-position: -3px -3px;
+    position: absolute;
+    left: 10px
+}
+
+.attraction-ticket-text {
+    width: auto;
+    height: 19px;
+    position: absolute
+}
+
+.attraction-ticket-class {
+    left: 140px
+}
+
+.attraction-ticket-price {
+    left: 290px
+}
+
+.attraction-ticket-price-y {
+    left: 403px
+}
+
+.attraction-pay {
+    right: 210px
+}
+
+.attraction-operation {
+    right: 50px
+}
+
+.attraction-ticket-details {
+    width: 777px;
+    height: 198px
+}
+
+.attraction-ticket-big-people {
+    width: 769px;
+    height: 68px;
+    border-bottom: 2px solid #d8d4c8;
+    margin-top: 2px;
+    margin-left: 15px;
+    overflow: hidden
+}
+
+.attraction-ticket-name {
+    width: 95px;
+    height: 73px;
+    background-color: #f1f0e8;
+    text-align: center;
+    line-height: 28px
+}
+
+.attraction-ticket-w {
+    width: 673px;
+    height: 34px;
+    border-bottom: 1px dashed #d8d4c8
+}
+
+.attraction-ticket-price-details {
+    width: 670px;
+    height: 34px;
+    list-style: none;
+    margin: 0
+}
+
+.attraction-ticket-price-details li {
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    float: left;
+    width: 20%
+}
+
+.attraction-ticket-price-details > .inntwo-text-info {
+    width: 17%
+}
+
+.attraction-ticket-price-details > .inntwo-text-normal {
+    width: 29%
+}
+
+.attraction-ticket-price-details > .inntwo-text-waring {
+    width: 14%;
+    text-align: left
+}
+
+.pay-plan {
+    width: 52px;
+    height: 19px;
+    line-height: 19px;
+    border-bottom: 1px dashed #00a1cb;
+    margin-top: 4px;
+    margin-left: 17px;
+    cursor: pointer
+}
+
+.itineraries-add-plan {
+    width: auto;
+    height: 20px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #7DB500;
+    float: left;
+    color: white;
+    line-height: 20px;
+    margin: 4px 0 0 15px;
+    padding: 0 8px;
+    cursor: pointer;
+    display: none
+}
+
+.attraction-stay-details {
+    width: 768px;
+    height: 125px;
+    border-bottom: 2px solid #d8d4c8;
+    margin-left: 15px
+}
+
+.attraction-stay-spots-name {
+    height: 125px;
+    width: 95px;
+    background-color: #f1f0e8;
+    text-align: center
+}
+
+.attraction-stay-spots {
+    width: 673px;
+    height: 125px
+}
+
+.attraction-stay-spots-price {
+    width: 670px;
+    height: 120px;
+    list-style: none;
+    margin: 0
+}
+
+.attraction-stay-spots-price li {
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    float: left;
+    width: 20%
+}
+
+.attraction-stay-spots-price > .inntwo-text-info > div {
+    width: 146px;
+    height: 104px;
+    line-height: 15px;
+    margin: 13px;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: left
+}
+
+.attraction-stay-spots-price > li > .pay-plan {
+    margin-top: 48px
+}
+
+.attraction-stay-spots-price > li > div {
+    margin-top: 48px
+}
+
+.tags {
+    background-color: #00A1CB;
+    -ms-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    height: 30px;
+    line-height: .87;
+    margin-top: 20px;
+    padding-right: 10px;
+    width: 88px
+}
+
+.tags span {
+    display: block;
+    padding: 7px 5px 5px 18px
+}
+
+.margin-left15 {
+    margin-left: 15px;
+    height: auto
+}
+
+.notes-content {
+    width: 743px;
+    min-height: 200px;
+    padding: 10px 12px 20px
+}
+
+.attraction-content {
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    width: 743px;
+    background-color: #fff;
+    height: auto;
+    padding: 0 12px 12px;
+    min-height: 200px
+}
+
+.attraction-content1 {
+    width: 100%;
+    height: auto
+}
+
+.attraction-menu {
+    padding: 0 12px 20px;
+    min-height: 200px
+}
+
+.attraction-content2 {
+    width: 100%;
+    height: 500px
+}
+
+.attraction-create-comment {
+    padding-bottom: 12px;
+    margin: 0 auto;
+    height: auto
+}
+
+.attraction-comment-input {
+    border: 1px solid #CCC;
+    height: 110px;
+    width: 644px
+}
+
+.attraction-comment-stars {
+    height: 28px;
+    margin-top: -4px;
+    -moz-min-width: 108px;
+    -ms-min-width: 108px;
+    -o-min-width: 108px;
+    -webkit-min-width: 108px;
+    min-width: 108px
+}
+
+.attraction-comments {
+    width: 680px;
+    height: 160px
+}
+
+.attraction-create-comment3 {
+    height: 240px;
+    width: 100%;
+    margin-top: 20px
+}
+
+.attraction-comment-ico {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-top: 28px;
+    margin-left: 20px
+}
+
+.attraction-comment-ico img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -ms-border-radius: 4px;
+    border-radius: 4px
+}
+
+.comment {
+    width: 730px;
+    height: auto;
+    margin: 15px auto auto;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    overflow: hidden
+}
+
+.comment-ico {
+    width: 60px;
+    height: 60px;
+    float: left;
+    position: relative
+}
+
+.attraction-comment-content {
+    width: 440px;
+    height: auto
+}
+
+.comment-ico img {
+    width: 60px;
+    height: 60px;
+    -ms-border-radius: 3px;
+    border-radius: 3px
+}
+
+.comment-user-ico {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.comment-content {
+    float: left;
+    width: 520px;
+    margin-left: 10px
+}
+
+.comment-content .inntwo-text-large {
+    font-weight: bold
+}
+
+.comments-rating {
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0
+}
+
+#commendSubmit {
+    margin: 0 40px 40px 40px
+}
+
+#placePopupFavorite {
+    padding: 0 10px;
+    position: absolute;
+    bottom: 2px;
+    right: 10px
+}
+
+#attractionTabsContainer {
+    display: block;
+    height: auto;
+    padding-left: 15px;
+    width: 770px;
+    border-color: #00a1cb;
+    overflow: hidden;
+    padding-top: 10px
+}
+
+#attractionTabsContainer li a {
+    padding: 5px 15px;
+    background-color: #d8d4c8
+}
+
+.attraction-tabs-selected {
+    background-color: #00a1cb !important;
+    color: #fff !important
+}
+
+#notes {
+    min-height: 180px
+}
+
+.div-user {
+    width: 85px;
+    margin: 5px
+}
+
+.div-user img {
+    width: 79px;
+    height: 79px;
+    border-radius: 4px
+}
+
+#WeiboDetails .div-user p {
+    font-size: 12px;
+    -moz-word-break: break-all;
+    -o-word-break: break-all;
+    word-break: break-all
+}
+
+#WeiboDetails p {
+    font-size: 14px
+}
+
+#WeiboDetails .talk-content {
+    font-size: 12px;
+    margin: 10px 0
+}
+
+#WeiboDetails li {
+    margin: 10px 0;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 0
+}
+
+.att-mark {
+    display: inline-block;
+    width: 17px;
+    height: 23px;
+    background-position: -73px 0
+}
+
+.attractionDetail-talk-title {
+    margin: 10px 0
+}
+
+#WeiboDetails .span5 {
+    width: 660px;
+    margin-left: 0
+}
+
+#WeiboDetails .thumbnail {
+    border: 0;
+    box-shadow: none;
+    margin-left: 0;
+    width: auto
+}
+
+#WeiboDetails .thumbnail img {
+    width: 80px;
+    height: 80px;
+    cursor: url("/images/asset3/big.cur"), auto;
+    cursor: url("/images/asset3/big.cur"), -moz-zoom-out
+}
+
+#WeiboDetails .thumbnails {
+    margin-left: 0;
+    width: 470px
+}
+
+.thumbnail-small {
+    display: inline-block;
+    width: 50px;
+    float: left;
+    margin: 0 2px
+}
+
+.thumbnail-small:hover {
+    border: 2px solid #cd5c5c;
+    opacity: 1
+}
+
+.thumbnail-small img {
+    width: 50px;
+    height: 50px
+}
+
+.thumbnail-big img {
+    width: 436px
+}
+
+.thumbnails-small {
+    float: left;
+    position: relative;
+    height: 54px;
+    overflow: hidden;
+    width: 1000px;
+    text-align: left
+}
+
+.thumbnail-controll {
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    width: 12px;
+    background: #e6e6e6;
+    color: #000
+}
+
+.thumbnail-controll:hover {
+    color: #000
+}
+
+.thumbnails-small-div {
+    position: relative;
+    width: 406px;
+    height: 54px;
+    overflow: hidden;
+    word-wrap: break-word;
+    float: left
+}
+
+.imgview-big {
+    width: 600px;
+    display: none;
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9
+}
+
+.imgsview-small-controll {
+    width: 455px;
+    height: 50px;
+    margin: 10px auto
+}
+
+.thumbnails-select {
+    border: 2px solid #cd5c5c;
+    opacity: 1
+}
+
+.thumbnails-noselect {
+    border: 2px solid #fff;
+    opacity: .5
+}
+
+.cursor-zoom {
+    cursor: url("/images/asset3/small.cur"), auto;
+    cursor: url("/images/asset3/small.cur"), -moz-zoom-out
+}
+
+.cursor-prev {
+    cursor: url("/images/asset3/pic_prev.cur"), auto;
+    cursor: url("/images/asset3/pic_prev.cur"), -moz-zoom-out
+}
+
+.cursor-next {
+    cursor: url("/images/asset3/pic_next.cur"), auto;
+    cursor: url("/images/asset3/pic_next.cur"), -moz-zoom-out
+}
+
+#attraPopupContainer .tab-pane {
+    min-height: 200px
+}
+
+.text-vcenter {
+    vertical-align: top
+}
+
+.weibo-loading-wrapper {
+    margin: 0 auto;
+    text-align: center
+}
+
+.attracction-background-container .data-loading-wrapper {
+    margin: 5% auto
+}
+
+.attraction-nodata {
+    height: 150px;
+    padding-top: 50px
+}
+
+#attraction-nodata {
+    margin: 5% auto
+}
+
+.attraction-banner-img-right .thumbnail-controll {
+    position: absolute;
+    z-index: 10;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background: #222;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: .5;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    line-height: 25px;
+    display: none
+}
+
+.attraction-banner-img-right .thumbnail-controll:hover {
+    color: #fff;
+    opacity: 1
+}
+
+.attraction-banner-img-right .thumbnail-controll:active, .attraction-banner-img-right.thumbnail-controll:visited {
+    color: #fff
+}
+
+.attractionDetail-smallimgs {
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 5px
+}
+
+.thumbnail-prev {
+    top: 5px
+}
+
+.thumbnail-next {
+    bottom: 5px
+}
+
+.attractionDetail-hot {
+    display: inline-block;
+    background-position: -27px -28px;
+    height: 12px;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    width: 20px;
+    z-index: 1
+}
+
+#sideOfRoadSearchRadiusRow a {
+    width: 25px;
+    height: 25px
+}
+
+#sideOfRoadSearchRadiusRow a:focus, #sideOfRoadSearchRadiusRow a:hover {
+    outline: 0;
+    color: #00a1cb
+}
+
+.delicious-scroller {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 100%
+}
+
+.delicious-container {
+    border-radius: 4px;
+    height: auto;
+    margin: 40px auto;
+    overflow: hidden;
+    width: 700px
+}
+
+.delicious-banner-wrapper {
+    width: 100%;
+    height: auto
+}
+
+.delicious-banner-wrapper > img {
+    width: 100%;
+    height: auto
+}
+
+.delicacy-popup-close {
+    background-position: -35px -21px;
+    height: 9px;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    width: 9px
+}
+
+.delicious-content-wrapper {
+    width: 660px;
+    height: auto;
+    margin: 0 auto
+}
+
+#deliciousContentTitles {
+    top: 0;
+    left: 0;
+    padding: 0 20px
+}
+
+.delicious-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.delicious-content-title {
+    line-height: 2
+}
+
+.delicious-title {
+    width: auto;
+    height: auto;
+    line-height: 2
+}
+
+.delicious-content-grade {
+    width: auto;
+    height: auto;
+    line-height: 2px;
+    padding: 14px 0 0 5px
+}
+
+.delicious-price-title {
+    margin-top: 3px
+}
+
+.delicious-price {
+    width: auto;
+    height: auto;
+    margin-left: 25px
+}
+
+#deliciousAddtoSchedule {
+    display: block;
+    padding: 0 10px;
+    right: 0;
+    bottom: 2px
+}
+
+.delicious-stamps {
+    width: auto;
+    height: auto;
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 4px;
+    line-height: 1
+}
+
+.delicious-contacts {
+    height: auto;
+    line-height: 25px;
+    padding: 10px 0;
+    width: auto;
+    max-width: 460px
+}
+
+.delicious-dianping-ico {
+    width: 24px;
+    height: 24px;
+    background-position: -70px 0;
+    display: block;
+    margin-right: 5px
+}
+
+.delicious-grades {
+    width: 200px;
+    height: auto
+}
+
+.delicious-grade-background {
+    width: 140px;
+    height: 12px;
+    line-height: 1
+}
+
+.delicious-grade-flavors {
+    width: 100px;
+    height: 12px
+}
+
+.delicious-grade-environment {
+    width: 80px;
+    height: 12px
+}
+
+.delicious-grade-service {
+    width: 70px;
+    height: 12px
+}
+
+.delicious-shop-active {
+    line-height: 2;
+    margin-top: 17px
+}
+
+.delicious-shop-activeitem {
+    width: 330px;
+    height: 28px;
+    margin-top: 13px;
+    overflow: hidden
+}
+
+.delicious-shop-activeitem .active-ico {
+    width: 26px;
+    height: 26px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 2
+}
+
+.delicious-tuan-price {
+    line-height: 2
+}
+
+.delicious-shop-activetitle {
+    margin: 2px 0 0 6px;
+    width: 295px;
+    line-height: 2
+}
+
+.delicious-comments {
+    position: relative;
+    min-height: 94px;
+    margin-bottom: 20px
+}
+
+.delicious-comments-icomini {
+    border-radius: 4px;
+    height: 42px;
+    overflow: hidden;
+    width: 90px;
+    margin-top: -6px
+}
+
+.delicious-comments-icomini img {
+    width: 100%;
+    height: 100%
+}
+
+.delicious-comments-ico {
+    width: 84px;
+    height: 84px
+}
+
+.delicious-comment-username {
+    width: 85px;
+    height: auto;
+    min-height: 12px
+}
+
+.delicious-comment-gradeico {
+    width: auto;
+    height: auto;
+    padding-right: 18px
+}
+
+.delicious-comment-remark {
+    line-height: 1.5;
+    overflow: hidden;
+    width: 530px;
+    padding-top: 5px;
+    clear: both
+}
+
+.delicious-generate-icowrapper {
+    border-radius: 4px;
+    height: auto;
+    margin-right: 27px;
+    min-height: 12px;
+    overflow: hidden;
+    width: 84px
+}
+
+.delicious-comment-generator {
+    width: 547px;
+    height: 84px
+}
+
+.delicious-comment-generator:focus {
+    border-color: #7db500
+}
+
+#commentSubmitBtn {
+    margin: 10px 0 20px 0;
+    line-height: 2.2
+}
+
+#deliciousGenerateCommentRat {
+    height: 100%;
+    width: auto
+}
+
+.delicacy-result-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.delicious-searchcview-scroll {
+    height: auto;
+    max-height: 860px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    width: 97%
+}
+
+#deliciousSearchViewScroll {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 18px;
+    z-index: 100;
+    top: 0
+}
+
+#moreDelicacyQuerySubmit {
+    padding: 0 10px;
+    width: 100px;
+    margin: 0 auto;
+    display: block
+}
+
+#commentLoading {
+    margin-top: 30px
+}
+
+h1 {
+    line-height: 1;
+    padding: 0;
+    margin: 0 0 5px 0
+}
+
+table {
+    width: 100%
+}
+
+.hotel-popup-scroller {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 200;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none
+}
+
+.hotel-popup-container {
+    margin: 20px auto;
+    min-height: 90%;
+    overflow: hidden;
+    padding: 25px 25px 0;
+    width: 760px;
+    border-radius: 4px;
+    position: relative
+}
+
+.hotel-popup-close {
+    background-position: -35px -21px;
+    height: 9px;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    width: 9px
+}
+
+.hotel-popup-row-wrapper {
+    margin-top: 6px
+}
+
+#hotelCommentsPager {
+    margin-bottom: 10px;
+    margin-top: 25px
+}
+
+.hotel-popup-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#HotelPopupRoomesEmpty {
+    margin: 100px 0 200px;
+    display: none
+}
+
+.hotel-popup-bigrow {
+    width: 100%;
+    height: auto
+}
+
+.hotel-popup-column {
+    width: 87.3%
+}
+
+.hotel-popup-column .hotel-popup-row:last-child {
+    border-bottom: 0
+}
+
+.hotel-popup-absborder {
+    border-bottom: 1px solid #d8d4c8;
+    min-height: 80px
+}
+
+.hotel-popup-abstractmsg {
+    width: auto;
+    height: 100%
+}
+
+.hotel-popup-price {
+    width: auto;
+    height: auto;
+    line-height: 1.2
+}
+
+.hotel-popup-albumlarge {
+    width: 570px;
+    height: 340px;
+    overflow: hidden
+}
+
+.hotel-popup-albumlarge img {
+    -moz-min-width: 100%;
+    -ms-min-width: 100%;
+    -o-min-width: 100%;
+    -webkit-min-width: 100%;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.hotel-popup-albummini {
+    width: 180px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px
+}
+
+.hotel-popup-album-btnwrapper {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #fff;
+    border-radius: 23px;
+    position: absolute;
+    left: 74px;
+    text-align: center;
+    line-height: 2;
+    top: 0;
+    cursor: pointer;
+    opacity: .5;
+    z-index: 1
+}
+
+.hotel-popup-album-btnwrapper:hover {
+    opacity: 1
+}
+
+.hotel-popup-albumup-btn {
+    background-position: -103px -56px
+}
+
+.hotel-popup-albummiddle {
+    width: 180px;
+    min-height: 200px;
+    position: absolute
+}
+
+.hotel-popup-album-pics {
+    width: 172px;
+    height: 97px;
+    border: 4px solid #f5f5f5;
+    cursor: pointer
+}
+
+.hotel-popup-album-pics img {
+    width: 100%;
+    height: 100%
+}
+
+.hotel-popup-album-btn {
+    width: 14px;
+    height: 8px;
+    margin: 0 auto;
+    display: inline-block
+}
+
+.hotel-popup-albumdown-btn {
+    background-position: -119px -56px
+}
+
+.hotel-popup-album-down-btnwrapper {
+    bottom: 0;
+    top: auto
+}
+
+#hotelPopupTabs {
+    margin: 20px 0 0 0;
+    border-bottom: 2px #00a1cb solid
+}
+
+.hotel-popup-tabs {
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+    line-height: 2.5
+}
+
+.hotel-popup-tabs:focus {
+    text-decoration: none;
+    color: #fff;
+    outline: 0
+}
+
+.hotel-popup-tabs:hover {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+#hotelPopupBooking {
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+    min-height: 300px
+}
+
+.hotel-popup-ctrip-message {
+    line-height: 2.4;
+    margin-left: 5px
+}
+
+.hotel-popup-ctrip-ico {
+    width: 75px;
+    height: 27px;
+    background-position: 0 -169px;
+    cursor: default
+}
+
+.hotel-popup-yododo-ico {
+    background-position: -195px -167px;
+    cursor: default;
+    height: 29px;
+    width: 111px
+}
+
+.hotel-popup-datesearch {
+    width: 120px;
+    height: 20px;
+    border-color: #f60 !important;
+    cursor: text !important;
+    color: #999 !important
+}
+
+.hotel-popup-datesearch:focus {
+    border-color: #f60 !important
+}
+
+#hotelPopupDateBtn {
+    margin-left: 10px;
+    height: 22px;
+    line-height: 2
+}
+
+.hotel-popup-hotelmsg-height {
+    height: auto;
+    line-height: 3.3;
+    overflow: hidden
+}
+
+.hotel-popup-hotelmsg-title {
+    height: 30px;
+    line-height: 2.6
+}
+
+.hotel-popup-room-type {
+    width: 12%;
+    text-align: left;
+    display: block;
+    padding-left: 5px;
+    line-height: 1.5;
+    padding-top: 7px
+}
+
+.hotel-popup-room-type[href]:focus {
+    outline: 0;
+    text-decoration: none;
+    color: #00a1cb
+}
+
+.hotel-popup-room-type[href]:hover {
+    color: #00a1cb
+}
+
+.hotel-popup-price-title {
+    height: 39px;
+    padding-left: 5px;
+    width: 117px;
+    overflow: hidden
+}
+
+.hotel-popup-bed-type {
+    width: 67px;
+    padding-left: 5px
+}
+
+.hotel-popup-breakfast {
+    width: 67px
+}
+
+.hotel-popup-network {
+    width: 9%
+}
+
+.hotel-popup-room-price {
+    width: 90px;
+    line-height: 2.1;
+    min-height: 10px
+}
+
+.hotel-popup-room-title {
+    line-height: 3.3
+}
+
+.hotel-popup-guarantee {
+    width: 40px;
+    min-height: 10px
+}
+
+.hotel-popup-booking {
+    width: 65px
+}
+
+.hotel-popup-bookingbtn {
+    height: 20px !important;
+    padding: 0;
+    width: 50px !important;
+    line-height: 1.7
+}
+
+.hotel-popup-favoritebtn {
+    width: 70px !important;
+    padding: 0;
+    line-height: 1;
+    position: absolute;
+    right: 1px;
+    bottom: 1px
+}
+
+.hotel-popup-direction {
+    margin-left: 3%;
+    margin-top: 14px;
+    width: 1%
+}
+
+.hotel-popup-direction-ico {
+    width: 7px;
+    height: 9px;
+    background-position: -190px -105px
+}
+
+.hotel-popup-hoteldetials {
+    line-height: 14px;
+    padding-bottom: 8px;
+    display: none
+}
+
+.hotel-popup-hoteldetials p {
+    padding-left: 5px
+}
+
+.hotel-popup-hoteldetials-img {
+    width: 110px;
+    height: 80px
+}
+
+#hotelPopupDetails {
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 20px;
+    padding: 5px
+}
+
+#hotelPopupComments {
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+    width: 99.8%;
+    height: auto;
+    margin-bottom: 12px
+}
+
+#ctripCommentsIframeHotel {
+    width: 100%;
+    min-height: 150px;
+    height: auto
+}
+
+.hotel-popup-comments {
+    height: auto;
+    margin: 20px auto 0;
+    overflow: hidden;
+    padding-bottom: 12px;
+    width: 700px
+}
+
+#hotelPopupCommentStar {
+    width: 320px;
+    margin: 0 auto
+}
+
+#hotelPopupCommentStar div:nth-child(2n+0) {
+    width: 90px
+}
+
+#hotelPopupCommentStar div:nth-child(2n+1) {
+    width: 44px
+}
+
+.hotel-popup-comments-ico {
+    background-position: 0 -169px;
+    height: 29px;
+    width: 76px;
+    cursor: default
+}
+
+.hotel-popup-comments-content {
+    width: 85%;
+    height: auto;
+    margin-left: 14px
+}
+
+#hotepPopupHealthyTitle, #hotepPopupFacilityTitle {
+    margin-left: 30px
+}
+
+.hotel-popup-comments-generate {
+    position: relative;
+    overflow: visible;
+    height: 80px
+}
+
+#hotelPopupCommentsLoginbtn {
+    position: absolute;
+    right: 8px;
+    top: -20px
+}
+
+.hotel-popup-generate-commico {
+    width: 60px;
+    height: 60px
+}
+
+.hotel-popup-generater {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    height: 80px;
+    margin-left: 30px;
+    width: 607px
+}
+
+.hotel-popup-generater:focus {
+    border-color: #7db500
+}
+
+#hotelPopupCommentSubmiter {
+    width: 66px;
+    height: 26px
+}
+
+#hotelPopupCommentSubmiterWraper {
+    margin-top: 0
+}
+
+#hotelRoomsLoading {
+    margin-top: 10%
+}
+
+.start-date-changequery {
+    right: 5px;
+    top: 8px
+}
+
+#sideOfRoadAttractions {
+    box-shadow: -2px 0 6px 0 #999;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    z-index: 1;
+    background-color: #f5f5f5
+}
+
+#hiddenSideOfRoadAttraction {
+    -ms-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    -webkit-box-shadow: -2px 0 5px 0 #333;
+    -ms-box-shadow: -2px 0 5px 0 #333;
+    box-shadow: -2px 0 5px 0 #333;
+    height: 55px;
+    left: -23px;
+    padding: 0;
+    position: absolute;
+    top: 30%;
+    width: 23px;
+    z-index: 0;
+    cursor: pointer
+}
+
+#sideOfRoadAttractionsPager {
+    margin-top: 5px
+}
+
+.sideofroad-attraction-row {
+    line-height: 40px;
+    height: 40px
+}
+
+#sideofroadAttractionTriangle {
+    right: 30px;
+    top: 5px
+}
+
+#createItineraryChannelToal {
+    right: 18px;
+    top: -8px
+}
+
+#inntwoDdlItems {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: auto;
+    right: -20px;
+    width: 124px;
+    top: -4px
+}
+
+.sideofroad-attraction-wrapper {
+    min-height: 113px;
+    position: relative;
+    width: 100%;
+    z-index: 10
+}
+
+.inntwo-ddl-item {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 5px;
+    width: 114px
+}
+
+.inntwo-ddl-item:hover {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+#sideOfRoadAttractionScroll {
+    height: auto;
+    max-height: 768px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 10px;
+    width: 97%
+}
+
+.place-overlay-nearbybutton {
+    bottom: 1px;
+    height: 20px;
+    left: 5px;
+    line-height: 1.3;
+    padding: 0;
+    position: absolute;
+    width: 40px
+}
+
+.attraction-grade-transmitte {
+    bottom: 0;
+    left: 36px
+}
+
+.BMap_vectex_node {
+    background-image: none !important
+}
+
+#nearbySearchRemoveHandle {
+    border-radius: 4px;
+    height: 13px;
+    right: 0;
+    top: 0;
+    width: 13px;
+    z-index: 1;
+    background-position: -38px -33px
+}
+
+#nearbySearchRadius {
+    border: 1px solid #d8d4c8;
+    border-radius: 4px;
+    height: 18px;
+    padding: 0 5px;
+    right: 7px;
+    top: 8px;
+    width: auto;
+    cursor: ew-resize
+}
+
+#sideOfRoadSearchRadiusRow {
+    padding-bottom: 5px
+}
+
+ul.messenger {
+    margin: 0;
+    padding: 0
+}
+
+ul.messenger > li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.messenger.messenger-empty {
+    display: none
+}
+
+ul.messenger .messenger-message {
+    overflow: hidden;
+    *zoom: 1
+}
+
+ul.messenger .messenger-message.messenger-hidden {
+    display: none
+}
+
+ul.messenger .messenger-message .messenger-phrase, ul.messenger .messenger-message .messenger-actions a {
+    padding-right: 5px
+}
+
+ul.messenger .messenger-message .messenger-actions {
+    float: right
+}
+
+ul.messenger .messenger-message .messenger-actions a {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+ul.messenger .messenger-message ul, ul.messenger .messenger-message ol {
+    margin: 10px 18px 0
+}
+
+ul.messenger.messenger-fixed {
+    position: fixed;
+    z-index: 10000
+}
+
+ul.messenger.messenger-fixed .messenger-message {
+    min-width: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+ul.messenger.messenger-fixed .message .messenger-actions {
+    float: left
+}
+
+ul.messenger.messenger-fixed.messenger-on-top {
+    top: 73px
+}
+
+ul.messenger.messenger-fixed.messenger-on-bottom {
+    bottom: 20px
+}
+
+ul.messenger.messenger-fixed.messenger-on-top, ul.messenger.messenger-fixed.messenger-on-bottom {
+    left: 50%;
+    width: 800px;
+    margin-left: -400px
+}
+
+@media (max-width: 960px) {
+    ul.messenger.messenger-fixed.messenger-on-top, ul.messenger.messenger-fixed.messenger-on-bottom {
+        left: 10%;
+        width: 80%;
+        margin-left: 0
+    }
+}
+
+ul.messenger.messenger-fixed.messenger-on-top.messenger-on-right, ul.messenger.messenger-fixed.messenger-on-bottom.messenger-on-right {
+    right: 20px;
+    left: auto
+}
+
+ul.messenger.messenger-fixed.messenger-on-top.messenger-on-left, ul.messenger.messenger-fixed.messenger-on-bottom.messenger-on-left {
+    left: 20px;
+    margin-left: 0
+}
+
+ul.messenger.messenger-fixed.messenger-on-right, ul.messenger.messenger-fixed.messenger-on-left {
+    width: 350px
+}
+
+ul.messenger.messenger-fixed.messenger-on-right .messenger-actions, ul.messenger.messenger-fixed.messenger-on-left .messenger-actions {
+    float: left
+}
+
+ul.messenger .messenger-spinner {
+    display: none
+}
+
+@-webkit-keyframes ui-spinner-rotate-right {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    25% {
+        -webkit-transform: rotate(180deg)
+    }
+    50% {
+        -webkit-transform: rotate(180deg)
+    }
+    75% {
+        -webkit-transform: rotate(360deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes ui-spinner-rotate-left {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    25% {
+        -webkit-transform: rotate(0deg)
+    }
+    50% {
+        -webkit-transform: rotate(180deg)
+    }
+    75% {
+        -webkit-transform: rotate(180deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes ui-spinner-rotate-right {
+    0% {
+        -moz-transform: rotate(0deg)
+    }
+    25% {
+        -moz-transform: rotate(180deg)
+    }
+    50% {
+        -moz-transform: rotate(180deg)
+    }
+    75% {
+        -moz-transform: rotate(360deg)
+    }
+    100% {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes ui-spinner-rotate-left {
+    0% {
+        -moz-transform: rotate(0deg)
+    }
+    25% {
+        -moz-transform: rotate(0deg)
+    }
+    50% {
+        -moz-transform: rotate(180deg)
+    }
+    75% {
+        -moz-transform: rotate(180deg)
+    }
+    100% {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@keyframes ui-spinner-rotate-right {
+    0% {
+        transform: rotate(0deg)
+    }
+    25% {
+        transform: rotate(180deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes ui-spinner-rotate-left {
+    0% {
+        transform: rotate(0deg)
+    }
+    25% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.messenger-spinner {
+    position: relative;
+    border-radius: 100%
+}
+
+ul.messenger.messenger-spinner-active .messenger-spinner .messenger-spinner {
+    display: block
+}
+
+.messenger-spinner .messenger-spinner-side {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute
+}
+
+.messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
+    border-radius: 999px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+.messenger-spinner .messenger-spinner-side-left {
+    left: 0
+}
+
+.messenger-spinner .messenger-spinner-side-left .messenger-spinner-fill {
+    left: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-animation-name: ui-spinner-rotate-left;
+    -moz-animation-name: ui-spinner-rotate-left;
+    -ms-animation-name: ui-spinner-rotate-left;
+    -o-animation-name: ui-spinner-rotate-left;
+    animation-name: ui-spinner-rotate-left;
+    -webkit-transform-origin: 0 50%;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -o-transform-origin: 0 50%;
+    transform-origin: 0 50%
+}
+
+.messenger-spinner .messenger-spinner-side-right {
+    left: 50%
+}
+
+.messenger-spinner .messenger-spinner-side-right .messenger-spinner-fill {
+    left: -100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-animation-name: ui-spinner-rotate-right;
+    -moz-animation-name: ui-spinner-rotate-right;
+    -ms-animation-name: ui-spinner-rotate-right;
+    -o-animation-name: ui-spinner-rotate-right;
+    animation-name: ui-spinner-rotate-right;
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -o-transform-origin: 100% 50%;
+    transform-origin: 100% 50%
+}
+
+ul.messenger-theme-flat {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: #404040
+}
+
+ul.messenger-theme-flat.messenger-empty {
+    display: none
+}
+
+ul.messenger-theme-flat .messenger-message {
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.13), inset 48px 0 0 #292929;
+    -moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.13), inset 48px 0 0 #292929;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.13), inset 48px 0 0 #292929;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    position: relative;
+    border: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    background: transparent;
+    color: #f0f0f0;
+    font-weight: 500;
+    padding: 10px 30px 13px 65px
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #888;
+    opacity: 1;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 8px 10px 7px 7px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-close:hover {
+    color: #bbb
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-close:active {
+    color: #777
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-actions {
+    float: none;
+    margin-top: 10px
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-actions a {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #aaa;
+    background: #2e2e2e;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    padding: 4px 11px 6px;
+    text-transform: capitalize
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-actions a:hover {
+    color: #f0f0f0;
+    background: #2e2e2e
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-actions a:active {
+    background: #292929;
+    color: #aaa
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-actions .messenger-phrase {
+    display: none
+}
+
+ul.messenger-theme-flat .messenger-message .messenger-message-inner:before {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+    display: block;
+    content: " ";
+    top: 50%;
+    margin-top: -8px;
+    height: 13px;
+    width: 13px;
+    z-index: 20
+}
+
+ul.messenger-theme-flat .messenger-message.alert-success .messenger-message-inner:before {
+    background: #5fca4a
+}
+
+ul.messenger-theme-flat .messenger-message.alert-info .messenger-message-inner:before {
+    background: #61c4b8
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error .messenger-message-inner:before {
+    background: #dd6a45
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error.messenger-retry-soon .messenger-spinner {
+    width: 32px;
+    height: 32px;
+    background: transparent
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error.messenger-retry-soon .messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
+    background: #dd6a45;
+    -webkit-animation-duration: 20s;
+    -moz-animation-duration: 20s;
+    -ms-animation-duration: 20s;
+    -o-animation-duration: 20s;
+    animation-duration: 20s;
+    opacity: 1
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error.messenger-retry-soon .messenger-spinner:after {
+    content: "";
+    background: #292929;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    display: block
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error.messenger-retry-later .messenger-spinner {
+    width: 32px;
+    height: 32px;
+    background: transparent
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error.messenger-retry-later .messenger-spinner .messenger-spinner-side .messenger-spinner-fill {
+    background: #dd6a45;
+    -webkit-animation-duration: 600s;
+    -moz-animation-duration: 600s;
+    -ms-animation-duration: 600s;
+    -o-animation-duration: 600s;
+    animation-duration: 600s;
+    opacity: 1
+}
+
+ul.messenger-theme-flat .messenger-message.alert-error.messenger-retry-later .messenger-spinner:after {
+    content: "";
+    background: #292929;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    display: block
+}
+
+ul.messenger-theme-flat .messenger-message-slot.messenger-last .messenger-message {
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow: inset 48px 0 0 #292929;
+    -moz-box-shadow: inset 48px 0 0 #292929;
+    box-shadow: inset 48px 0 0 #292929
+}
+
+ul.messenger-theme-flat .messenger-message-slot.messenger-first .messenger-message {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -ms-border-radius: 0 0 4px 4px;
+    -o-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.13), inset 48px 0 0 #292929;
+    -moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.13), inset 48px 0 0 #292929;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.13), inset 48px 0 0 #292929
+}
+
+ul.messenger-theme-flat .messenger-message-slot.messenger-first.messenger-last .messenger-message {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 48px 0 0 #292929;
+    -moz-box-shadow: inset 48px 0 0 #292929;
+    box-shadow: inset 48px 0 0 #292929
+}
+
+ul.messenger-theme-flat .messenger-spinner {
+    display: block;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    margin-top: -18px;
+    z-index: 999;
+    height: 32px;
+    width: 32px;
+    z-index: 10
+}

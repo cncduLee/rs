@@ -1,0 +1,2463 @@
+.ordinary_marker_start {
+    background-position: 0 0
+}
+
+.ordinary_marker_channel {
+    background-position: -25px 0
+}
+
+.ordinary_marker_destination {
+    background-position: -50px 0
+}
+
+.schedule-update-place-civilize {
+    background-position: -150px 0
+}
+
+.schedule-update-place-nature {
+    background-position: -200px 0
+}
+
+.schedule-update-place-hotel {
+    background-position: -225px -47px
+}
+
+.schedule-update-place-entertain {
+    background-position: -175px 0
+}
+
+.schedule-update-place-custome {
+    background-position: -25px 0
+}
+
+.schedule-update-place-aspect {
+    background-position: -225px -94px
+}
+
+.schedule-update-place-food {
+    background-position: -161px -47px
+}
+
+.schedule-update-hotel-more {
+    background-position: -199px -47px
+}
+
+.place_search_result_civilization {
+    background-position: -75px 0
+}
+
+.place_search_result_natural {
+    background-position: -100px 0
+}
+
+.place_search_result_hotel {
+    background-position: -225px -47px
+}
+
+.place_search_result_entertainment {
+    background-position: -125px 0
+}
+
+.delicacy-search-marker {
+    background-position: -134px -47px
+}
+
+.place_search_result_aspect {
+    background-position: -199px -94px
+}
+
+.home_place_marker {
+    background-image: url("/Images/asset-sprites/markerPng.png");
+    position: absolute;
+    width: 24px;
+    height: 42px;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer
+}
+
+.ordinary_marker_class {
+    position: absolute;
+    width: 24px;
+    height: 42px;
+    background-image: url("/Images/asset-sprites/markerPng.png");
+    cursor: pointer
+}
+
+.place_marker_inner_html {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    color: white
+}
+
+.markerOverlayContainer {
+    display: none
+}
+
+.place_overlay_container {
+    width: 216px;
+    height: 86px;
+    position: absolute;
+    z-index: 1;
+    top: -87px;
+    left: -123px;
+    cursor: default;
+    color: white
+}
+
+.marker-overlay-direction {
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    height: 0;
+    left: 10px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+    border-top: 10px solid #333
+}
+
+.search_place_overlay_image {
+    width: 120px;
+    height: 70px;
+    display: block;
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+
+.search_place_overlay_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 0 0 4px
+}
+
+.search_hotel_overlay_image {
+    width: 76px;
+    height: 70px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.search_place_overlay_right {
+    width: 80px;
+    height: 70px;
+    float: right;
+    position: relative;
+    text-align: left;
+    line-height: 1.4
+}
+
+.search_hotel_overlay_right {
+    width: 121px;
+    height: 70px;
+    float: right;
+    position: relative
+}
+
+.search_place_overlay_place_name {
+    color: #FFF;
+    display: block;
+    height: auto;
+    line-height: 16px;
+    overflow: hidden;
+    padding-left: 5px;
+    text-align: left;
+    width: auto
+}
+
+a.search_place_overlay_place_name:hover {
+    color: #00a1cb
+}
+
+a.search_place_overlay_place_name:focus {
+    color: #fff
+}
+
+.search_place_overlay_place_favorite {
+    background-position: -304px -14px;
+    bottom: 18px;
+    cursor: pointer;
+    height: 34px;
+    position: absolute;
+    right: 43px;
+    width: 34px;
+    z-index: 2
+}
+
+.custome-place-favorite {
+    right: 15px;
+    bottom: 38px;
+    background-position: -304px -14px;
+    cursor: pointer;
+    height: 34px;
+    position: absolute;
+    width: 34px;
+    z-index: 2
+}
+
+.search_place_overlay_place_favorite:hover, .custome-place-favorite:hover {
+    background-position: -429px -20px
+}
+
+.hotel-link-goto-ctrip .search_place_overlay_place_favorite {
+    left: 21px
+}
+
+.addtoschedule-outer .search_place_overlay_place_favorite {
+    left: 0;
+    top: 0
+}
+
+.place_search_result_item .search_place_overlay_place_favorite {
+    left: 43px
+}
+
+.search_place_overlay_nail {
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 2;
+    background-position: -339px -1px;
+    bottom: 2px;
+    right: 0
+}
+
+.search_hotel_overlay_nail {
+    width: 14px;
+    height: 13px;
+    position: absolute;
+    z-index: 2;
+    background-position: -339px -1px;
+    bottom: 2px;
+    right: 0
+}
+
+.search_hotel_overlay_price {
+    width: 71px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    background-position: -339px -1px;
+    bottom: 2px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left
+}
+
+.search_place_overlay_nail_flag {
+    display: none
+}
+
+.place_overlay_inner {
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 #333;
+    cursor: default;
+    height: 70px;
+    margin: 8px 0 0 8px;
+    width: 200px;
+    overflow: hidden
+}
+
+.place_overlay_inner .inntwo-text-ordinary {
+    bottom: 6px;
+    float: left;
+    height: 22px;
+    position: absolute;
+    left: 132px;
+    width: auto;
+    z-index: 2;
+    display: none
+}
+
+.hotel-link-goto-ctrip {
+    display: block;
+    width: 76px;
+    height: 70px;
+    position: absolute;
+    border-radius: 4px 0 0 4px;
+    overflow: hidden
+}
+
+.hotel-link-goto-ctrip img {
+    width: 100%;
+    height: 100%
+}
+
+.placeoverlay_privein_and_city {
+    width: 80%;
+    height: 15px;
+    margin: 5px 0 26px 5px;
+    text-align: left
+}
+
+.placeoverlay_near_hotel_word {
+    width: auto;
+    float: left;
+    height: 100%;
+    margin: 0 12px;
+    color: white
+}
+
+.placeoverlay_near_hotel_container {
+    width: auto;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #7db500;
+    border-radius: 3px
+}
+
+.placeoverlay_near_place_container {
+    width: auto;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #f60;
+    border-radius: 3px
+}
+
+.nearby-overlay-command {
+    width: auto;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 3px
+}
+
+.addtoschedule-outer {
+    bottom: 10px;
+    height: 34px;
+    position: relative;
+    right: -166px;
+    width: 34px
+}
+
+.placeoverlay_near_place_ico {
+    width: 15px;
+    height: 16px;
+    background-position: -104px -360px;
+    float: left
+}
+
+#mapContainer {
+    width: 100%
+}
+
+.custom-place-container {
+    width: 450px;
+    height: 293px;
+    background-color: white
+}
+
+.inntwo-map-right-menu-title {
+    background-color: #0081C2;
+    height: auto;
+    line-height: 18px;
+    overflow: hidden
+}
+
+.inntwo-map-right-menu-ico {
+    width: 12px;
+    height: 16px;
+    background-position: -176px -104px;
+    float: left
+}
+
+#inntwoMapRightMenuTitle {
+    color: #FFF;
+    display: block;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 80px
+}
+
+.inntwo-map-right-menu-item {
+    width: auto;
+    text-align: left;
+    height: 18px;
+    padding: 5px 0 0 5px
+}
+
+div.BMap_cmDivider {
+    display: none
+}
+
+.BMap_contextMenu {
+    width: auto;
+    min-height: 55px;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 10000000;
+    border: 1px solid #ADBFE4 !important;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 #666
+}
+
+.BMap_contextMenu div {
+    margin: 0 !important
+}
+
+.BMap_contextMenu div:hover {
+    background-color: #0081c2;
+    color: #fff !important
+}
+
+.customize-placeMarker-closeBtn {
+    background-position: -178px -89px;
+    display: none;
+    height: 13px;
+    position: absolute;
+    right: -8px;
+    top: -7px;
+    width: 13px;
+    z-index: 1
+}
+
+.route-start-sign {
+    background-position: 0 -77px;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 18px;
+    z-index: 2
+}
+
+.route-end-sign {
+    background-position: -21px -77px;
+    display: block;
+    height: 17px;
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    width: 18px;
+    z-index: 2
+}
+
+.schedule-start-signmarker {
+    background-position: -40px -77px;
+    bottom: 0;
+    height: 29px;
+    position: absolute;
+    right: 0;
+    width: 25px;
+    z-index: 1
+}
+
+.schedule-end-signmarker {
+    background-position: -65px -77px;
+    bottom: 0;
+    height: 29px;
+    position: absolute;
+    right: 0;
+    width: 25px
+}
+
+.add-schedule-map-place {
+    width: 70px;
+    height: 25px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    text-align: center;
+    border-radius: 4px
+}
+
+.accident-event-marker {
+    width: 24px;
+    height: 40px;
+    background-position: -25px -109px;
+    position: absolute;
+    cursor: pointer
+}
+
+.condition-event-marker {
+    width: 24px;
+    height: 40px;
+    background-position: -54px -109px;
+    position: absolute;
+    cursor: pointer
+}
+
+.construction-event-marker {
+    width: 24px;
+    height: 40px;
+    background-position: -82px -109px;
+    position: absolute;
+    cursor: pointer
+}
+
+.accident-event-marker .place_marker_inner_html, .condition-event-marker .place_marker_inner_html, .construction-event-marker .place_marker_inner_html {
+    color: #f63
+}
+
+.accident-event-marker .markerOverlayContainer, .condition-event-marker .markerOverlayContainer, .construction-event-marker .markerOverlayContainer {
+    display: block
+}
+
+.accident-event-marker .marker-number-span, .condition-event-marker .marker-number-span, .construction-event-marker .marker-number-span {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    text-align: left
+}
+
+#soGouMapContainer {
+    width: 1000px;
+    height: 550px
+}
+
+#sogouMap {
+    width: 700px
+}
+
+#tollWrapper {
+    width: 300px
+}
+
+[class*="span"] {
+    margin-left: 0
+}
+
+p {
+    padding-top: 0
+}
+
+.itinerary-warning-color {
+    color: #F63
+}
+
+.itinerary-ordinate-color {
+    color: #fff
+}
+
+.breadcrumb-navigation {
+    width: 1000px;
+    margin: 0 auto;
+    height: 20px;
+    padding-top: 30px
+}
+
+.itinerary-details-order {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.itinerary-row {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden
+}
+
+.first-padding-top {
+    border: 2px solid #d8d4c8;
+    border-radius: 4px;
+    padding: 10px;
+    width: 980px;
+    margin: 5px auto 30px
+}
+
+.itinerary-summary {
+    height: auto;
+    overflow: hidden;
+    width: 70%
+}
+
+.itinerary-cover {
+    width: 213px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+#ItineraryCover {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+
+.itinerary-cover img {
+    width: 210px;
+    height: 125px
+}
+
+.itinerary-abstract {
+    padding-left: 10px;
+    width: 50%
+}
+
+.itinerary-title-out {
+    width: 100%;
+    height: 30px;
+    position: relative
+}
+
+.itinerary-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    height: auto;
+    line-height: 22px;
+    overflow: hidden;
+    margin: 0;
+    max-width: 307px;
+    position: relative
+}
+
+.itinerary-days {
+    font-size: 18px;
+    height: 24px;
+    width: auto;
+    text-align: right
+}
+
+.itinerary-days span {
+    font-size: 30px
+}
+
+.itinerary-author {
+    width: 100%;
+    height: auto;
+    clear: both;
+    line-height: 30px
+}
+
+.itinerary-author a {
+    font-size: 14px
+}
+
+.itinerary-topics {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both
+}
+
+.itinerary-topic {
+    width: auto;
+    height: 18px;
+    float: left;
+    line-height: 17px;
+    margin: 4px 4px 0;
+    padding: 0 4px;
+    border-radius: 4px
+}
+
+.itinerary-page-share {
+    height: auto;
+    margin-top: 6px;
+    overflow: hidden;
+    width: 100%
+}
+
+#itineraryCopyBtn {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin: 165px 0 0 152px;
+    width: 122px
+}
+
+#itineraryCopyBtn:focus {
+    color: #fff;
+    text-decoration: none
+}
+
+.itinerary-copy-btn span {
+    word-spacing: 20px
+}
+
+.itinerary-tabs {
+    border-bottom: 3px solid #00a1cb;
+    height: 30px;
+    overflow: visible
+}
+
+.itinerary-schedule-tab-space {
+    height: 10px;
+    border-radius: 4px 4px 0 0
+}
+
+.itinerary-tab {
+    width: 90px;
+    height: 30px;
+    background-color: #d8d4c8;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-left: 7px;
+    border-radius: 4px 4px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+#itineraryRoadTollTab {
+    display: none
+}
+
+#itineraryOrderTab {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+.itinerary-user-evaluate {
+    width: 244px;
+    height: 16px;
+    float: right;
+    padding-top: 14px;
+    display: none
+}
+
+.itinerary-user-evaluate .count {
+    width: auto;
+    float: left;
+    height: 100%;
+    margin-left: 3px
+}
+
+.itinerary-browse-count {
+    width: 16px;
+    height: 16px;
+    background-position: -106px -1px;
+    position: relative;
+    margin-left: 30px;
+    float: left
+}
+
+.recommend-count {
+    background-position: -124px -1px
+}
+
+.commend-count {
+    background-position: -140px -1px
+}
+
+.itinerary-content-left {
+    height: auto;
+    min-height: 455px;
+    padding-bottom: 20px;
+    width: 1000px
+}
+
+.details-relevance-itineraries {
+    width: 91.7%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.itinerary-content-right {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.itinerary-schedule-orders {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.itinerary-schedule-spots {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: none;
+    padding-top: 22px
+}
+
+.itinerary-spots-isempty {
+    height: auto;
+    line-height: 60px;
+    margin: 150px auto 0;
+    text-align: center;
+    width: 460px
+}
+
+.itinerary-travel {
+    height: auto;
+    margin: 10px 0 0 40px;
+    overflow: hidden;
+    width: 663px
+}
+
+.itinerary-travel-picoutter {
+    width: 663px;
+    height: auto;
+    overflow: hidden;
+    position: relative
+}
+
+.itinerary-travel-picoutter img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    height: auto
+}
+
+.itinerary-place-address {
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 1;
+    left: 3px;
+    bottom: 0;
+    color: #fff
+}
+
+.itinerary-place-remark {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.itinerary-schedule-expense {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    display: none
+}
+
+.itinerary-schedule-commends {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: none
+}
+
+.itinerary-schedule-commendout {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#submitCoometBtn {
+    float: right;
+    margin-top: -4px
+}
+
+.itinerary-schedule-commend {
+    height: auto;
+    margin: 15px auto 0;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 91.7%
+}
+
+#itineraryCommendTextarea {
+    width: 99.8%;
+    min-height: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px
+}
+
+#itineraryCommendInputIco {
+    margin-top: 0
+}
+
+#itineraryCommendInputout {
+    border: 0;
+    margin: 0 auto
+}
+
+#UserIcoImage {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 4px
+}
+
+.itinerary-comment-pager {
+    border-bottom: 0
+}
+
+.itinerary-map-outter {
+    clear: both;
+    height: auto;
+    margin: 0 auto;
+    padding: 34px 0 15px 0;
+    width: 100%
+}
+
+.itinerary-lookover {
+    width: auto;
+    height: 20px;
+    float: right;
+    color: #00a1cb;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer
+}
+
+.itinerary-lookover-ico {
+    width: 12px;
+    height: 12px;
+    background-position: 0 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 3px;
+    left: -14px
+}
+
+.itinerary-map-contianer {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    clear: both;
+    height: 400px;
+    margin-left: 82px;
+    width: 89.7%
+}
+
+.itinerary-map-block {
+    width: 100%;
+    height: 100%
+}
+
+.itinerary-schedules {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+.itinerary-schedules-item-space {
+    width: 100%;
+    height: 34px;
+    line-height: 3.4
+}
+
+.itinerary-schedules-item {
+    width: 99.8%;
+    height: auto
+}
+
+.itinerary-schedules-item-top {
+    border: 1px solid #CCC;
+    border-radius: 4px 4px 0 0;
+    height: 28px;
+    padding-top: 8px;
+    position: relative;
+    width: 99.9999%
+}
+
+.itinerary-schedule-anchors {
+    height: 389px;
+    position: absolute;
+    top: 66px;
+    width: 47px;
+    margin-left: 20px;
+    overflow: hidden
+}
+
+.itinerary-schedule-anchor-wrapper {
+    height: auto;
+    margin-left: 20px;
+    position: absolute;
+    width: 47px;
+    top: 464px
+}
+
+#scheduleAnchorsInner {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.itinerary-schedule-item-wrapper {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 42px
+}
+
+.itinerary-schedule-anchor {
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    border: 1px solid #00a1cb;
+    line-height: 3
+}
+
+.itinerary-schedule-anchor:hover {
+    background-color: #00a1cb;
+    color: #fff;
+    outline: 0;
+    text-decoration: none
+}
+
+.itinerary-schedule-anchor:focus {
+    background-color: #00a1cb;
+    color: #fff;
+    outline: 0;
+    text-decoration: none
+}
+
+.itinerary-schedule-anchor-normal {
+    background-color: #fff;
+    color: #00a1cb
+}
+
+.itinerary-schedule-anchor-hover {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+.itinerary-schedule-anchorbg-focus {
+    background-color: #00a1cb;
+    color: #fff
+}
+
+.itinerary-schedule-anchorbg-blur {
+    background-color: #fff;
+    color: #00a1cb
+}
+
+.itinerary-schedule-anchor-string {
+    width: 23px;
+    height: 10px;
+    border-right: 1px solid #00a1cb
+}
+
+.itinerary-schedule-function-anchor {
+    height: 41px;
+    line-height: 1.2;
+    padding-top: 4px
+}
+
+#copyItinerary {
+    border: 0 none;
+    border-radius: 32px;
+    height: 44px;
+    margin-top: 10px;
+    padding-top: 5px;
+    width: 47px;
+    cursor: pointer;
+    color: #fff
+}
+
+#copyItinerary:hover {
+    background-color: #F60;
+    color: #fff;
+    text-decoration: none;
+    outline: 0
+}
+
+#copyItinerary:focus {
+    background-color: #F60;
+    color: #fff;
+    text-decoration: none;
+    outline: 0
+}
+
+.itinerary-item-top-row {
+    width: 100%;
+    height: 36px;
+    font-size: 14px
+}
+
+.itinerary-days-word {
+    width: 60px;
+    padding-left: 10px
+}
+
+.itinerary-distance {
+    float: right;
+    text-align: right;
+    padding: 2px 5px 0 0;
+    width: auto
+}
+
+.itinerary-create-datetime {
+    width: auto
+}
+
+.itinerary-schedule-abstract {
+    width: 99.9999%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #CCC;
+    border-top-width: 0;
+    overflow: hidden
+}
+
+.view-map, .fare-calculate {
+    margin-left: 20px;
+    cursor: pointer
+}
+
+.itinerary-schedule-mapchart {
+    box-shadow: 0 3px 10px 0 #BBB;
+    cursor: default;
+    height: 400px;
+    position: absolute;
+    width: 530px
+}
+
+.itinerary-schedule-chart {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 150px
+}
+
+#itineraryScheduleChartDayindex {
+    margin: 0 0 40px -24px
+}
+
+.itinerary-schedule-chart-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both
+}
+
+.schedule-chart-color {
+    width: 17px;
+    height: 10px;
+    margin-top: 5px
+}
+
+.schedule-chart-name {
+    width: auto;
+    height: 20px;
+    margin-left: 8px
+}
+
+.schedule-chart-price {
+    width: auto;
+    height: 20px;
+    margin-left: 2px
+}
+
+#schedulePie {
+    width: 350px;
+    height: 350px
+}
+
+.itinerary-schedule-line {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px
+}
+
+.itinerary-schedule-line-row {
+    border-top: 1px dashed #CCC;
+    height: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+    width: 100%
+}
+
+.itinerary-schedule-dis {
+    width: auto;
+    height: 20px;
+    margin-left: 22px
+}
+
+.itinerary-schedule-line-head {
+    min-height: 30px
+}
+
+.itinerary-schedule-traffic-message {
+    height: auto;
+    overflow: hidden;
+    width: 200px
+}
+
+.itinerary-schedule-trafficico-outer {
+    width: 20px;
+    height: 17px;
+    margin-top: 9px
+}
+
+.itinerary-schedule-traffic-ico {
+    width: 16px;
+    height: 14px;
+    background-position: 0 -14px
+}
+
+.itinerary-schedule-pubtraffic-ico {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -31px
+}
+
+.itinerary-schedule-train-ico {
+    background-position: 0 -51px;
+    height: 13px;
+    width: 24px
+}
+
+.itinerary-schedule-plane-ico {
+    background-position: 0 -65px;
+    height: 14px;
+    width: 15px
+}
+
+.itinerary-schedule-walking-ico {
+    background-position: 0 -81px;
+    height: 20px;
+    width: 19px
+}
+
+.itinerary-schedule-traffic-space {
+    width: 9px;
+    height: 35px;
+    background-position: -16px 0
+}
+
+.itinerary-schedule-traffic-disdur {
+    margin: 4px 0 0 3px
+}
+
+.itinerary-schedule-line-name-cell {
+    height: auto;
+    min-height: 20px;
+    margin-left: 6%;
+    width: 30.5%;
+    font-size: 14px
+}
+
+.itinerary-schedule-line-number-cell {
+    bottom: 12px;
+    height: auto;
+    left: 40%;
+    position: absolute;
+    width: 15%
+}
+
+.itinerary-schedule-line-fare-cell {
+    bottom: 12px;
+    height: auto;
+    left: 63%;
+    position: absolute;
+    width: 10%
+}
+
+.itinerary-schedule-line-amont-cell {
+    height: auto;
+    left: 88%;
+    position: absolute;
+    width: 8%;
+    bottom: 12px
+}
+
+.itinerary-line-item {
+    width: auto;
+    min-height: 33px;
+    float: left;
+    text-align: left;
+    position: relative;
+    font-size: 14px
+}
+
+.itinerary-line-item-distance {
+    height: 16px;
+    line-height: 16px;
+    width: 70px;
+    font-size: 12px
+}
+
+.itinerary-line-item-duration {
+    height: 16px;
+    line-height: 16px;
+    width: 70px;
+    margin-top: 2px;
+    font-size: 12px
+}
+
+.itinerary-line-item-arrow {
+    width: 68px;
+    height: 10px;
+    background-position: -28px 0;
+    position: absolute;
+    top: 12px;
+    left: 0
+}
+
+.itinerary-remark {
+    height: auto;
+    margin: 8px auto 0;
+    overflow: hidden;
+    width: 92%
+}
+
+.itinerary-content-right-title {
+    border-top: 3px solid #CCC;
+    font-size: 16px;
+    height: auto;
+    line-height: 23px;
+    padding: 15px 0;
+    width: auto
+}
+
+.itinerary-content-item {
+    height: 87px;
+    margin: 0 15px 20px 0;
+    position: relative;
+    width: 289px;
+    background: #F5F5F5
+}
+
+.itinerary-content-item h5 {
+    font-weight: 100;
+    height: 60px;
+    overflow: hidden
+}
+
+.itinerary-content-item-pic {
+    width: 121px;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+.itinerary-content-item-cover {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+
+.itinerary-content-item-pic img {
+    width: 100%;
+    height: 100%
+}
+
+.user-other-itinerary-title {
+    width: 157px;
+    height: auto;
+    float: left;
+    display: block;
+    font-size: 14px;
+    margin-left: 10px
+}
+
+.itinerary-price {
+    width: 84px;
+    height: 25px;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    bottom: 0;
+    text-align: right
+}
+
+.itinerary-user-ico {
+    width: 60px;
+    float: left;
+    position: relative;
+    margin-right: 30px
+}
+
+.itinerary-commend-content {
+    width: 735px;
+    height: auto;
+    float: left;
+    margin-left: 10px
+}
+
+.itinerary-commend-row {
+    width: 100%;
+    min-height: 27px
+}
+
+.itinerary-commend-row h5 {
+    margin: 0
+}
+
+.itinerary-commend-author h5 {
+    width: auto
+}
+
+.itinerary-commend-date {
+    margin-left: 12px;
+    line-height: 50px
+}
+
+.itinerary-commend-cell {
+    height: auto;
+    overflow: hidden;
+    margin-top: 15px
+}
+
+.itinerary-commend-star-out {
+    width: 85px;
+    height: 20px;
+    float: left
+}
+
+.itinerary-commend-star-out2 {
+    width: 85px;
+    height: 20px;
+    float: left
+}
+
+.itinerary-commend-star {
+    width: 16px;
+    height: 15px;
+    background-position: -27px -11px;
+    float: left
+}
+
+.pagination ul li {
+    cursor: pointer
+}
+
+.itinerary-days-outter {
+    width: auto;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    line-height: 15px;
+    bottom: 2px;
+    right: 2px
+}
+
+#interrelateEmpty {
+    line-height: 50px;
+    text-align: center
+}
+
+.itinerary-comment-loading {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 30px auto 0 auto
+}
+
+.place-other-itinerary-author {
+    bottom: 2px;
+    height: auto;
+    left: 130px;
+    line-height: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: absolute;
+    width: 150px
+}
+
+.other-author-title {
+    width: 28px;
+    height: auto;
+    overflow: hidden
+}
+
+.place-other-itinerary-author .inntwo-text-large {
+    width: 100px;
+    height: 20px;
+    overflow: hidden
+}
+
+.search_place_overlay_place_name a {
+    color: #fff
+}
+
+#itineraryDetailsTop {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1000;
+    background-color: #f5f5f5
+}
+
+#copyItineraryMini {
+    height: 30px;
+    margin-right: 5px;
+    float: right
+}
+
+#createItineraryMini {
+    height: 30px;
+    float: right;
+    margin-right: 222px
+}
+
+#createItineraryMini:hover, #createItineraryMini:focus {
+    color: #fff
+}
+
+#pdfGeneration, #downLoadItineraryNewPdf {
+    width: 30px;
+    height: 29px;
+    overflow: hidden
+}
+
+.pdf-generation {
+    background-position: -521px -39px;
+    border: 0 none;
+    width: 30px !important;
+    height: 29px;
+    display: block
+}
+
+#searchLoading, #downLoadItineraryNewPdf {
+    display: none
+}
+
+#schedulePriceTable {
+    height: auto;
+    overflow: hidden;
+    width: 99.3%;
+    border: 3px solid #e0e0e0;
+    position: relative;
+    clear: both
+}
+
+.schedule-price-row {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%
+}
+
+.schedule-price-cell-schedule {
+    height: auto;
+    overflow: hidden;
+    width: 38px
+}
+
+.schedule-price-cell-place {
+    height: auto;
+    width: 446px;
+    min-height: 5px
+}
+
+.schedule-price-cell-amount {
+    height: auto;
+    text-align: left;
+    width: 65px
+}
+
+.schedule-price-cell-amount div {
+    margin-top: 26px
+}
+
+.schedule-price-cell-total {
+    height: auto;
+    width: 125px
+}
+
+.schedule-price-cell-schedule-ico {
+    background-position: -464px -41px;
+    color: #fff;
+    height: 23px;
+    line-height: 21px;
+    margin: 25px 0 25px 5px;
+    text-align: center;
+    width: 23px;
+    cursor: default
+}
+
+.schedule-price-row input:focus {
+    border-color: #7db500
+}
+
+.schedule-price-panel {
+    height: 18px;
+    width: 48px;
+    display: block;
+    margin-top: 26px !important
+}
+
+.schedule-price-cell-total-inner {
+    margin-top: 26px
+}
+
+.schedule-price-row:nth-child(even) {
+    background: #f5f5f5
+}
+
+.schedule-price-row:nth-child(odd) {
+    background: #FFF
+}
+
+#schedulePriceTableTitle {
+    margin: 0 auto 10px auto;
+    background-color: #f5f5f5
+}
+
+#schedulePriceCellContainer {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0
+}
+
+#schedulePriceCellContainerScroll {
+    background-color: #FFF;
+    height: 405px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 20px;
+    z-index: 1
+}
+
+#schedulePriceCellContainerScrollBar {
+    background-color: #CCC;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 8px
+}
+
+#itineraryIsEmptyWarning {
+    width: 100px;
+    height: 35px;
+    margin: 80px auto 0 auto;
+    color: #aaa
+}
+
+#searchLoading {
+    width: 100%;
+    height: 100%
+}
+
+#priceResult {
+    background-color: #FFF;
+    width: 400px;
+    height: 500px;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    z-index: 2
+}
+
+.orign-place-expense-edit, .destination-place-expense-edit, .place-expense-edit {
+    width: 48px;
+    height: 15px
+}
+
+#itineraryAmountPrice {
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    float: right;
+    margin-top: 34px
+}
+
+.search_place_overlay_image {
+    cursor: default
+}
+
+.accordion-toggle:focus {
+    outline: 0;
+    text-decoration: none
+}
+
+#SchedulePriceMessageContent {
+    background-color: #FFF;
+    border-left: 1px solid #CCC;
+    display: none;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+#refreshItineraryButton {
+    cursor: pointer;
+    height: 19px;
+    margin-top: 37px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 19px
+}
+
+.schedule-price-titles {
+    background-color: #D8D4C8;
+    height: 30px;
+    overflow: hidden;
+    padding: 0 15px;
+    width: auto;
+    line-height: 1.8;
+    border-radius: 3px;
+    font-weight: bold
+}
+
+.schedule-price-titles .fee-place-name-cell {
+    height: 30px;
+    line-height: 1.5
+}
+
+#schedulePriceDetails {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 85%
+}
+
+#schedulePriceTitle {
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    width: 99.3%
+}
+
+#schedulePriceIco {
+    background-position: 0 -51px;
+    height: 48px;
+    margin-top: 10px;
+    width: 73px
+}
+
+#schedulePriceCalculate {
+    height: auto;
+    left: 50px;
+    line-height: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 1
+}
+
+#amountPrice {
+    line-height: 28px;
+    margin: 31px 7px 0 10px
+}
+
+.accordion-inner {
+    height: auto;
+    overflow: hidden;
+    width: auto;
+    padding: 0
+}
+
+.fee-place-title-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc
+}
+
+.fee-place-other-row {
+    border-bottom: 0
+}
+
+.schedule-new-price {
+    margin: 10px auto 4px !important
+}
+
+.accordion-toggle.inntwo-text-normal {
+    background-color: #F1F0EB
+}
+
+.fee-remark-textarea {
+    width: 400px;
+    height: 118px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.fee-remark-textarea:focus {
+    border-color: #7db500
+}
+
+.fee-cell {
+    height: 32px;
+    padding-top: 8px;
+    text-align: center
+}
+
+.fee-remark-cell-outer {
+    height: 120px;
+    margin-bottom: 12px
+}
+
+.accordion-group {
+    margin-bottom: 5px;
+    background-color: #FFF
+}
+
+.fee-place-title-cell {
+    padding-left: .6%;
+    width: 10%;
+    font-weight: bold
+}
+
+.fee-place-title-cell span {
+    display: inline-block;
+    height: auto;
+    margin-top: 5px;
+    text-align: left;
+    width: 58px
+}
+
+.fee-place-name-cell {
+    width: 89.2%;
+    min-height: 38px;
+    border-left: 1px dashed #CCC
+}
+
+.fee-place-name-cell .fee-hotel-row:first-child {
+    border-top: 0 none
+}
+
+.fee-hotel-name-cell {
+    width: 20%
+}
+
+.fee-hotel-calculate-cell {
+    width: 13%;
+    text-align: center
+}
+
+.fee-hotel-unitprice-cell {
+    width: 20%;
+    text-align: center
+}
+
+.fee-hotel-amontprice-cell {
+    width: 20%
+}
+
+.fee-hotel-amontprice-cell div {
+    width: 100%;
+    height: 22px
+}
+
+.fee-hotel-amontprice-cell .fee-hotel-unitprice-inline {
+    width: 80px !important
+}
+
+.fee-hotel-remark-cell {
+    width: 18%
+}
+
+.fee-car-way-roll {
+    margin-top: 6px
+}
+
+.fee-hotel-row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top: 1px dashed #CCC;
+    padding-top: 5px
+}
+
+.fee-hotel-row .fee-hotel-name-cell {
+    width: 40%
+}
+
+.fee-hotel-name-inner-cell {
+    width: auto;
+    height: 100%;
+    margin-left: 8%;
+    position: relative
+}
+
+.per-capita-outer {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    position: relative
+}
+
+.per-capita-input {
+    width: 40px;
+    height: 18px !important;
+    text-align: center;
+    margin-right: 10px
+}
+
+.per-capita-input:focus {
+    border-color: #7db500 !important
+}
+
+.other-fee-title-input {
+    height: 25px !important;
+    margin-left: 8% !important;
+    text-align: left;
+    width: 100%;
+    overflow: hidden
+}
+
+#feeItineraryAccordionOuter {
+    height: auto !important
+}
+
+.gray-backgroundColor-foot {
+    margin-top: 0
+}
+
+.fee-hotel-row .fee-hotel-calculate-cell {
+    width: 18%
+}
+
+.fee-hotel-row .fee-hotel-unitprice-cell {
+    width: 30%;
+    position: relative
+}
+
+.fee-hotel-unitprice-inline {
+    width: 86px;
+    height: auto;
+    display: inline-block;
+    text-align: left
+}
+
+.fee-car-unitprice-cell {
+    width: 40px;
+    height: 18px !important
+}
+
+.fee-car-unitprice-cell:focus {
+    border-color: #7db500
+}
+
+.fee-hotel-row .fee-hotel-amontprice-cell {
+    width: 12%
+}
+
+.fee-roll-block {
+    height: 32px;
+    line-height: 2;
+    width: 100px
+}
+
+.schedule-price-schedule-item {
+    height: auto;
+    margin: 8px 0 8px 30px;
+    overflow: hidden;
+    width: auto
+}
+
+.fee-distance-kilometer {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 4px;
+    width: 80px
+}
+
+.fee-itinerary-accordion-outer {
+    width: 100%;
+    height: auto
+}
+
+.schedule-price-schedule-item p {
+    text-align: left
+}
+
+.schedule-price-cell-calculator {
+    background-position: -489px -41px;
+    height: 18px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 15px;
+    z-index: 1;
+    line-height: 18px
+}
+
+.schedule-price-cell-calculator > img {
+    width: 100%;
+    height: 100%
+}
+
+.schedule-price-chinese-nuit {
+    height: 20px;
+    width: auto
+}
+
+.fee-calculater-outer {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    position: relative
+}
+
+.fee-roll-cell-uniter {
+    width: 90px;
+    height: auto;
+    margin-top: 0;
+    display: inline-block;
+    line-height: 2;
+    text-align: left
+}
+
+.fee-traffic-unite {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: -3px;
+    line-height: 1
+}
+
+.fee-calculater-minus {
+    width: 20px;
+    height: 20px;
+    line-height: .4;
+    cursor: pointer
+}
+
+.fee-calculater-plus {
+    width: 20px;
+    height: 20px;
+    line-height: .7;
+    cursor: pointer
+}
+
+.fee-calculater-input {
+    width: 32px;
+    height: 15px !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2
+}
+
+.fee-calculater-input:focus {
+    border-color: #7db500 !important
+}
+
+.ico-plan {
+    margin-top: 5px
+}
+
+.ico-plan small {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 0;
+    vertical-align: top;
+    width: 40px
+}
+
+.ico-plan span {
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 12px
+}
+
+.ico-plan-eye {
+    background-position: 0 -22px
+}
+
+.ico-plan-Praise {
+    background-position: -20px -22px
+}
+
+.ico-plan-post {
+    background-position: -40px -22px
+}
+
+.ico-plan-mess {
+    background-position: -60px -22px
+}
+
+.ico-essence {
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+    background-position: -100px -22px;
+    vertical-align: bottom
+}
+
+.font-essence {
+    font-size: 12px;
+    color: #FF822F
+}
+
+.ico-letter {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: -80px -22px;
+    vertical-align: middle
+}
+
+.tell-from {
+    background-position: 0 -40px;
+    position: absolute;
+    left: 6px;
+    top: 40px;
+    z-index: 3;
+    width: 15px;
+    height: 18px
+}
+
+.div-tell {
+    position: relative;
+    padding: 0 20px
+}
+
+.border-tell {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px 35px 15px
+}
+
+.green-textarea {
+    border: 1px solid #7db500;
+    width: 70%;
+    margin: 10px 70px
+}
+
+.review-conten {
+    margin-left: 30px
+}
+
+.bgblack-textarea {
+    background: #FAF9F8
+}
+
+.ico-face {
+    background-position: -20px -40px;
+    width: 20px;
+    height: 20px;
+    display: inline-block
+}
+
+.trip-row {
+    margin: 2px 70px
+}
+
+.trip-row .span3 {
+    margin-left: 100px
+}
+
+.notice-text {
+    margin: 0 auto;
+    text-align: center
+}
+
+.review-border {
+    margin-left: 30px
+}
+
+.evaluation-type {
+    float: left;
+    margin-left: 30px
+}
+
+.Evaluation-star {
+    width: 165px
+}
+
+.Evaluation-star span {
+    float: left
+}
+
+.Evaluation-star div {
+    clear: both
+}
+
+.Evaluation-star div {
+    height: 28px
+}
+
+.login-name {
+    margin-top: 70px
+}
+
+.itineraryreview {
+    margin: 35px 0 20px 50px;
+    width: 600px;
+    height: 110px
+}
+
+.btn-submit {
+    margin-top: 0
+}
+
+.btn-small-reply button {
+    padding: 0 10px
+}
+
+.div-submit {
+    height: 170px
+}
+
+.trip-index {
+    width: 600px
+}
+
+#author-rating {
+    display: none
+}
+
+.trip-index span {
+    display: inline-block;
+    color: #FF822F
+}
+
+.itineray-Introduction {
+    width: 700px
+}
+
+.reply-height {
+    height: 80px
+}
+
+.review-title {
+    border-bottom: 1px solid #aaa;
+    color: #aaa;
+    height: 30px
+}
+
+.itinerary-description {
+    max-height: 20px;
+    max-width: 65ex;
+    overflow: hidden
+}
+
+#authorPrivateMessage {
+    margin-left: -7px;
+    margin-right: 22px
+}
+
+#authorPrivateMessageSign {
+    right: -28px;
+    top: -7px
+}
+
+.itinerary-commend-cell img {
+    position: static
+}
+
+#commentLoading {
+    margin-left: 485px
+}
+
+.cover-comment {
+    height: 175px;
+    line-height: 175px;
+    margin-left: 163px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    width: 579px;
+    z-index: 948
+}
+
+.show-comment {
+    margin-left: 160px;
+    position: absolute;
+    z-index: 900
+}
+
+.img-essence {
+    background-position: -166px -46px;
+    height: 88px;
+    left: 160px;
+    position: absolute;
+    top: 90px;
+    width: 88px
+}
+
+#ActivityTab {
+    position: relative
+}
+
+#ActivityTab span {
+    left: 80px;
+    top: -10px
+}
+
+#itineraryActivityTab-content {
+    padding: 1em 3em;
+    display: none
+}
+
+#itineraryActivityTab-content .row {
+    margin-left: 0
+}
+
+#itineraryActivityTab-content .span3 {
+    width: 22%
+}
+
+#itineraryActivityTab-content .span2 {
+    width: 12%
+}
+
+#itineraryActivityTab-content .span1 {
+    width: 11%
+}
+
+#itineraryActivityTab-content .span7 {
+    margin-left: 6em
+}
+
+#itineraryActivityTab-content .itineraryActivityTab-join .span3 {
+    width: auto
+}
+
+#itineraryActivityTab-content label {
+    display: inline-block;
+    width: 5em;
+    text-align: right
+}
+
+#itineraryActivityTab-content .text-large {
+    font-size: 14px
+}
+
+.itineraryActivityTab-title {
+    font-size: 14px
+}
+
+.itineraryActivityTab-item {
+    border: 1px solid #d8d4c8;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    min-height: 113px;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    position: relative
+}
+
+.itinerary-activity-joinbutton {
+    font-size: 16px;
+    height: 40px !important;
+    padding: 0 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 7px
+}
+
+.img-mark {
+    width: 135px;
+    height: 135px
+}
+
+.itineraryActivityTab-downLink {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 1em 0;
+    padding: 0 8px;
+    width: 95%
+}
+
+.itinerary-activity-copylinkbutton {
+    font-size: 16px;
+    height: 40px !important;
+    padding: 0 20px
+}
+
+.itineraryActivityTab-text16px {
+    font-size: 16px
+}
+
+.activity-declare {
+    height: auto;
+    min-height: 0;
+    padding: 2em
+}
+
+.itineraryActivityTab-item-split {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc
+}
+
+.item-nopadding {
+    padding: 0
+}
+
+.item-nopadding .row {
+    padding: 1em 2em
+}
+
+#activityImgWechatNum {
+    position: absolute;
+    top: -5px;
+    width: 70px;
+    z-index: 5;
+    display: none
+}
+
+.schedule-remark-table {
+    margin: 5px 0 0 0
+}
+
+.schedule-remark-table > .base-row {
+    height: 22px;
+    overflow: visible
+}
+
+.itinerary-details-bgimage {
+    width: 23px;
+    height: 23px;
+    margin-top: -3px
+}
+
+.schedule-description-attraction {
+    background-position: 0 0
+}
+
+.schedule-description-route {
+    background-position: -28px 0
+}
+
+.schedule-description-other {
+    background-position: -56px 0
+}
+
+.schedule-description-delicacy {
+    background-position: -86px 0
+}
+
+.schedule-description-living {
+    background-position: 0 -27px
+}
+
+.itinerary-details-description {
+    max-width: 733px
+}

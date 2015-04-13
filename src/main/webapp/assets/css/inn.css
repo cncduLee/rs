@@ -1,0 +1,1401 @@
+body {
+    font-size: 14px
+}
+
+a {
+    color: #333
+}
+
+#inntwoHomeBanner {
+    height: 340px;
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+
+#inntwoHomeBanner img {
+    position: absolute;
+    z-index: 0;
+    height: 340px
+}
+
+#itinerariesBannerContentContainer {
+    height: 340px;
+    width: 1002px;
+    margin: 0 auto;
+    position: relative
+}
+
+#itinerariesBannerContentContainerLeft {
+    height: 340px;
+    width: 372px;
+    margin: 0 auto;
+    float: left;
+    padding-top: 14px
+}
+
+.itineraries-banner-fillet {
+    border-radius: 3px;
+    width: 340px;
+    height: 80px;
+    margin-top: 18px
+}
+
+.itineraries-banner-fillet1 {
+    border-radius: 4px;
+    width: 340px;
+    height: 80px
+}
+
+.text-color1:hover {
+    color: #00a1cb !important
+}
+
+.itineraries-banner-title {
+    height: 22px;
+    overflow: hidden;
+    padding: 12px 0 0 14px
+}
+
+.itineraries-banner-title a {
+    display: block;
+    width: auto;
+    height: 100%;
+    -moz-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    max-width: 325px
+}
+
+.itineraries-banner-summary {
+    text-align: left;
+    padding-top: 19px;
+    margin-left: 18px
+}
+
+.itineraries-banner-content-container-right {
+    float: left;
+    height: 340px;
+    margin-left: 375px;
+    margin-right: auto;
+    margin-top: -346px;
+    width: 630px;
+    display: none;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+#itinerariesBannerConntainerPhoto {
+    width: 605px;
+    height: 307px;
+    border: 10px solid rgba(51, 51, 51, 0.7)
+}
+
+#itinerariesBannerConntainerPhoto img {
+    width: 605px;
+    height: 310px
+}
+
+.inntwo-home-font-title {
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-size: 14px;
+    color: #00a1cb
+}
+
+.label-info, .label-info[href] {
+    background-color: #00a1cb
+}
+
+.label-warning, .label-warning[href] {
+    background-color: #f60
+}
+
+.label-success, .label-success[href] {
+    background-color: #7DB500
+}
+
+.label {
+    font-size: 14px
+}
+
+.inntwo-home-banner {
+    display: block;
+    height: 500px;
+    width: auto
+}
+
+.inntwo-home-content-outter {
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%
+}
+
+.inntwo-home-search-outter {
+    height: auto;
+    margin: 0 auto;
+    width: 1000px
+}
+
+.itineraries-search-row {
+    width: 100%;
+    height: 55px;
+    position: relative
+}
+
+.inntwo-home-search-middle {
+    height: auto;
+    margin: 12px 0 0 0;
+    width: 998px;
+    border-radius: 4px
+}
+
+.inntwo-home-start-choise {
+    float: left;
+    font-size: 16px;
+    height: 36px;
+    position: relative;
+    min-width: 140px;
+    border: 2px solid #7db500;
+    margin: 15px 0 0 17px;
+    border-radius: 4px !important;
+    padding-right: 5px;
+    text-align: center;
+    cursor: pointer
+}
+
+.inntwo-home-route-search {
+    border-radius: 0 !important;
+    border-right: 0;
+    display: block;
+    font-size: 18px !important;
+    height: 36px !important;
+    width: 476px;
+    margin-top: 15px !important
+}
+
+.inntwo-home-route-btn {
+    border: 0;
+    border-radius: 0 4px 4px 0 !important;
+    font-size: 18px;
+    height: 40px !important;
+    left: 665px;
+    line-height: 2;
+    margin: 15px 0 0;
+    position: absolute;
+    text-align: center;
+    width: 116px !important
+}
+
+.itineraries-sort-row {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.itineraries-sort-cell-title {
+    margin-left: 6px
+}
+
+.itineraries-sort {
+    width: 40px;
+    margin-top: 12px;
+    float: left
+}
+
+.itineraries-sort-cell {
+    border-radius: 4px;
+    width: 40px;
+    height: auto;
+    padding: 5px 10px;
+    border: 1px solid #f0f0f0;
+    margin: 7px 8px 7px 0;
+    cursor: pointer;
+    position: relative
+}
+
+.itineraries-sort-direction {
+    width: 10px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 -6px -2px 3px;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 8px
+}
+
+.itineraries-sort-price-up {
+    background-position: -64px -38px
+}
+
+.itineraries-sort-price-down {
+    background-position: -39px -55px
+}
+
+.inntwo-home-content {
+    height: auto;
+    margin: 0 auto;
+    min-height: 500px;
+    overflow: hidden;
+    width: 1000px
+}
+
+#inntwoHomeContentLeft {
+    height: auto;
+    width: 100%;
+    padding-bottom: 9px
+}
+
+#inntwoQueryTripThemeContainer .days-row .inntwo-home-days-item {
+    display: block;
+    float: left
+}
+
+#inntwoQueryTripThemeContainer {
+    border-bottom: 0;
+    margin-top: 13px
+}
+
+#inntwoHomeTripDays .days-row .inntwo-home-days-item {
+    display: block;
+    float: left
+}
+
+#inntwoHomeContentRight {
+    height: auto;
+    width: 600px
+}
+
+#homeItineraryList {
+    height: auto;
+    width: 600px
+}
+
+.itineraries-content-right {
+    width: 384px;
+    float: right
+}
+
+.itineraries-content-right-title {
+    width: 100%;
+    height: 30px;
+    background-color: #4da49f;
+    overflow: hidden;
+    position: relative
+}
+
+.itineraries-arrows {
+    width: 12px;
+    height: 19px;
+    cursor: pointer
+}
+
+.itineraries-places-categories-outer {
+    width: 330px;
+    height: 36px;
+    margin: -6px 0 0 30px;
+    border: 0
+}
+
+.itineraries-places-categories {
+    float: left;
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px
+}
+
+#itinerariesArrowsLeft {
+    background-position: -142px 0;
+    margin: 6px 0 0 10px;
+    position: absolute
+}
+
+#itinerariesArrowsLeft:hover {
+    background-position: -167px 0
+}
+
+#itinerariesArrowsRight {
+    background-position: -155px 0;
+    float: right;
+    position: absolute;
+    top: 6px;
+    right: 9px
+}
+
+#itinerariesArrowsRight:hover {
+    background-position: -180px 0
+}
+
+.itineraries-arrows-right {
+    width: 12px;
+    height: 19px;
+    background-position: -142px 0
+}
+
+.itineraries-content-right-details {
+    width: 388px;
+    height: 520px
+}
+
+.itineraries-city-outer {
+    float: left;
+    position: relative;
+    margin: 1px 5px 2px 0;
+    width: 189px;
+    height: 124px
+}
+
+.itineraries-city-outer img {
+    width: 100%;
+    height: 100%
+}
+
+.itineraries-content-right-photot-text {
+    width: 178px;
+    height: 26px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 53px;
+    z-index: 1;
+    padding: 6px 0 0 9px
+}
+
+.itineraries-photot-city-name {
+    padding-right: 15px
+}
+
+.itineraries-photot-city-name2 {
+    width: 180px;
+    height: 26px;
+    background-color: rgba(51, 51, 51, 0.7);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 6px 0 0 9px
+}
+
+.itineraries-city-add {
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-position: -229px -152px
+}
+
+.itineraries-city-add:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer
+}
+
+.itineraries-photo-marker {
+    width: 11px;
+    height: 14px;
+    background-position: -88px -38px;
+    display: inline-block
+}
+
+.inntwo-home-search-query-container {
+    height: auto;
+    overflow: hidden;
+    width: 100%
+}
+
+#inntwoQueryTripSeansonContainer {
+    margin-top: 13px
+}
+
+.itineraries-selected-categories-title {
+    width: 70px;
+    height: auto
+}
+
+.itineraries-query-count {
+    width: auto;
+    height: 100%;
+    margin-top: 7px;
+    line-height: 2.3;
+    display: none
+}
+
+.itineraries-selected-categories {
+    width: auto;
+    height: 100%
+}
+
+.home-background-image div {
+    text-align: center
+}
+
+#createItineraeryButton {
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 36px;
+    margin: 17px auto 37px auto;
+    padding: 0 15px;
+    width: 120px
+}
+
+#createItineraeryButton:focus {
+    color: #fff
+}
+
+#createItineraeryI {
+    background-position: -365px -42px;
+    height: 18px;
+    margin: 4px 10px 0 0;
+    width: 18px
+}
+
+.days-row {
+    height: auto;
+    overflow: hidden;
+    width: auto;
+    clear: both;
+    padding-left: 13px
+}
+
+#inntwoDysSearchIco {
+    background-position: 0 -1px;
+    float: left;
+    height: 22px;
+    margin-left: 9px;
+    width: 20px
+}
+
+.inntwo-home-days-select {
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 8px;
+    display: block;
+    float: left
+}
+
+.inntwo-home-days-select:focus {
+    text-decoration: none;
+    outline: 0
+}
+
+.inntwo-home-days-item {
+    line-height: 20px;
+    margin-left: 30px;
+    padding: 0 4px
+}
+
+#inntwoQueryHotDesContainer {
+    margin-top: 20px
+}
+
+#inntwoQueryHotDesContainer .days-row {
+    height: auto;
+    overflow: hidden
+}
+
+#inntwoDestionationSearchIco {
+    background-position: -21px -1px;
+    float: left;
+    height: 24px;
+    margin-left: 9px;
+    width: 25px
+}
+
+#inntwoThemeSearchIco {
+    background-position: -47px -1px;
+    float: left;
+    height: 30px;
+    margin-left: 9px;
+    width: 23px
+}
+
+#inntwoSeasonsSearchIco {
+    background-position: -33px -33px;
+    float: left;
+    height: 30px;
+    margin-left: 9px;
+    width: 23px
+}
+
+.inntwo-home-itinerary-item:first-child {
+    margin-top: 0
+}
+
+.inntwo-home-itinerary-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 188px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    position: relative;
+    width: 580px;
+    overflow: hidden
+}
+
+.inntwo-home-itinerary-itemout {
+    height: auto;
+    min-height: 456px;
+    overflow: hidden;
+    width: 100%
+}
+
+.pager {
+    height: 20px;
+    width: 20px
+}
+
+#itineraryKnockoutResult {
+    display: none
+}
+
+#searchLoading {
+    display: none;
+    margin: 30px auto 0 auto
+}
+
+.inntwo-home-itinerary-img-out {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    float: left;
+    height: 140px;
+    position: relative;
+    width: 216px
+}
+
+.inntwo-home-itinerary-price {
+    background-position: -165px 0;
+    height: 40px;
+    left: -9px;
+    line-height: 1.3;
+    padding: 1px 0 0 5px;
+    position: absolute;
+    top: -9px;
+    width: 64px;
+    z-index: 1
+}
+
+.inntwo-home-itinerary-lavel-ico {
+    background-position: -72px -1px;
+    height: 36px;
+    left: -5px;
+    position: absolute;
+    top: -9px;
+    width: 32px
+}
+
+.inntwo-home-not-img {
+    height: 100%;
+    width: 216px
+}
+
+.inntwo-home-itinerary-img {
+    border-radius: 4px;
+    height: 140px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 216px;
+    z-index: 0
+}
+
+.inntwo-home-itinerary-describe {
+    float: left;
+    height: 188px;
+    margin-left: 12px;
+    width: 350px
+}
+
+.itinerary-describe-row {
+    height: 33px;
+    width: 100%
+}
+
+.creator-ico-out {
+    float: left;
+    height: 25px;
+    width: 30px
+}
+
+.creator-ico-out img {
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    margin-top: 6px
+}
+
+.creator-name-outer {
+    color: #333;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 33px;
+    width: auto
+}
+
+.creator-datetime {
+    float: left;
+    height: 100%;
+    line-height: 33px;
+    margin-left: 12px;
+    width: auto
+}
+
+.itinerary-days-out {
+    float: right;
+    height: 100%;
+    width: auto;
+    margin-top: -20px
+}
+
+.itinerary-days-count {
+    color: #f60;
+    font-size: 32px
+}
+
+.itinerary-days-unit {
+    font-size: 14px
+}
+
+.itinerrary-name {
+    color: #00A1CB;
+    display: block;
+    font-size: 20px;
+    height: auto;
+    max-height: 90px;
+    overflow: hidden
+}
+
+.itinerrary-name h4 {
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 270px;
+    height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.itinerary-trip-exploring-spot {
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 250px
+}
+
+.itinerary-trip-season {
+    color: #c00
+}
+
+.itinerary-describe-season {
+    height: 22px;
+    line-height: 22px;
+    margin-top: -10px
+}
+
+.itinerary-user-evaluate {
+    bottom: 1px;
+    display: none;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    width: 244px;
+    z-index: 1
+}
+
+.itinerary-browse-count {
+    background-position: -106px -1px;
+    float: left;
+    height: 16px;
+    margin-left: 55px;
+    position: relative;
+    width: 16px
+}
+
+.itinerary-browse-count span {
+    bottom: -4px;
+    font-size: 12px;
+    position: absolute;
+    right: -22px;
+    z-index: 1
+}
+
+.recommend-count {
+    background-position: -124px -1px
+}
+
+.commend-count {
+    background-position: -140px -1px
+}
+
+.deep-gray-foot {
+    display: block;
+    font-size: 12px
+}
+
+#queryResultPaging ul li {
+    cursor: pointer
+}
+
+#queryResultPaging ul li a {
+    color: #08C
+}
+
+#queryResultPaging ul .active a {
+    color: #333
+}
+
+.itinerary-tags {
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%
+}
+
+.itinerary-tags .label-success {
+    font-size: 12px;
+    font-weight: 100
+}
+
+#searchKeyWordInput {
+    border: 2px solid #7db500;
+    line-height: 2.1;
+    padding-left: 5px;
+    border-right: 0;
+    margin-left: 16px;
+    border-radius: 4px 0 0 4px !important
+}
+
+.orign-choise-item {
+    font-weight: 100;
+    height: 25px;
+    width: auto
+}
+
+#choiseCityButton {
+    cursor: pointer;
+    position: relative;
+    display: inline-block
+}
+
+#choiseCityButton .inntwo-text-normal {
+    margin: 4px 0 0 5px
+}
+
+#choisedCityButton {
+    cursor: pointer
+}
+
+.orign-choise-triangle {
+    background-position: -78px -11px;
+    bottom: 0;
+    height: 6px;
+    position: absolute;
+    right: -10px;
+    width: 9px;
+    z-index: 1
+}
+
+.orign-choised-triangle {
+    right: -10px
+}
+
+.city-choise-items {
+    background-color: #fff;
+    border: 2px solid #7db500;
+    border-radius: 4px;
+    cursor: default;
+    display: none;
+    float: left;
+    height: auto;
+    left: -2px;
+    padding: 0 10px 10px 0;
+    position: absolute;
+    top: 36px;
+    width: 350px;
+    z-index: 2;
+    text-align: left
+}
+
+.city-choise-botton {
+    font-weight: 100;
+    height: 20px;
+    line-height: 30px;
+    margin: 3px
+}
+
+.orign-choise-triangle-s {
+    background-position: -78px -11px;
+    height: 6px;
+    margin-top: 20px;
+    width: 9px
+}
+
+.city-choise-item {
+    color: #00a1cb;
+    float: left;
+    height: auto;
+    line-height: 20px;
+    margin: 8px 0 0 8px;
+    padding: 0 10px;
+    width: auto
+}
+
+.city-choise-title {
+    color: #333;
+    height: 25px;
+    line-height: 28px;
+    position: relative;
+    width: 100%
+}
+
+.city-choise-close-button {
+    background-position: -35px -21px;
+    height: 9px;
+    position: absolute;
+    right: -5px;
+    top: 4px;
+    width: 9px;
+    z-index: 2
+}
+
+.city-choise-item-outter {
+    height: auto;
+    overflow: hidden;
+    width: 100%
+}
+
+#hotdesFree {
+    background-color: #f60;
+    color: #fff
+}
+
+#pagerContainer {
+    text-align: center;
+    width: auto;
+    margin-top: 20px;
+    overflow: hidden
+}
+
+#pagerContainer a {
+    color: #00a1cb
+}
+
+#pagerContainer ul li a[disabled="disabled"] {
+    background-color: #f5f5f5;
+    color: #333
+}
+
+#pagerContainer ul .active a {
+    color: #333
+}
+
+.img-rounded {
+    border-radius: 0;
+    height: 500px;
+    width: auto
+}
+
+.carousel {
+    margin: 0
+}
+
+.carousel-indicators {
+    z-index: 1
+}
+
+#itinerarySearchKeywords {
+    height: auto;
+    overflow: hidden;
+    width: auto;
+    border-bottom: #f0f0f0 1px solid;
+    margin-top: 20px;
+    border-radius: 4px
+}
+
+.itineraries-more-cagegory {
+    width: 110px;
+    height: auto;
+    cursor: pointer
+}
+
+.itinerary-search-keyword {
+    border-radius: 4px;
+    color: #f5f5f5;
+    float: left;
+    height: auto;
+    margin: 0 0 5px 5px;
+    padding: 5px;
+    width: auto;
+    line-height: 1;
+    display: none
+}
+
+.remove-search-keyword {
+    background-position: -60px -22px;
+    height: 10px;
+    margin: -2px -2px 0 7px;
+    width: 10px
+}
+
+.itinerary-search-tags {
+    cursor: pointer
+}
+
+.seleFlag {
+    display: none
+}
+
+#itinerariesSelectedCategories {
+    margin: 17px 0 0 4px;
+    display: none
+}
+
+.itineraries-add-recommend-itineraries {
+    width: 100%;
+    height: 110px;
+    background-color: #4da49f;
+    border: 1px solid white;
+    position: relative
+}
+
+.itineraries-places-box {
+    width: 28px;
+    height: 52px;
+    background-position: 0 -100px;
+    cursor: default;
+    margin: 13px 0 0 15px
+}
+
+.itineraries-places-word {
+    width: auto;
+    height: 20px;
+    margin: 33px 0 0 10px;
+    font-size: 12px
+}
+
+.itineraries-city-add-ico {
+    width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 31px;
+    left: 79px;
+    background-position: -232px -154px
+}
+
+.itineraries-places-word1 {
+    width: auto;
+    height: 30px;
+    margin: 33px 0 0 27px;
+    font-size: 12px
+}
+
+#generationItinerary {
+    margin: 15px 0 0 85px
+}
+
+.itineraries-button {
+    position: absolute;
+    bottom: 10px;
+    left: 40px
+}
+
+.itineraries-favorite-animate {
+    width: 189px;
+    height: 124px;
+    position: absolute;
+    z-index: 11111
+}
+
+.itineraries-favorite-add {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 22222
+}
+
+.itineraries-favorite-add-img {
+    width: 100%;
+    height: 100%
+}
+
+.itineraries-favorite-places {
+    width: 50px;
+    height: 40px;
+    margin: 20px 0 0 5px;
+    position: relative
+}
+
+.element-remove {
+    background-position: -47px -20px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    display: none;
+    border-radius: 10px;
+    background-color: black
+}
+
+.city-name {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center
+}
+
+.nav-tabs > li > a, .nav-tabs > .active > a:hover, .nav-tabs > li > a:focus {
+    background-color: #4da49f;
+    border: 0;
+    padding: 1px 0 0 0;
+    margin: 10px 0 0 0;
+    color: white;
+    outline: 0
+}
+
+.nav > li > a:hover, .nav > li > a :focus, .nav-tabs > li > a, .nav-tabs > .active > a:focus {
+    border: 0;
+    background-color: #4da49f
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+    border: 0;
+    background-color: #4da49f;
+    color: white;
+    border-bottom: 4px solid #ff6400;
+    border-bottom: 4px solid rgba(255, 100, 0, 0.7)
+}
+
+.nav-tabs > li {
+    margin-bottom: 0
+}
+
+.tab-content {
+    overflow: hidden
+}
+
+.ico-plan {
+    margin: 15px 0
+}
+
+.ico-plan span {
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 12px
+}
+
+.itinerary-profile-totals small {
+    vertical-align: top
+}
+
+.itinerary-profile-totals {
+    width: auto;
+    height: 20px
+}
+
+.itinerary-preview-totals {
+    left: 0
+}
+
+.itinerary-copy-totals {
+    left: 72px
+}
+
+.itinerary-comment-totals {
+    left: 145px
+}
+
+.ico-plan-eye {
+    background-position: 0 -19px
+}
+
+.ico-plan-Praise {
+    background-position: -20px -22px
+}
+
+.ico-plan-post {
+    background-position: -40px -22px
+}
+
+.ico-plan-mess {
+    background-position: -60px -20px
+}
+
+.ico-essence {
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+    background-position: -100px -22px
+}
+
+.font-essence {
+    font-size: 12px;
+    color: #FF822F;
+    vertical-align: 7px
+}
+
+.ico-letter {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: -80px -22px
+}
+
+.itinerary-star-row {
+    height: 33px
+}
+
+.img-essence {
+    background-position: -107px -73px;
+    height: 56px;
+    left: 480px;
+    position: absolute;
+    top: 60px;
+    width: 56px
+}
+
+.inntwo-home-activity-item {
+    border: 2px solid #F9B6A0;
+    border-radius: 4px;
+    height: 188px;
+    margin-bottom: 10px;
+    padding: 8px;
+    position: relative;
+    width: 580px;
+    overflow: hidden
+}
+
+.inntwo-home-activity-item .activity-title {
+    height: 30px;
+    overflow: hidden;
+    line-height: 25px
+}
+
+.inntwo-home-activity-item .activity-cover {
+    width: 213px;
+    height: 140px;
+    position: relative
+}
+
+.inntwo-home-activity-item .activity-info {
+    height: 140px;
+    width: 350px;
+    overflow: hidden;
+    position: relative
+}
+
+.inntwo-home-activity-item .activity-info-item {
+    height: 30px;
+    width: 100%;
+    line-height: 25px
+}
+
+.activity-vendor {
+    background-position: 0 0;
+    height: 20px;
+    margin-left: 10px;
+    width: 40px
+}
+
+.activity-author-info {
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 12px
+}
+
+.activity-author-info img {
+    width: 20px;
+    height: 20px;
+    float: left
+}
+
+.activity-price {
+    position: absolute;
+    right: 8px;
+    top: 8px
+}
+
+.home-activity-route {
+    line-height: 29px;
+    margin: 0 !important;
+    min-height: 45px;
+    width: 339px
+}
+
+.home-activity-info div {
+    margin: 10px 0
+}
+
+.orange-ico {
+    background-position: -129px -24px;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    line-height: 16px;
+    padding-top: 15px;
+    position: absolute;
+    right: 52px;
+    text-align: center;
+    top: 30px;
+    width: 49px
+}
+
+.home-app-download-background {
+    background-color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 280px;
+    margin-left: -1px;
+    margin-top: 11px;
+    top: 67px;
+    width: 385px;
+    z-index: 2
+}
+
+#homeItineraryBanner img {
+    width: 100%;
+    height: 180px
+}
+
+#homeItineraryBannerDescription {
+    bottom: 8px;
+    right: 5px;
+    text-shadow: 0 8px 5px #000
+}
+
+.home-app-download-ico {
+    height: 154px;
+    margin: 22px 0 0 23px;
+    width: 155px
+}
+
+.home-app-downloadwrapper {
+    width: 175px;
+    height: auto;
+    margin: 30px 0 0 10px
+}
+
+.home-app-downloadtitle {
+    width: 170px;
+    height: auto
+}
+
+.home-app-download-ico1 {
+    background-position: -233px 0;
+    width: 50px;
+    height: 50px
+}
+
+.home-app-download-ico2 {
+    background-position: -232px -50px;
+    width: 50px;
+    height: 50px
+}
+
+.home-app-download-ico3 {
+    background-position: -232px -101px;
+    width: 50px;
+    height: 50px
+}
+
+.home-app-download-ico4 {
+    background-position: -233px -154px;
+    width: 50px;
+    height: 50px
+}
+
+.home-download-four-ico {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 21px;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5
+}
+
+.home-download-four-ico div {
+    margin: 0 9px
+}
+
+#downloadApp {
+    font-size: 12px;
+    color: #00a1cb
+}
+
+.home-itinerary-bannerimg {
+    width: 100%;
+    height: 180px
+}
+
+#lastedPublishItineraries {
+    width: 378px
+}
+
+.lasted-release-itinerary {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 8px 0 8px 8px
+}
+
+.lasted-itinerary-user {
+    width: auto;
+    max-width: 70px;
+    height: 22px
+}
+
+.lastedrelease-itinerary-uico {
+    width: 24px;
+    height: 24px
+}
+
+.lastedrelease-itinerary-row {
+    height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden
+}
+
+.lastedrelease-itinerary-title {
+    width: auto;
+    white-space: nowrap
+}
+
+#downloadAdroidAppButton {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 3.3
+}
+
+#downloadAdroidAppButton:focus {
+    color: #fff
+}
