@@ -19,23 +19,4 @@ package com.bitium10.rs.web;
  */
 public class BaseController {
 
-
-
-    public static void main(String[] args) {
-        System.out.println(ff(50));
-    }
-
-    public static double ff(int a){
-        if(a == 0){
-            return 1;
-        }
-        return f(a) + ff(a-1);
-    }
-
-    public static double f(int a){
-        if(a < 1){
-            return 1;
-        }
-        return 2 * f(a-1);
-    }
 }
