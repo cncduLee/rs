@@ -17,7 +17,7 @@ import java.util.Properties;
  * <b>包名称</b>： com.bitium10.rs.common.utils <br>
  * <b>类名称</b>： PropertiesLoader <br>
  * <b>类描述</b>： <br>
- * <b>创建人</b>： <a href="mailto:wylipengming@chinabank.com.cn">李朋明</a> <br>
+ * <b>创建人</b>： <a href="mailto:shouli1990@gmail.com">李朋明</a> <br>
  * <b>修改人</b>： <br>
  * <b>创建时间</b>：2014/10/23 9:48
  * <b>修改时间</b>： <br>
